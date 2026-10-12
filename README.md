@@ -21,7 +21,7 @@ node skills/arknights-riic-mechanics/scripts/check-freshness.mjs --output freshn
 
 |Agent|官方支持的项目目录|调用/发现|
 |---|---|---|
-|[Codex](https://learn.chatgpt.com/docs/build-skills)|`.agents/skills/arknights-riic-mechanics/`|新会话确认技能列表，按 `$arknights-riic-mechanics` 调用；可选 `agents/openai.yaml` 提供界面说明|
+|[Codex](https://learn.chatgpt.com/docs/build-skills)|`.agents/skills/arknights-riic-mechanics/`|CLI/IDE 中按 `$arknights-riic-mechanics` 或 `/skills` 选择；支持技能的 ChatGPT 桌面界面用 `@` 选择；新会话确认发现，可选 `agents/openai.yaml` 提供界面说明|
 |[Claude Code](https://code.claude.com/docs/en/skills)|`.claude/skills/arknights-riic-mechanics/`|加载后按 `/arknights-riic-mechanics` 调用；项目技能和账户/云端技能的加载范围分别验收|
 |[GitHub Copilot](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)|`.github/skills/arknights-riic-mechanics/`，也支持 `.agents/skills/` 或 `.claude/skills/`|确认当前产品支持Agent Skills并能发现该项目技能|
 |其他支持Agent Skills的agent|该产品文档规定的技能目录|保持原始文件夹结构，核对发现、资源读取和脚本权限|

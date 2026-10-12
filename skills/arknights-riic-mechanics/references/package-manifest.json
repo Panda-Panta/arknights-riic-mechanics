@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "algorithm": "SHA-256",
-  "packageSha256": "6ba2cc7005402bacce4e47857422e1864db6d05b74c750747c2401986b5c0cc4",
+  "packageSha256": "0b1260d58ef8a7b3df306df0154973fb271ec92145e32ed8f22dedfd31e4c674",
   "files": [
     {
       "path": "SKILL.md",
       "bytes": 6998,
-      "sha256": "438d1461674cdb7386e55ff0b8a98b4537f855570c3c024a907aaebadb58e547"
+      "sha256": "8b45849af380e0e538681c53172bf67c3463d85b64dbef31b71fe98564756e90"
     },
     {
       "path": "agents/openai.yaml",
@@ -31,7 +31,7 @@
     {
       "path": "references/coverage.md",
       "bytes": 23718,
-      "sha256": "187053bdeb1fe189b2bf42836355941fb41eba10e4a9ca20a62a3be3cc335855"
+      "sha256": "7ce3278aa2676b0dafb1ce56ae60022b72006faaaaeae1bf816897d1e06bdc88"
     },
     {
       "path": "references/facilities.md",
@@ -55,13 +55,13 @@
     },
     {
       "path": "references/logistics-update-manifest.json",
-      "bytes": 13479,
-      "sha256": "8779d85e089c69da3b7ca29e93d1a2a39298de3e671b3b00896c079d16ff6067"
+      "bytes": 13829,
+      "sha256": "d86a139f4a96fe8e442fd8ac7bc5e9c1faa2b004b10ed8452d0e4b10fec6e572"
     },
     {
       "path": "references/new-operators-v078.md",
       "bytes": 5117,
-      "sha256": "ec7040178bef52f73583e03c342dce35f3d078a06c1c05ab6dc721a1bdc10c1b"
+      "sha256": "a7bd48acee486b4f0e63c09c4617bacf58a2266837cecfd72c6be2e4293143b9"
     },
     {
       "path": "references/orders.md",
@@ -70,13 +70,13 @@
     },
     {
       "path": "references/riic_skills_browser.html",
-      "bytes": 500398,
-      "sha256": "578a69618aa306592ae1456c802b720c6f4446c3c9b312eca2d81957297f7aa2"
+      "bytes": 500381,
+      "sha256": "e6743fb58ac5fe6bc9618a6e7795893671d323fbad92a2ad5c1b380220b99cb4"
     },
     {
       "path": "references/simulation.md",
       "bytes": 35101,
-      "sha256": "0c69af4bf723dad9757471245519bd1b02b620020cc7cb1658f551117952ba63"
+      "sha256": "5d90077dd322cf65bab653fb859af0ca91a107389cfe96c0735b4abec1933606"
     },
     {
       "path": "references/taxonomy.md",

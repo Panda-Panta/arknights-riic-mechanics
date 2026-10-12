@@ -24,7 +24,7 @@
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
     background-color: var(--bg-base);
-    background-image: 
+    background-image:
       radial-gradient(circle at 10% 20%, rgba(0, 240, 255, 0.03) 0%, transparent 40%),
       radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.03) 0%, transparent 40%),
       linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
@@ -35,7 +35,7 @@
     min-height: 100vh;
   }
   .container { max-width: 1440px; margin: 0 auto; }
-  
+
   /* Header */
   header {
     display: flex;
@@ -92,7 +92,7 @@
     flex-direction: column;
     gap: 16px;
   }
-  
+
   .search-inputs-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -101,7 +101,7 @@
   @media (max-width: 768px) {
     .search-inputs-grid { grid-template-columns: 1fr; }
   }
-  
+
   .input-box {
     position: relative;
     display: flex;
@@ -265,7 +265,7 @@
     box-shadow: 0 8px 24px rgba(0,0,0,0.4);
     background: var(--bg-card-hover);
   }
-  
+
   /* Card Header */
   .card-top {
     display: flex;
@@ -472,7 +472,7 @@
     color: #080c14;
     box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
   }
-  
+
   /* Faction Popover Tooltip (Annotations) */
   .faction-popover {
     visibility: hidden;
@@ -579,7 +579,7 @@
         <input type="text" id="opInput" class="input-field" placeholder="干员检索：支持中文名 / 全拼(danshu) / 简拼(ds) / 英文(Proviso)..." autocomplete="off">
         <button class="btn-clear" id="opClear" title="清空干员搜索">✕</button>
       </div>
-      
+
       <!-- Input 2: Skill Name / Description -->
       <div class="input-box">
         <span class="input-icon">⚡</span>

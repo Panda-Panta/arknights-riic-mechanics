@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-12T14:31:22.068Z",
+  "completedAt": "2026-10-12T15:32:58.857Z",
   "passed": 21,
   "failed": 0,
   "results": [
@@ -7,7 +7,7 @@
       "name": "portable copy and staged snapshot have identical package digests",
       "passed": true,
       "evidence": {
-        "packageSha256": "6ba2cc7005402bacce4e47857422e1864db6d05b74c750747c2401986b5c0cc4",
+        "packageSha256": "0b1260d58ef8a7b3df306df0154973fb271ec92145e32ed8f22dedfd31e4c674",
         "counts": {
           "operators": 432,
           "skillStages": 929,

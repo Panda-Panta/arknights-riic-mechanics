@@ -217,61 +217,61 @@
   },
   "mowerRecycle": {
     "branch": "alpha",
-    "commit": "9091f2b6b4da2a2fb66c47881a47b82dc0885ad7",
-    "retrievedAt": "2026-10-12T13:26:23.662Z",
+    "commit": "7aac30fbf6a89592ffdfbaad0c52e6b64946f81e",
+    "retrievedAt": "2026-10-12T15:32:19.833Z",
     "files": [
       {
         "path": "arknights_mower/solvers/base_schedule.py",
-        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/9091f2b6b4da2a2fb66c47881a47b82dc0885ad7/arknights_mower/solvers/base_schedule.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/7aac30fbf6a89592ffdfbaad0c52e6b64946f81e/arknights_mower/solvers/base_schedule.py",
         "file": "arknights_mower__solvers__base_schedule.py",
-        "bytes": 548409,
-        "sha256": "7d067562a3c627d1dc9e4f985f77951c187e77b01fbc816650118182f1c13431"
+        "bytes": 548509,
+        "sha256": "9c802917ce2a51aa17d7177b31ca81aa26be89104120ce86cff14e71bc481e68"
       },
       {
         "path": "arknights_mower/utils/config/conf.py",
-        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/9091f2b6b4da2a2fb66c47881a47b82dc0885ad7/arknights_mower/utils/config/conf.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/7aac30fbf6a89592ffdfbaad0c52e6b64946f81e/arknights_mower/utils/config/conf.py",
         "file": "arknights_mower__utils__config__conf.py",
         "bytes": 41680,
         "sha256": "bfadd2b062fbff315f593ebed8ceed78d78c014dc33a007bcdc93c626b76a7a2"
       },
       {
         "path": "arknights_mower/utils/operators.py",
-        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/9091f2b6b4da2a2fb66c47881a47b82dc0885ad7/arknights_mower/utils/operators.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/7aac30fbf6a89592ffdfbaad0c52e6b64946f81e/arknights_mower/utils/operators.py",
         "file": "arknights_mower__utils__operators.py",
         "bytes": 130467,
         "sha256": "912fbf3aeded5bd23beb439103ce492742a82324d7870d13cdb55fa70beaba35"
       },
       {
         "path": "ui/src/components/PlanEditor.vue",
-        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/9091f2b6b4da2a2fb66c47881a47b82dc0885ad7/ui/src/components/PlanEditor.vue",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/7aac30fbf6a89592ffdfbaad0c52e6b64946f81e/ui/src/components/PlanEditor.vue",
         "file": "ui__src__components__PlanEditor.vue",
         "bytes": 28603,
         "sha256": "0303491d8f62550a23a6628d920d3df527f177dd82cb6bef9b07b2aa3652f0d4"
       },
       {
         "path": "arknights_mower/tests/recycle_station_tests.py",
-        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/9091f2b6b4da2a2fb66c47881a47b82dc0885ad7/arknights_mower/tests/recycle_station_tests.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/7aac30fbf6a89592ffdfbaad0c52e6b64946f81e/arknights_mower/tests/recycle_station_tests.py",
         "file": "arknights_mower__tests__recycle_station_tests.py",
         "bytes": 11419,
         "sha256": "609e09eabe015e3567c0ace745f048bad4863026095b7826bc5b6fb892f44182"
       },
       {
         "path": ".agents/notes/implemented/feature/2026-10-08-recycle-station-selection.zh.md",
-        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/9091f2b6b4da2a2fb66c47881a47b82dc0885ad7/.agents/notes/implemented/feature/2026-10-08-recycle-station-selection.zh.md",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/7aac30fbf6a89592ffdfbaad0c52e6b64946f81e/.agents/notes/implemented/feature/2026-10-08-recycle-station-selection.zh.md",
         "file": ".agents__notes__implemented__feature__2026-10-08-recycle-station-selection.zh.md",
         "bytes": 5184,
         "sha256": "a7cfce23df5df5f3dbd07e6c879b222ab2c3dc6e81daab5c8ab69776eb5e1272"
       },
       {
         "path": ".agents/notes/implemented/simplification/2026-10-10-recycle-material-collection.zh.md",
-        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/9091f2b6b4da2a2fb66c47881a47b82dc0885ad7/.agents/notes/implemented/simplification/2026-10-10-recycle-material-collection.zh.md",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/7aac30fbf6a89592ffdfbaad0c52e6b64946f81e/.agents/notes/implemented/simplification/2026-10-10-recycle-material-collection.zh.md",
         "file": ".agents__notes__implemented__simplification__2026-10-10-recycle-material-collection.zh.md",
         "bytes": 1970,
         "sha256": "fdf3ace33da9df50245c1703ac06eab274b82c124cca7e056a5fe4e869a343a5"
       },
       {
         "path": "arknights_mower/utils/qrcode.py",
-        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/9091f2b6b4da2a2fb66c47881a47b82dc0885ad7/arknights_mower/utils/qrcode.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/7aac30fbf6a89592ffdfbaad0c52e6b64946f81e/arknights_mower/utils/qrcode.py",
         "file": "arknights_mower__utils__qrcode.py",
         "bytes": 5739,
         "sha256": "bbc651da3714dda1419bcd63c29db937d5e689ce47503f65a576345e17983147"
@@ -283,7 +283,9 @@
       "14 QR plan export and legacy 16 QR integrity handling"
     ],
     "previousSchedulingCommit": "b2d9ac85fe070e805aadf0d5f44fc095c1e95253",
-    "coverage": "Only the listed recycle, collection and QR contracts are added; this is not a full update of the scheduling engine or device/image-recognition implementation."
+    "coverage": "Only the listed recycle, collection and QR contracts are added; this is not a full update of the scheduling engine or device/image-recognition implementation.",
+    "initialImplementationCommit": "9091f2b6b4da2a2fb66c47881a47b82dc0885ad7",
+    "reviewedChange": "Compared the original snapshot with 7aac30f: changes only dormitory operation timing and recovery telemetry. Recycle staffing, collection threshold and QR contracts are unchanged; existing scheduling ports remain pinned to their earlier sources."
   },
   "recycleRules": {
     "source": "catalog.json: building.recycleRoomConsts, recycleData and rooms.RECYCLE",

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-10-12T14:48:38.705Z",
-  "checkedAt": "2026-10-12T14:48:41.847Z",
+  "startedAt": "2026-10-12T15:38:32.139Z",
+  "checkedAt": "2026-10-12T15:38:46.522Z",
   "status": "current",
-  "packageSha256": "6ba2cc7005402bacce4e47857422e1864db6d05b74c750747c2401986b5c0cc4",
+  "packageSha256": "0b1260d58ef8a7b3df306df0154973fb271ec92145e32ed8f22dedfd31e4c674",
   "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
   "scope": "Pinned RIIC source files, five Toolbox resources, three new operator pages, recycle facility page and the listed Mower recycle/collection/QR files.",
   "results": [
@@ -104,61 +104,61 @@
       "status": "current",
       "url": "https://api.github.com/repos/ArkMowers/arknights-mower/commits/alpha",
       "branch": "alpha",
-      "pinnedCommit": "9091f2b6b4da2a2fb66c47881a47b82dc0885ad7",
-      "observedCommit": "fa0ad4014a5226fc30c9adffb0e0369164e3a664",
+      "pinnedCommit": "7aac30fbf6a89592ffdfbaad0c52e6b64946f81e",
+      "observedCommit": "52dba896f03f0ebb5321ea40852f68eda664ff0f",
       "comparisons": [
         {
           "path": "arknights_mower/solvers/base_schedule.py",
-          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/fa0ad4014a5226fc30c9adffb0e0369164e3a664/arknights_mower/solvers/base_schedule.py",
-          "pinnedSha256": "7d067562a3c627d1dc9e4f985f77951c187e77b01fbc816650118182f1c13431",
-          "observedSha256": "7d067562a3c627d1dc9e4f985f77951c187e77b01fbc816650118182f1c13431",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/52dba896f03f0ebb5321ea40852f68eda664ff0f/arknights_mower/solvers/base_schedule.py",
+          "pinnedSha256": "9c802917ce2a51aa17d7177b31ca81aa26be89104120ce86cff14e71bc481e68",
+          "observedSha256": "9c802917ce2a51aa17d7177b31ca81aa26be89104120ce86cff14e71bc481e68",
           "matched": true
         },
         {
           "path": "arknights_mower/utils/config/conf.py",
-          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/fa0ad4014a5226fc30c9adffb0e0369164e3a664/arknights_mower/utils/config/conf.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/52dba896f03f0ebb5321ea40852f68eda664ff0f/arknights_mower/utils/config/conf.py",
           "pinnedSha256": "bfadd2b062fbff315f593ebed8ceed78d78c014dc33a007bcdc93c626b76a7a2",
           "observedSha256": "bfadd2b062fbff315f593ebed8ceed78d78c014dc33a007bcdc93c626b76a7a2",
           "matched": true
         },
         {
           "path": "arknights_mower/utils/operators.py",
-          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/fa0ad4014a5226fc30c9adffb0e0369164e3a664/arknights_mower/utils/operators.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/52dba896f03f0ebb5321ea40852f68eda664ff0f/arknights_mower/utils/operators.py",
           "pinnedSha256": "912fbf3aeded5bd23beb439103ce492742a82324d7870d13cdb55fa70beaba35",
           "observedSha256": "912fbf3aeded5bd23beb439103ce492742a82324d7870d13cdb55fa70beaba35",
           "matched": true
         },
         {
           "path": "ui/src/components/PlanEditor.vue",
-          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/fa0ad4014a5226fc30c9adffb0e0369164e3a664/ui/src/components/PlanEditor.vue",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/52dba896f03f0ebb5321ea40852f68eda664ff0f/ui/src/components/PlanEditor.vue",
           "pinnedSha256": "0303491d8f62550a23a6628d920d3df527f177dd82cb6bef9b07b2aa3652f0d4",
           "observedSha256": "0303491d8f62550a23a6628d920d3df527f177dd82cb6bef9b07b2aa3652f0d4",
           "matched": true
         },
         {
           "path": "arknights_mower/tests/recycle_station_tests.py",
-          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/fa0ad4014a5226fc30c9adffb0e0369164e3a664/arknights_mower/tests/recycle_station_tests.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/52dba896f03f0ebb5321ea40852f68eda664ff0f/arknights_mower/tests/recycle_station_tests.py",
           "pinnedSha256": "609e09eabe015e3567c0ace745f048bad4863026095b7826bc5b6fb892f44182",
           "observedSha256": "609e09eabe015e3567c0ace745f048bad4863026095b7826bc5b6fb892f44182",
           "matched": true
         },
         {
           "path": ".agents/notes/implemented/feature/2026-10-08-recycle-station-selection.zh.md",
-          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/fa0ad4014a5226fc30c9adffb0e0369164e3a664/.agents/notes/implemented/feature/2026-10-08-recycle-station-selection.zh.md",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/52dba896f03f0ebb5321ea40852f68eda664ff0f/.agents/notes/implemented/feature/2026-10-08-recycle-station-selection.zh.md",
           "pinnedSha256": "a7cfce23df5df5f3dbd07e6c879b222ab2c3dc6e81daab5c8ab69776eb5e1272",
           "observedSha256": "a7cfce23df5df5f3dbd07e6c879b222ab2c3dc6e81daab5c8ab69776eb5e1272",
           "matched": true
         },
         {
           "path": ".agents/notes/implemented/simplification/2026-10-10-recycle-material-collection.zh.md",
-          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/fa0ad4014a5226fc30c9adffb0e0369164e3a664/.agents/notes/implemented/simplification/2026-10-10-recycle-material-collection.zh.md",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/52dba896f03f0ebb5321ea40852f68eda664ff0f/.agents/notes/implemented/simplification/2026-10-10-recycle-material-collection.zh.md",
           "pinnedSha256": "fdf3ace33da9df50245c1703ac06eab274b82c124cca7e056a5fe4e869a343a5",
           "observedSha256": "fdf3ace33da9df50245c1703ac06eab274b82c124cca7e056a5fe4e869a343a5",
           "matched": true
         },
         {
           "path": "arknights_mower/utils/qrcode.py",
-          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/fa0ad4014a5226fc30c9adffb0e0369164e3a664/arknights_mower/utils/qrcode.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/52dba896f03f0ebb5321ea40852f68eda664ff0f/arknights_mower/utils/qrcode.py",
           "pinnedSha256": "bbc651da3714dda1419bcd63c29db937d5e689ce47503f65a576345e17983147",
           "observedSha256": "bbc651da3714dda1419bcd63c29db937d5e689ce47503f65a576345e17983147",
           "matched": true
