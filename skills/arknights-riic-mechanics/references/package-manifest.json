@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "SHA-256",
+  "packageSha256": "6ba2cc7005402bacce4e47857422e1864db6d05b74c750747c2401986b5c0cc4",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 6998,
+      "sha256": "438d1461674cdb7386e55ff0b8a98b4537f855570c3c024a907aaebadb58e547"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 318,
+      "sha256": "595ffa80c3e75bcb19462b932841efd00745b40db6332f35c16c86ce6a07d9f5"
+    },
+    {
+      "path": "references/arkntools-source-manifest.json",
+      "bytes": 2053,
+      "sha256": "952ba11e8603c7bcf5b4777c66ed76ba625d28e90e0dd692a10a1cdea5c9d2d1"
+    },
+    {
+      "path": "references/catalog.decoded.json",
+      "bytes": 862027,
+      "sha256": "24ed3de1747e1c66a08b45426924243f0ce14c0816ad86b7a65481e752319c56"
+    },
+    {
+      "path": "references/catalog.json",
+      "bytes": 6623343,
+      "sha256": "439d939ec9a0b95bf48cbec36db4316cbc081efe02daf93ff6d822b9e63653ff"
+    },
+    {
+      "path": "references/coverage.md",
+      "bytes": 23718,
+      "sha256": "187053bdeb1fe189b2bf42836355941fb41eba10e4a9ca20a62a3be3cc335855"
+    },
+    {
+      "path": "references/facilities.md",
+      "bytes": 5977,
+      "sha256": "9d1a909fedfd0c660e0308c6030eabf62bfd1667c0713722cad8a5cc137ecde6"
+    },
+    {
+      "path": "references/freshness.md",
+      "bytes": 3311,
+      "sha256": "89fcf7bc853f87aace6e75916495e54775a45bca44038488c9af7f152d5af940"
+    },
+    {
+      "path": "references/gamedata-source-manifest.json",
+      "bytes": 2001,
+      "sha256": "88240d65c91d773065a7ed9d8096661e71addcb2dcdf12dcf6ccc9cfbfd1b351"
+    },
+    {
+      "path": "references/links.md",
+      "bytes": 15647,
+      "sha256": "8ace15969c2ed66b626cefc41f0a618fb61b086703d4ca24c3bf5d7b46011444"
+    },
+    {
+      "path": "references/logistics-update-manifest.json",
+      "bytes": 13479,
+      "sha256": "8779d85e089c69da3b7ca29e93d1a2a39298de3e671b3b00896c079d16ff6067"
+    },
+    {
+      "path": "references/new-operators-v078.md",
+      "bytes": 5117,
+      "sha256": "ec7040178bef52f73583e03c342dce35f3d078a06c1c05ab6dc721a1bdc10c1b"
+    },
+    {
+      "path": "references/orders.md",
+      "bytes": 10947,
+      "sha256": "9c21b5a17f90859d140284cffa0ae5675e5b22d13538e35db5156da43d32130c"
+    },
+    {
+      "path": "references/riic_skills_browser.html",
+      "bytes": 500398,
+      "sha256": "578a69618aa306592ae1456c802b720c6f4446c3c9b312eca2d81957297f7aa2"
+    },
+    {
+      "path": "references/simulation.md",
+      "bytes": 35101,
+      "sha256": "0c69af4bf723dad9757471245519bd1b02b620020cc7cb1658f551117952ba63"
+    },
+    {
+      "path": "references/taxonomy.md",
+      "bytes": 7833,
+      "sha256": "a3a928fc4c36b4fc85078d6a57a9d0698150a0b00c5ea78dc1ded0872e1f4d13"
+    },
+    {
+      "path": "references/terms.json",
+      "bytes": 17826,
+      "sha256": "3256c6a8f282f57cdaf188925e755181947c8c6e3332e7652f6cdddb6cf98849"
+    },
+    {
+      "path": "scripts/check-freshness.mjs",
+      "bytes": 6831,
+      "sha256": "e51f85c0049f6d8f9883ab793b7c5a4b63bd513b7cb9cba734bee7a9f301c590"
+    },
+    {
+      "path": "scripts/query.mjs",
+      "bytes": 5158,
+      "sha256": "cbbffa02f29d3246ea3d1834d154c222814d79314968c7f127fbf9a0f25fe67c"
+    },
+    {
+      "path": "scripts/validate.mjs",
+      "bytes": 8582,
+      "sha256": "daae41a9b504fd9cdb4d30ebdce279d8698eeaf65be280db61858c80d1e90685"
+    }
+  ]
+}

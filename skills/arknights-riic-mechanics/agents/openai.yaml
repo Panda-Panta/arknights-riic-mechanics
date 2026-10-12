@@ -1,0 +1,4 @@
+interface:
+  display_name: "明日方舟基建机制"
+  short_description: "按精英阶段核对明日方舟后勤技能、回收站、心情及长期排班联动"
+  default_prompt: "使用 $arknights-riic-mechanics 核对当前干员的后勤技能、触发条件与影响范围，并注明数据和验证版本。"

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "provider": "arkntools",
+  "route": "https://arkntools.app/#/riic",
+  "retrievedAt": "2026-09-12",
+  "checkUrl": "https://data.arkntools.app/check.json",
+  "check": {
+    "mapMd5": "b7ec97b5",
+    "timestamp": 1789113774350,
+    "version": "2.3.0"
+  },
+  "mapUrl": "https://data.arkntools.app/map.b7ec97b5.json",
+  "mapSha256": "2f8e8d178aa3714c1857a4c07ccb68a127999afcf52f7b98bdef251519a733aa",
+  "resources": {
+    "building": {
+      "url": "https://data.arkntools.app/data/building.4d3ebdb3.json",
+      "filename": "arkntools-data-building.4d3ebdb3.json",
+      "sha256": "7feb23d4521857ca5deb441a170eba267f7e5748f49bfc84664f38566e7e2fff"
+    },
+    "character": {
+      "url": "https://data.arkntools.app/data/character.c4d24f84.json",
+      "filename": "arkntools-data-character.c4d24f84.json",
+      "sha256": "513c468105947c9825692d76e4c2885d35485a93eda15d60fd6a9de6baee0539"
+    },
+    "cnBuilding": {
+      "url": "https://data.arkntools.app/locales/cn/building.1be16b58.json",
+      "filename": "arkntools-cn-building.1be16b58.json",
+      "sha256": "6e40f281936b2e08d9333075bb008fcaa7d35c92ea0eb61de3e3583881976899"
+    },
+    "cnCharacter": {
+      "url": "https://data.arkntools.app/locales/cn/character.ce41f0f9.json",
+      "filename": "arkntools-cn-character.ce41f0f9.json",
+      "sha256": "545715ec6ec58a3c2066801b71c1977bb0949cdb9dc06f48c5357d185e65919d"
+    },
+    "cnTerm": {
+      "url": "https://data.arkntools.app/locales/cn/term.3ed0dfee.json",
+      "filename": "arkntools-cn-term.3ed0dfee.json",
+      "sha256": "7001712ee09aefe8cf8fbeac61a2fbf3d483d982378ca779e44ba7f4fba1bf5b"
+    }
+  },
+  "verification": {
+    "operators": 429,
+    "skillStageEntries": 921,
+    "skillTagLabels": 749,
+    "terms": 82,
+    "htmlComparison": "The supplied HTML differs from the source at Aigis power_rec_spd_P2[999] only (added 每小时). Mulberry text is correct in the original HTML; the former mismatch came from two-pass markup stripping and is fixed."
+  }
+}

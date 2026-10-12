@@ -1,0 +1,8 @@
+{
+  "checkedAt": "2026-10-12T14:33:32.219913+00:00",
+  "frontmatterValid": true,
+  "message": "Skill is valid!",
+  "openaiYamlValid": true,
+  "standard": "https://agentskills.io/specification",
+  "evidenceBoundary": "YAML format and field constraints, not live import to every agent platform."
+}

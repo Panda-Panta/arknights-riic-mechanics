@@ -1,0 +1,167 @@
+{
+  "completedAt": "2026-10-12T14:31:22.068Z",
+  "passed": 21,
+  "failed": 0,
+  "results": [
+    {
+      "name": "portable copy and staged snapshot have identical package digests",
+      "passed": true,
+      "evidence": {
+        "packageSha256": "6ba2cc7005402bacce4e47857422e1864db6d05b74c750747c2401986b5c0cc4",
+        "counts": {
+          "operators": 432,
+          "skillStages": 929,
+          "highestSkills": 760,
+          "buffDefinitions": 763,
+          "terms": 82
+        },
+        "relativeReferences": 43
+      }
+    },
+    {
+      "name": "offline phase selection: 德·托莱多 E0 HIRE",
+      "passed": true,
+      "evidence": {
+        "selected": [
+          "hire_spd_cost[113]"
+        ],
+        "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      }
+    },
+    {
+      "name": "offline phase selection: 德·托莱多 E2 HIRE",
+      "passed": true,
+      "evidence": {
+        "selected": [
+          "hire_spd_cost[122]"
+        ],
+        "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      }
+    },
+    {
+      "name": "offline phase selection: 德·托莱多 E0 DORMITORY",
+      "passed": true,
+      "evidence": {
+        "selected": [],
+        "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      }
+    },
+    {
+      "name": "offline phase selection: 德·托莱多 E2 DORMITORY",
+      "passed": true,
+      "evidence": {
+        "selected": [
+          "dorm_hireToRecAll[002]"
+        ],
+        "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      }
+    },
+    {
+      "name": "offline phase selection: 旅骨 E0 RECYCLE",
+      "passed": true,
+      "evidence": {
+        "selected": [
+          "recycle_spd&cost[000]"
+        ],
+        "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      }
+    },
+    {
+      "name": "offline phase selection: 旅骨 E2 RECYCLE",
+      "passed": true,
+      "evidence": {
+        "selected": [
+          "recycle_spd&cost[010]"
+        ],
+        "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      }
+    },
+    {
+      "name": "offline phase selection: 旅骨 E0 WORKSHOP",
+      "passed": true,
+      "evidence": {
+        "selected": [],
+        "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      }
+    },
+    {
+      "name": "offline phase selection: 旅骨 E2 WORKSHOP",
+      "passed": true,
+      "evidence": {
+        "selected": [
+          "workshop_formula_device[080]"
+        ],
+        "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      }
+    },
+    {
+      "name": "offline phase selection: 克莱门莎 E0 MEETING",
+      "passed": true,
+      "evidence": {
+        "selected": [
+          "meet_spd&cost[110]"
+        ],
+        "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      }
+    },
+    {
+      "name": "offline phase selection: 克莱门莎 E2 MEETING",
+      "passed": true,
+      "evidence": {
+        "selected": [
+          "meet_spd&cost[110]",
+          "meet_spd&cost_char[000]"
+        ],
+        "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      }
+    },
+    {
+      "name": "unknown names are rejected without a successful empty record",
+      "passed": true
+    },
+    {
+      "name": "embedded HTML works offline and finds new operator/recycle data",
+      "passed": true,
+      "evidence": {
+        "operators": 432,
+        "search": "lvgu",
+        "room": "RECYCLE",
+        "stages": 2,
+        "externalResources": 0
+      }
+    },
+    {
+      "name": "package tampering is detected by SHA-256",
+      "passed": true
+    },
+    {
+      "name": "freshness: matching current sources produce current",
+      "passed": true
+    },
+    {
+      "name": "freshness: changed PRTS revision requires review",
+      "passed": true
+    },
+    {
+      "name": "freshness: network failure remains unknown",
+      "passed": true
+    },
+    {
+      "name": "freshness: advanced GameData with unchanged relevant files stays current",
+      "passed": true
+    },
+    {
+      "name": "freshness: changed relevant GameData file is stale",
+      "passed": true
+    },
+    {
+      "name": "freshness: advanced Mower with unchanged recycle files stays current",
+      "passed": true
+    },
+    {
+      "name": "freshness: changed Mower QR file is stale",
+      "passed": true
+    }
+  ],
+  "evidenceBoundary": "Portable file layout, offline Node queries, integrity checks and source-check failure handling. No live Codex, Claude Code, Copilot or game device import was performed."
+}
