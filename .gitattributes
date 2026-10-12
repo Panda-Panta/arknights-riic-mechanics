@@ -1,2 +1,2 @@
 # Preserve the verified portable package bytes on Windows and other platforms.
-skills/arknights-riic-mechanics/** -text
+skills/arknights-riic-mechanics/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
