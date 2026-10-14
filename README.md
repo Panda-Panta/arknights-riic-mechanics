@@ -45,6 +45,8 @@ node skills/arknights-riic-mechanics/scripts/query.mjs 克莱门莎 --phase 2 --
 
 ## 2026-10-14固定规则更新
 
-离线包的frontmatter、引用与逐文件哈希已核验。联网时效整体为stale：工具箱map及character资源、原回收站的两个整体Mower源码文件已推进；GameData、六个PRTS页面和本轮计划源码匹配。保留固定快照及差异，不自动替换未经机制审查的数据，也不宣称所有agent平台实际导入或真实游戏实验。
+离线包的frontmatter、引用与逐文件哈希已核验。联网时效整体为stale：工具箱map及character资源、原回收站的两个整体Mower源码文件已推进；初验时GameData、六个PRTS页面和本轮计划源码匹配。保留固定快照及差异，不自动替换未经机制审查的数据，也不宣称所有agent平台实际导入或真实游戏实验。
 
 最新PR10头固定0630aa399ab77adac2b9ff032da7d65b42f4afc9；慢进度活动观测增量经相关回归和8组完整模拟报告不变对照核验，原生来源哈希及规则数据保持同一固定范围。
+
+交付前再查：Mower alpha推进至d52ab17，计划/配置/操作表/QR六项仍匹配，base_schedule.py推进，故新版计划检查也为stale；GameData和六个PRTS页面仍匹配。完整版本、差异与哈希见来源清单的deliveryObservation。保持已验收固定范围，不将离线包完整性声明为整套最新上游对齐。

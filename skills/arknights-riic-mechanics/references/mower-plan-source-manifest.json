@@ -76,7 +76,7 @@
     "observationCommit": "b2c36105ba139888bca652d358b7a3a9238897db",
     "incrementVerification": "Read-only slow-progress observation; 127 affected tests and eight deep report comparisons pass; final 0630aa3 adds documentation only."
   },
-  "existingFreshnessStatus": "stale: Toolbox 2.5.0 resource map and character resource advanced (other four listed hashes match), and two broad prior recycle source files advanced; GameData, six PRTS pages and pinned modern plan source match.",
+  "existingFreshnessStatus": "stale at delivery: Toolbox map/character resource and broad Mower source files advanced; GameData and six PRTS pages match. Six of seven modern plan source hashes match; base_schedule.py advanced to alpha d52ab17. Fixed implementation snapshots retained.",
   "gameRuntimeVerified": false,
   "prImplementationSource": {
     "repository": "ArkMowers/arknights-mower",
@@ -166,6 +166,58 @@
         "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/ui/src/components/PlanAdvancedSettings.vue",
         "sha256": "7c058bbb0e78c1aea8f0f12714f09cf60b0ec37f9bd76a99e3914593de2c1682",
         "declaredHashMatched": true
+      }
+    ]
+  },
+  "deliveryObservation": {
+    "checkedAt": "2026-10-14T02:34:00.994Z",
+    "status": "stale",
+    "providers": [
+      {
+        "provider": "gameData",
+        "status": "current",
+        "observedCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e"
+      },
+      {
+        "provider": "toolbox",
+        "status": "stale",
+        "changedFiles": [
+          {
+            "path": "character",
+            "sha256": "aa1791d0ded99600882f8cf2ab3d68fc60d4acb81d609b2c455ba75db53c0977"
+          }
+        ]
+      },
+      {
+        "provider": "prts",
+        "status": "current",
+        "changedFiles": []
+      },
+      {
+        "provider": "mowerRecycle",
+        "status": "stale",
+        "observedCommit": "d52ab17c022b4fcc05fc613cd71bb4bdce9d0b7e",
+        "changedFiles": [
+          {
+            "path": "arknights_mower/solvers/base_schedule.py",
+            "sha256": "6810d710914eabc45934541ca7bfa063f9625832d313e762d755413685c8dcc5"
+          },
+          {
+            "path": "arknights_mower/utils/operators.py",
+            "sha256": "3cea0b585418154621f82958a47677f58cd1d30dfa2572530fff2eb647aa2982"
+          }
+        ]
+      },
+      {
+        "provider": "mowerPlanCompatibility",
+        "status": "stale",
+        "observedCommit": "d52ab17c022b4fcc05fc613cd71bb4bdce9d0b7e",
+        "changedFiles": [
+          {
+            "path": "arknights_mower/solvers/base_schedule.py",
+            "sha256": "6810d710914eabc45934541ca7bfa063f9625832d313e762d755413685c8dcc5"
+          }
+        ]
       }
     ]
   }

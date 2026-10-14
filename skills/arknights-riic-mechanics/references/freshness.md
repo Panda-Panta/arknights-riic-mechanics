@@ -40,3 +40,5 @@ PRTS页面修订改变可能只涉及战斗资料，Mower新提交也可能不�
 `scripts/validate.mjs` 验证 frontmatter、相对引用、内部版本一致性、术语依赖及包文件哈希。`scripts/query.mjs`、两个catalog与HTML检索均可离线使用；HTML的数据、样式和逻辑全部内嵌，无外部脚本、图片或网络请求依赖。
 
 本技能遵循 [Agent Skills 规范](https://agentskills.io/specification)，目录结构与UTF-8文档可移植。各agent是否发现技能、允许脚本、支持图片或刷新索引，按其产品版本与权限分别验收；格式检查不等于所有平台都已实际导入。
+
+交付前再查：Mower alpha已推进至d52ab17c022b4fcc05fc613cd71bb4bdce9d0b7e，计划/配置/操作表/QR六项仍与固定哈希相同，base_schedule.py发生变化，故新版计划检查也为stale。完整观察见mower-plan-source-manifest.json的deliveryObservation；本轮保留验证过的PR/规则范围，不自动移植新源码。

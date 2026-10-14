@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "algorithm": "SHA-256",
-  "packageSha256": "8fdb2aaabb7e8d9d5fc057e5cb59c7ca81ae0fb7465bb86e235e68015ab259e2",
+  "packageSha256": "f10ad611e686eb5afd807623b8aa1400a748201a2269ffd46802236a4da6b18d",
   "files": [
     {
       "path": "SKILL.md",
@@ -40,8 +40,8 @@
     },
     {
       "path": "references/freshness.md",
-      "bytes": 4073,
-      "sha256": "f91c1c44d3e0655636d2dd7a259e0924afb62d3d60ce61c2d214de40c452d372"
+      "bytes": 4424,
+      "sha256": "8e01b35294c8ae271372da28ba9de45d5069817a455b710a43cb8acc6d230a09"
     },
     {
       "path": "references/gamedata-source-manifest.json",
@@ -65,8 +65,8 @@
     },
     {
       "path": "references/mower-plan-source-manifest.json",
-      "bytes": 9357,
-      "sha256": "255652c6d9adade5f05cc1e8f1bcd60b52d90fe98dae5c474a1b8f093af67925"
+      "bytes": 10936,
+      "sha256": "85666181593e605002406b5f0f9a85ac19dd873105d4d4c52701992ebfd9cf89"
     },
     {
       "path": "references/new-operators-v078.md",
