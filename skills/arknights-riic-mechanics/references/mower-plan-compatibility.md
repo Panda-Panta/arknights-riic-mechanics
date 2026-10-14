@@ -1,6 +1,6 @@
 # PR10优先的新旧Mower排班与规则更新
 
-2026-10-14核验并复用计算器PR10，head为779275494fc3890ef248e88b4f1550c4d295f151，base为70f6436288640c158f825599373dc9f602f7c931。PR固定Mower alpha ab0a4e5bec23f6f8d7c37b0648f05dda28f31866，14项声明文件SHA256与上游逐项一致。最新alpha dbd2ed128bcb53d6131183f55c41466bdccdf3ed的相关工作锚点过滤另行核对；原有回收站与旧兼容模型保留各自来源。GameData仍为v078/17759cc8，详情见 [mower-plan-source-manifest.json](mower-plan-source-manifest.json)。
+2026-10-14先验计算器PR10的779275494fc3890ef248e88b4f1550c4d295f151，最终复用最新head 0630aa399ab77adac2b9ff032da7d65b42f4afc9，base为70f6436288640c158f825599373dc9f602f7c931。新增b2c3610慢进度活动观测通过127项相关回归及8组完整报告数值不变对照，0630aa3仅补文档。PR固定Mower alpha ab0a4e5bec23f6f8d7c37b0648f05dda28f31866，14项声明文件SHA256与上游逐项一致。最新alpha dbd2ed128bcb53d6131183f55c41466bdccdf3ed的相关工作锚点过滤另行核对；原有回收站与旧兼容模型保留各自来源。GameData仍为v078/17759cc8，详情见 [mower-plan-source-manifest.json](mower-plan-source-manifest.json)。
 
 ## 复用范围
 

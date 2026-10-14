@@ -69,9 +69,12 @@
   "latestPrChecked": {
     "number": 10,
     "url": "https://github.com/Panda-Panta/R.I.I.C-Calculator/pull/10",
-    "head": "779275494fc3890ef248e88b4f1550c4d295f151",
+    "head": "0630aa399ab77adac2b9ff032da7d65b42f4afc9",
     "base": "70f6436288640c158f825599373dc9f602f7c931",
-    "conclusion": "Reuse PR10 modern Mower and exhausted Abyssal fixes after isolated verification; add only verified missing settings and contract boundaries."
+    "conclusion": "Reuse PR10 modern Mower and exhausted Abyssal fixes after isolated verification; add only verified missing settings and contract boundaries.",
+    "originalVerifiedHead": "779275494fc3890ef248e88b4f1550c4d295f151",
+    "observationCommit": "b2c36105ba139888bca652d358b7a3a9238897db",
+    "incrementVerification": "Read-only slow-progress observation; 127 affected tests and eight deep report comparisons pass; final 0630aa3 adds documentation only."
   },
   "existingFreshnessStatus": "stale: Toolbox 2.5.0 resource map and character resource advanced (other four listed hashes match), and two broad prior recycle source files advanced; GameData, six PRTS pages and pinned modern plan source match.",
   "gameRuntimeVerified": false,
