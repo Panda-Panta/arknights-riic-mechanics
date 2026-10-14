@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-14T00:37:17.872Z",
+  "scope": "Verified PR10 reuse and bounded drone capacity, skill stage caps, minimum-rest anchors, caller options and dorm-order supplements; no full latest Mower parity claim.",
+  "gameDataCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "mower": {
+    "repository": "ArkMowers/arknights-mower",
+    "branch": "alpha",
+    "commit": "dbd2ed128bcb53d6131183f55c41466bdccdf3ed",
+    "files": [
+      {
+        "path": "arknights_mower/solvers/base_schedule.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/dbd2ed128bcb53d6131183f55c41466bdccdf3ed/arknights_mower/solvers/base_schedule.py",
+        "bytes": 574444,
+        "sha256": "5987139c8f32a09b4b678ee316b5c353ceebdaeed2469a7dcbae6229b01d1d5c"
+      },
+      {
+        "path": "arknights_mower/utils/config/conf.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/dbd2ed128bcb53d6131183f55c41466bdccdf3ed/arknights_mower/utils/config/conf.py",
+        "bytes": 41680,
+        "sha256": "bfadd2b062fbff315f593ebed8ceed78d78c014dc33a007bcdc93c626b76a7a2"
+      },
+      {
+        "path": "arknights_mower/utils/config/plan_advanced.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/dbd2ed128bcb53d6131183f55c41466bdccdf3ed/arknights_mower/utils/config/plan_advanced.py",
+        "bytes": 1557,
+        "sha256": "e8b79a300e2583680d7f205f49a0d73472e6eeba8cd324181bb72058d7d86153"
+      },
+      {
+        "path": "arknights_mower/utils/config/plan.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/dbd2ed128bcb53d6131183f55c41466bdccdf3ed/arknights_mower/utils/config/plan.py",
+        "bytes": 13008,
+        "sha256": "3cbb5a4ae5d6b58ce3cd058cb0f991cd8abfb3e6a45ec211fc4524fab30bccca"
+      },
+      {
+        "path": "arknights_mower/utils/operators.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/dbd2ed128bcb53d6131183f55c41466bdccdf3ed/arknights_mower/utils/operators.py",
+        "bytes": 131419,
+        "sha256": "3cea0b585418154621f82958a47677f58cd1d30dfa2572530fff2eb647aa2982"
+      },
+      {
+        "path": "arknights_mower/utils/plan.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/dbd2ed128bcb53d6131183f55c41466bdccdf3ed/arknights_mower/utils/plan.py",
+        "bytes": 12073,
+        "sha256": "724030b1f2a33a3e84229898654dee5839c7cacf0ffd73fbfb884d93c46c1191"
+      },
+      {
+        "path": "arknights_mower/utils/qrcode.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/dbd2ed128bcb53d6131183f55c41466bdccdf3ed/arknights_mower/utils/qrcode.py",
+        "bytes": 5739,
+        "sha256": "bbc651da3714dda1419bcd63c29db937d5e689ce47503f65a576345e17983147"
+      }
+    ]
+  },
+  "prts": [
+    {
+      "title": "承曦格雷伊",
+      "revision": 434889,
+      "url": "https://prts.wiki/w/承曦格雷伊?oldid=434889",
+      "responseSha256": "076595bd69d68f83ae7b6bfb09e79a021c5592534f8c56dda24ebc4f0f873552"
+    },
+    {
+      "title": "歌蕾蒂娅",
+      "revision": 434933,
+      "url": "https://prts.wiki/w/歌蕾蒂娅?oldid=434933",
+      "responseSha256": "e9d27c20991c16496f0189cdea2d983417f7d884b961541bf3a50264e2977de6"
+    }
+  ],
+  "latestPrChecked": {
+    "number": 10,
+    "url": "https://github.com/Panda-Panta/R.I.I.C-Calculator/pull/10",
+    "head": "779275494fc3890ef248e88b4f1550c4d295f151",
+    "base": "70f6436288640c158f825599373dc9f602f7c931",
+    "conclusion": "Reuse PR10 modern Mower and exhausted Abyssal fixes after isolated verification; add only verified missing settings and contract boundaries."
+  },
+  "existingFreshnessStatus": "stale: Toolbox 2.5.0 resource map and character resource advanced (other four listed hashes match), and two broad prior recycle source files advanced; GameData, six PRTS pages and pinned modern plan source match.",
+  "gameRuntimeVerified": false,
+  "prImplementationSource": {
+    "repository": "ArkMowers/arknights-mower",
+    "branch": "alpha",
+    "commit": "ab0a4e5bec23f6f8d7c37b0648f05dda28f31866",
+    "files": [
+      {
+        "path": "arknights_mower/solvers/base_schedule.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/arknights_mower/solvers/base_schedule.py",
+        "sha256": "5987139c8f32a09b4b678ee316b5c353ceebdaeed2469a7dcbae6229b01d1d5c",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "arknights_mower/solvers/base_mixin.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/arknights_mower/solvers/base_mixin.py",
+        "sha256": "fba3227e95ada307fc60dd56f6bf1c9e3990cf3108597c8817df806379d05c4e",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "arknights_mower/utils/operators.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/arknights_mower/utils/operators.py",
+        "sha256": "3cea0b585418154621f82958a47677f58cd1d30dfa2572530fff2eb647aa2982",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "arknights_mower/utils/backup_validation.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/arknights_mower/utils/backup_validation.py",
+        "sha256": "d8497b4e7e112478cfeb9dcb3138ef87684b57c42729572d965eacb2b93e9fca",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "arknights_mower/utils/config/plan.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/arknights_mower/utils/config/plan.py",
+        "sha256": "3cbb5a4ae5d6b58ce3cd058cb0f991cd8abfb3e6a45ec211fc4524fab30bccca",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "arknights_mower/utils/plan.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/arknights_mower/utils/plan.py",
+        "sha256": "724030b1f2a33a3e84229898654dee5839c7cacf0ffd73fbfb884d93c46c1191",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "arknights_mower/utils/qrcode.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/arknights_mower/utils/qrcode.py",
+        "sha256": "bbc651da3714dda1419bcd63c29db937d5e689ce47503f65a576345e17983147",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "arknights_mower/utils/resting_correction.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/arknights_mower/utils/resting_correction.py",
+        "sha256": "ebb76cac5a842dfa48afa94cef1d73ee59294c0fef8368d251374d78c95ae021",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "arknights_mower/utils/scheduler_task.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/arknights_mower/utils/scheduler_task.py",
+        "sha256": "d7ba1eeec8516c960779fc9d5a4873ed49b44d8e1770090f3708f0f89eecc385",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "arknights_mower/utils/manufacture_product.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/arknights_mower/utils/manufacture_product.py",
+        "sha256": "062a183a580a521f4729ee84477c9864aa716e6e675d762e160e217322893161",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "ui/src/stores/plan.js",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/ui/src/stores/plan.js",
+        "sha256": "b8202196c026bcb18a51cbdc3c4bd9ef0b446a0c600150f4eb9bd586685dde7f",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "ui/src/components/PlanEditor.vue",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/ui/src/components/PlanEditor.vue",
+        "sha256": "0303491d8f62550a23a6628d920d3df527f177dd82cb6bef9b07b2aa3652f0d4",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "ui/src/pages/Plan.vue",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/ui/src/pages/Plan.vue",
+        "sha256": "b3952d6a97a60508d5d3e095a83e04707243b2682ab1d2ce7aba3301d5b60006",
+        "declaredHashMatched": true
+      },
+      {
+        "path": "ui/src/components/PlanAdvancedSettings.vue",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/ab0a4e5bec23f6f8d7c37b0648f05dda28f31866/ui/src/components/PlanAdvancedSettings.vue",
+        "sha256": "7c058bbb0e78c1aea8f0f12714f09cf60b0ec37f9bd76a99e3914593de2c1682",
+        "declaredHashMatched": true
+      }
+    ]
+  }
+}

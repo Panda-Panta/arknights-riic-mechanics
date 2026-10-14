@@ -11,7 +11,7 @@ node skills/arknights-riic-mechanics/scripts/validate.mjs
 node skills/arknights-riic-mechanics/scripts/check-freshness.mjs --output freshness-check.json
 ```
 
-需要 Node.js 20+。第二条命令联网核对 GameData master、工具箱当前map及5份基建资源、3名新干员/回收站的PRTS页面修订和本次Mower alpha相关源码。只有 `current`、退出码0才代表这次范围的最新检查完成。`stale`返回2，需要先同步和验证；`unknown`返回3，记录网络/API失败而不宣称最新。它只读取来源，安装由用户或当前agent按授权执行。证书环境需要时可在 Node 24.6+ 加 `--use-system-ca`，保持TLS校验。
+需要 Node.js 20+。第二条命令联网核对 GameData master、工具箱当前map及5份基建资源、三名新干员、回收站、承曦格雷伊和歌蕾蒂娅的六个PRTS页面修订，以及Mower回收来源与新版计划固定源码。只有 `current`、退出码0才代表这次范围的最新检查完成。`stale`返回2，需要先同步和验证；`unknown`返回3，记录网络/API失败而不宣称最新。它只读取来源，安装由用户或当前agent按授权执行。证书环境需要时可在 Node 24.6+ 加 `--use-system-ca`，保持TLS校验。
 
 离线查询可以使用固定快照，但不会确认远程资料最新。每次发布或导入重新运行检查，不复用旧检查时间。详细范围及边界见 [freshness.md](skills/arknights-riic-mechanics/references/freshness.md)。
 
@@ -39,6 +39,10 @@ node skills/arknights-riic-mechanics/scripts/query.mjs 克莱门莎 --phase 2 --
 
 ## 维护和来源
 
-技能入口为 [SKILL.md](skills/arknights-riic-mechanics/SKILL.md)，数据及来源哈希在 [gamedata-source-manifest.json](skills/arknights-riic-mechanics/references/gamedata-source-manifest.json) 和 [logistics-update-manifest.json](skills/arknights-riic-mechanics/references/logistics-update-manifest.json)。工具箱交叉核验覆盖全部432人929条阶段；PRTS固定本次8条技能及回收站说明；Mower只固定相关回收站、待办收取和14 QR契约，其他既有调度保留原来源。
+技能入口为 [SKILL.md](skills/arknights-riic-mechanics/SKILL.md)，数据及来源哈希在 [gamedata-source-manifest.json](skills/arknights-riic-mechanics/references/gamedata-source-manifest.json) 和 [logistics-update-manifest.json](skills/arknights-riic-mechanics/references/logistics-update-manifest.json)。工具箱交叉核验覆盖全部432人929条阶段；PRTS固定本次8条技能及回收站说明；Mower回收站、待办收取与14 QR契约保留原来源；PR10新版计划、共享绑组、宿舍隔离、产物切换及本轮无人机/疲劳边界另固定来源，见[mower-plan-source-manifest.json](skills/arknights-riic-mechanics/references/mower-plan-source-manifest.json)。本轮规则复用PR10并做有据的局部补充，不声明整个调度器与最新版等价。
 
 更新资料或规则后，执行阶段和联动核验，更新相应说明，运行 `node skills/arknights-riic-mechanics/scripts/validate.mjs --write-manifest` 重建包清单，再运行无参数验证和联网检查。清单检测文件损坏及遗漏，并非数字签名。发布前保留真实测试结果和明确未实现/未实测项。
+
+## 2026-10-14固定规则更新
+
+离线包的frontmatter、引用与逐文件哈希已核验。联网时效整体为stale：工具箱map及character资源、原回收站的两个整体Mower源码文件已推进；GameData、六个PRTS页面和本轮计划源码匹配。保留固定快照及差异，不自动替换未经机制审查的数据，也不宣称所有agent平台实际导入或真实游戏实验。

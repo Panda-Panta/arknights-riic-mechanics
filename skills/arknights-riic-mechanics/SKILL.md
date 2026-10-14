@@ -23,6 +23,7 @@ description: 查询、核对或实现明日方舟后勤技能、效率、心情�
 - 阵营、技能类别、全局资源与计数联动：[links.md](references/links.md)。
 - 国家、组织、小队、设施、职业、配方目标及计算语义的具体项：[taxonomy.md](references/taxonomy.md)。遇到“阵营/派系/技能类型”等集合词时必读。
 - 心情、替补、组合、长期资源守恒：[simulation.md](references/simulation.md)。
+- 新旧Mower槽位绑定、高级设置、无人机容量及疲劳深海受益更新：[mower-plan-compatibility.md](references/mower-plan-compatibility.md)；固定格式/执行片段来源：[mower-plan-source-manifest.json](references/mower-plan-source-manifest.json)。
 - v078 新干员条件、手算边界和回收站新增机制：[new-operators-v078.md](references/new-operators-v078.md)。
 - 版本、证据、缺口与核验矩阵：[coverage.md](references/coverage.md)。任何声称“完整”“精确”前必读。
 - 全部原始后勤技能、每槽解锁阶段、设施/加工/训练/会客/办公室参数：[catalog.json](references/catalog.json)。按正式代号查询相关记录，保留阶段和术语条件。

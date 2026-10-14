@@ -64,20 +64,23 @@ async function prtsSnapshot(pages) {
     return { title, url: page.url, pinnedRevision: page.revision, observedRevision: current.lastrevid, matched: current.lastrevid === page.revision }
   })
   return { provider: 'prts', status: comparisons.every(page => page.matched) ? 'current' : 'stale', url: query.href, comparisons,
-    note: 'Checks only these three operators and the recycle facility. Changed revisions require review even when edits may concern combat or formatting.' }
+    note: 'Checks only the listed operator and recycle pages, including Greyy and Gladiia. Changed revisions require review even when edits may concern combat or formatting.' }
 }
 
 export async function checkFreshness() {
   const validation = validateSkill()
   const game = read('gamedata-source-manifest.json')
   const update = read('logistics-update-manifest.json')
+  const plan = read('mower-plan-source-manifest.json')
   const checks = [
     ['gameData', () => githubSnapshot('gameData', 'Kengxxiao/ArknightsGameData', 'master', game.commit,
       Object.entries(game.sources).map(([name, source]) => ({ path: name, ...source })))],
     ['toolbox', () => toolboxSnapshot(update.toolbox)],
-    ['prts', () => prtsSnapshot([...update.prts, update.prtsRecycle])],
+    ['prts', () => prtsSnapshot([...update.prts, update.prtsRecycle, ...plan.prts])],
     ['mowerRecycle', () => githubSnapshot('mowerRecycle', 'ArkMowers/arknights-mower', update.mowerRecycle.branch,
-      update.mowerRecycle.commit, update.mowerRecycle.files)]
+      update.mowerRecycle.commit, update.mowerRecycle.files)],
+    ['mowerPlanCompatibility', () => githubSnapshot('mowerPlanCompatibility', plan.mower.repository, plan.mower.branch,
+      plan.mower.commit, plan.mower.files)]
   ]
   const startedAt = new Date().toISOString()
   const results = await Promise.all(checks.map(async ([provider, run]) => {
@@ -87,7 +90,7 @@ export async function checkFreshness() {
     : results.some(result => result.status === 'stale') ? 'stale' : 'current'
   return { schemaVersion: 1, startedAt, checkedAt: new Date().toISOString(), status,
     packageSha256: validation.packageSha256, sourceCommit: game.commit,
-    scope: 'Pinned RIIC source files, five Toolbox resources, three new operator pages, recycle facility page and the listed Mower recycle/collection/QR files.',
+    scope: 'Pinned RIIC source files, five Toolbox resources, the listed operator pages, recycle facility page, Mower recycle/collection/QR files and separately pinned modern plan contracts.',
     results, note: 'Read-only source check; no data update, installation or live agent/game validation was performed.' }
 }
 
