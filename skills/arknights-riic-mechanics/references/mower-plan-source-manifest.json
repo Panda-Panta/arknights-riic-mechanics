@@ -220,5 +220,309 @@
         ]
       }
     ]
+  },
+  "facilityProductCountCompatibility": {
+    "checkedAt": "2026-10-15",
+    "sourceCommit": "3ad69f15bd95a7fbc0aec0bbd2265bd7230f767f",
+    "files": [
+      {
+        "path": "arknights_mower/utils/operators.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/3ad69f15bd95a7fbc0aec0bbd2265bd7230f767f/arknights_mower/utils/operators.py",
+        "sha256": "aa84e9e8c51d2d0cf5030d179e51fa3503ef60dea7e709c62efd1dd5cb7e1705"
+      },
+      {
+        "path": "arknights_mower/utils/manufacture_product.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/3ad69f15bd95a7fbc0aec0bbd2265bd7230f767f/arknights_mower/utils/manufacture_product.py",
+        "sha256": "062a183a580a521f4729ee84477c9864aa716e6e675d762e160e217322893161"
+      }
+    ],
+    "scope": "Local source inspection of exact product counts and distinct product types; not a broad upstream freshness check.",
+    "methods": [
+      "Operators.facility_product",
+      "Operators.facility_product_count",
+      "Operators.facility_product_type_count"
+    ],
+    "semantics": "Count rooms in original main-plan and actual-cache union; valid actual products take precedence. Exact native products only; orirock and orirock_device are distinct. Reuse product-observation edge wakes. Inventory compound conditions retain finite settled accounting.",
+    "tests": [
+      "src/scheduler/backupInventoryExpression.spec.ts",
+      "src/scheduler/backupInventoryWake.spec.ts",
+      "src/simulator/mowerInventoryBackup.spec.ts"
+    ],
+    "gameRuntimeVerified": false
+  },
+  "retainedTaskFailureCompatibility": {
+    "checkedAt": "2026-10-15",
+    "sourceCommit": "3ad69f15bd95a7fbc0aec0bbd2265bd7230f767f",
+    "sourceFiles": [
+      {
+        "path": "arknights_mower/solvers/base_schedule.py",
+        "sha256": "6a79fad5146efd102225047a45193e80a26dc255d7be94c51f0b70b20cec276b",
+        "bytes": 589175
+      },
+      {
+        "path": "arknights_mower/utils/scheduler_task.py",
+        "sha256": "1e6a233e12f4398e93ae7064d93cbddf94159e12dd2b6bd31ad985caf9a3c872",
+        "bytes": 129676
+      }
+    ],
+    "scope": "Exhausted shift-preview failures preserve task identity, remaining plan and original deadline; dispatch excludes suspended failures until relevant measured observations, product or effective plan changes. Predictions and elapsed time do not resume failures; incomplete retained failures make the final full-horizon report unsuccessful. No live-device or complete-scheduler parity claim.",
+    "implementationFiles": [
+      "src/scheduler/mowerTaskFailure.ts",
+      "src/scheduler/mowerTaskQueue.ts",
+      "src/scheduler/mowerRunLifecycle.ts",
+      "src/scheduler/mowerTaskScheduling.ts",
+      "src/scheduler/mowerShiftCycle.ts",
+      "src/scheduler/mowerSourceRuntime.ts",
+      "src/simulator/scheduleSimulation.ts"
+    ],
+    "runtimeVerified": false
+  },
+  "fiammettaSharedFollowerCompatibility": {
+    "checkedAt": "2026-10-15",
+    "sourceCommit": "3ad69f15bd95a7fbc0aec0bbd2265bd7230f767f",
+    "originChange": "e470bb9be1",
+    "scope": "Charging group-priority excludes multi-group shared followers; ordinary single-group priority and configured target order remain. Source plan_fia disabled-protection fallback can still select the first full target. Full-to-full simulated physical charge uses retained-task failure handling, released only by relevant observations or arrangements; no five-minute poll remains. This explicit simulation no-op guard is not claimed to exist in pinned native plan_fia.",
+    "implementationFiles": [
+      "src/scheduler/mowerFiammetta.ts",
+      "src/scheduler/mowerSourceRuntime.ts"
+    ],
+    "runtimeVerified": false
+  },
+  "sharedRestingGroupCompatibility": {
+    "checkedAt": "2026-10-15",
+    "sourceCommit": "3ad69f15bd95a7fbc0aec0bbd2265bd7230f767f",
+    "sourceFiles": [
+      {
+        "path": "arknights_mower/solvers/base_schedule.py",
+        "sha256": "6a79fad5146efd102225047a45193e80a26dc255d7be94c51f0b70b20cec276b",
+        "bytes": 589175
+      },
+      {
+        "path": "arknights_mower/utils/operators.py",
+        "sha256": "aa84e9e8c51d2d0cf5030d179e51fa3503ef60dea7e709c62efd1dd5cb7e1705",
+        "bytes": 132201
+      }
+    ],
+    "methods": [
+      "BaseSchedulerSolver.get_resting_plan",
+      "Operators.commit_group_shifts"
+    ],
+    "scope": "Before alpha resting-bed admission, combine existing arrangement transitions with planned resting groups, temporarily commit group state and shared bindings, then restore confirmed state and bindings in finally. Valid bed reservations survive successful admission. Corrects stale shared bindings treating legal covers as extra required beds.",
+    "implementationFiles": [
+      "src/scheduler/mowerOrdinaryPlanning.ts"
+    ],
+    "tests": [
+      "src/scheduler/mowerSharedRestingGroup.spec.ts"
+    ],
+    "verification": {
+      "focusedTestsPassed": 74,
+      "testLog": "/tmp/riic-shared-resting-focused-tests.log",
+      "fullHorizonIncomeRevalidated": false,
+      "gameRuntimeVerified": false,
+      "nativeMinimalRestingOraclePassed": true,
+      "nativeMinimalRestingOracleLog": "/tmp/mower-shared-standby-oracle.log"
+    },
+    "knownLimits": "243 baseline gold-equivalent LMD 69607.14/day; post-fix full horizon not replayed. Rainbow short diagnostic reached only 6.776h in 55s. Plan10 high-priority early return / low-priority resting oscillation identified but unresolved; no full-window income recovery or all-slow-plan fix claim."
+  },
+  "exhaustSupportDispatchCompatibility": {
+    "repository": "https://github.com/ALEXsun0/arknights-mower",
+    "commit": "acd54324d549eec34ef1a0bb9910de4c92cfb7d1",
+    "pullRequest": "https://github.com/ArkMowers/arknights-mower/pull/1442",
+    "files": [
+      {
+        "path": "arknights_mower/solvers/base_schedule.py",
+        "sha256": "a0b521a2d0a4cfd379650416d38803e7acc6e87868ba920aa0ecb44b52cfab17",
+        "bytes": 589566
+      },
+      {
+        "path": "arknights_mower/tests/exhaust_replacement_tests.py",
+        "sha256": "a06aa911b71fde7b87d3283fb9d5f30c70083522ddb326e2701a609c024da6b4",
+        "bytes": 29464
+      }
+    ],
+    "scope": "Preserve exhaustion support as a prerequisite: prepare required backup actions without ordinary recovery expansion, exclude support tasks from ordinary and backup coalescing, retain the role across task clones. No complete native parity or full-window income claim.",
+    "gameRuntimeVerified": false
+  },
+  "receptionClueProduction": {
+    "repository": "ALEXsun0/arknights-mower",
+    "commit": "e5e2f0c40aab69ab35df2102de627d7fb7755eb0",
+    "scope": "Reception clue production only; exchange always active for clue speed, native scheduling Party Time remains empty. No credit rewards or weighted-income changes.",
+    "files": [
+      {
+        "path": "ui/src/riic/incomeClues.js",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/e5e2f0c40aab69ab35df2102de627d7fb7755eb0/ui/src/riic/incomeClues.js",
+        "bytes": 6656,
+        "sha256": "ebbe23b66c557a074e19f280a99ec325a91250352104bdb875869d8c0a253677"
+      },
+      {
+        "path": "ui/src/riic/incomeClues.test.js",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/e5e2f0c40aab69ab35df2102de627d7fb7755eb0/ui/src/riic/incomeClues.test.js",
+        "bytes": 7600,
+        "sha256": "567c5821cec88754f9234d2580192388ed4e66ace927b31a8854f88c992f6821"
+      },
+      {
+        "path": "ui/src/riic/incomeWorker.js",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/e5e2f0c40aab69ab35df2102de627d7fb7755eb0/ui/src/riic/incomeWorker.js",
+        "bytes": 4646,
+        "sha256": "d60093c8730aa83c19d6a24c081f8d4387c287538e313766d42776f03e886f86"
+      }
+    ]
+  },
+  "independentEmptyBindingCompatibility": {
+    "repository": "ALEXsun0/arknights-mower",
+    "commit": "8221615b238e391fb4e73d7c8302f518eb201a27",
+    "checkedAt": "2026-10-15",
+    "files": [
+      {
+        "path": "arknights_mower/utils/operators.py",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/8221615b238e391fb4e73d7c8302f518eb201a27/arknights_mower/utils/operators.py",
+        "bytes": 133900,
+        "sha256": "9c25bfcc121e2962670a32bb3e0dd8cae72324ad851b6d1a3b77e2b227e85220"
+      },
+      {
+        "path": "arknights_mower/solvers/base_schedule.py",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/8221615b238e391fb4e73d7c8302f518eb201a27/arknights_mower/solvers/base_schedule.py",
+        "bytes": 592007,
+        "sha256": "3a0f455a5236991b8d43913b5a98997680f615e3cfc4971d7c5c3caba35321c3"
+      },
+      {
+        "path": "arknights_mower/utils/scheduler_task.py",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/8221615b238e391fb4e73d7c8302f518eb201a27/arknights_mower/utils/scheduler_task.py",
+        "bytes": 130850,
+        "sha256": "efdf098e741bbf40be62885e9f8c60b434e4991ba5cd84a26879c8b6ca4d391d"
+      },
+      {
+        "path": "arknights_mower/utils/emergency_plan.py",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/8221615b238e391fb4e73d7c8302f518eb201a27/arknights_mower/utils/emergency_plan.py",
+        "bytes": 13887,
+        "sha256": "d3d354ebb2fa90383a0a6862a93aba5e879a8debcdeeacc681645b29c6b57479"
+      },
+      {
+        "path": "arknights_mower/tests/multi_group_individual_rest_tests.py",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/8221615b238e391fb4e73d7c8302f518eb201a27/arknights_mower/tests/multi_group_individual_rest_tests.py",
+        "bytes": 13152,
+        "sha256": "ff805cf8c9c10abedf0ffeaf7a24f6fa6eb6479c6d080150971ab2bc787b1f75"
+      },
+      {
+        "path": "docs/subsystems/base-scheduler.md",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/8221615b238e391fb4e73d7c8302f518eb201a27/docs/subsystems/base-scheduler.md",
+        "bytes": 192262,
+        "sha256": "5374d67724407ed89137673850940443bb3b8edf95582393938ad3bab253151f"
+      }
+    ],
+    "scope": "Allow one empty binding for independent working-primary rest while named-group replacement intersections take priority. Preserve existing recovery and original bed priorities; cover same-pass admissions, replacement reuse, return preparation and exhaust support. No complete native parity or full-window income claim.",
+    "tests": [
+      "src/scheduler/mowerIndependentRest.spec.ts",
+      "src/workbench/validate.spec.ts",
+      "src/scheduler/mowerSharedGroups.spec.ts",
+      "src/scheduler/mowerSharedRestingGroup.spec.ts",
+      "src/scheduler/mowerAlphaContractEdges.spec.ts",
+      "src/scheduler/mowerDormAdmissions.spec.ts",
+      "src/scheduler/mowerAlphaExhaustSupport.spec.ts",
+      "src/scheduler/mowerExhaustSupportDispatch.spec.ts",
+      "src/scheduler/mowerOrdinaryPlanning.spec.ts",
+      "src/scheduler/mowerBackupConfig.spec.ts",
+      "src/components/workbench/GroupBindingsEditor.spec.ts",
+      "src/workbench/mowerAlphaBridge.spec.ts",
+      "src/workbench/compat/mowerAlphaJson.spec.ts",
+      "src/scheduler/mowerMetadata.spec.ts",
+      "src/scheduler/mowerDormTasks.spec.ts"
+    ],
+    "verification": {
+      "focusedTestFiles": 15,
+      "focusedTestsPassed": 187,
+      "independentRestTestsPassed": 21,
+      "parentReviewTestLog": "/tmp/riic-empty-binding-parent-tests.log",
+      "mowerReportedTestFiles": 11,
+      "mowerReportedTestsPassed": 418,
+      "mowerReportedIndependentRestTestsPassed": 24,
+      "typecheckPassed": true,
+      "buildDirectory": "artifacts/empty-binding/dist",
+      "gameRuntimeVerified": false
+    },
+    "knownLimits": "Continuous native return_windows are not implemented in this calculator; it preserves its existing dorm recovery deadline model. No Windows installation, complete long-horizon income or real-game validation."
+  },
+  "pr17LocalIntegrationCorrections": {
+    "checkedAt": "2026-10-15",
+    "originalPullRequest": "https://github.com/Panda-Panta/R.I.I.C-Calculator/pull/17",
+    "originalHead": "51259b593d803b13a9c09d1d65c0f1155080b052",
+    "scope": [
+      "Reception clue production includes unlocked, working control-center and office providers from the existing catalog, including highest-value and independent additive rules.",
+      "Reception monster-cuisine synergy requires the provider's unlocked dormitory skill, preserving explicit resource overrides and the existing production-resource implementation.",
+      "Personal empty binding columns apply only to non-dormitory working primaries; main and backup plans reject dormitory personal empty columns.",
+      "The known reception-clue production assumption remains eligible for resource-income comparisons; unknown diagnostics retain the existing rejection guard."
+    ],
+    "provenance": "Local review corrections; not claimed as byte-identical upstream behavior. Existing GameData catalog and upstream source hashes are unchanged.",
+    "gameRuntimeVerified": false
+  },
+  "nativeBedAdmissionCompatibility": {
+    "repository": "ArkMowers/arknights-mower",
+    "commit": "617aef56f233381426107087437262fb6a802287",
+    "branch": "alpha",
+    "checkedAt": "2026-10-16T07:37:55.323Z",
+    "files": [
+      {
+        "path": "arknights_mower/utils/operators.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/617aef56f233381426107087437262fb6a802287/arknights_mower/utils/operators.py",
+        "bytes": 133900,
+        "sha256": "9c25bfcc121e2962670a32bb3e0dd8cae72324ad851b6d1a3b77e2b227e85220",
+        "retrievedAtUtc": "2026-10-16T07:37:38.465347+00:00",
+        "retrievedAtAsiaShanghai": "2026-10-16T15:37:38.465347+08:00"
+      },
+      {
+        "path": "arknights_mower/solvers/base_schedule.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/617aef56f233381426107087437262fb6a802287/arknights_mower/solvers/base_schedule.py",
+        "bytes": 593123,
+        "sha256": "4a6b977345bcebf96132406763d71f378f9625d61739ded112925fc0046d82e7",
+        "retrievedAtUtc": "2026-10-16T07:37:39.011417+00:00",
+        "retrievedAtAsiaShanghai": "2026-10-16T15:37:39.011417+08:00"
+      },
+      {
+        "path": "arknights_mower/utils/resting_priority.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/617aef56f233381426107087437262fb6a802287/arknights_mower/utils/resting_priority.py",
+        "bytes": 5469,
+        "sha256": "aa317803cf62bed8583cb6167a2ebd9cff018e6a4be5f03a73f3b2c45d6a5d18",
+        "retrievedAtUtc": "2026-10-16T07:37:39.364116+00:00",
+        "retrievedAtAsiaShanghai": "2026-10-16T15:37:39.364116+08:00"
+      },
+      {
+        "path": "arknights_mower/utils/scheduler_task.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/617aef56f233381426107087437262fb6a802287/arknights_mower/utils/scheduler_task.py",
+        "bytes": 130850,
+        "sha256": "efdf098e741bbf40be62885e9f8c60b434e4991ba5cd84a26879c8b6ca4d391d",
+        "retrievedAtUtc": "2026-10-16T07:37:39.782155+00:00",
+        "retrievedAtAsiaShanghai": "2026-10-16T15:37:39.782155+08:00"
+      },
+      {
+        "path": "arknights_mower/utils/config/plan_advanced.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/617aef56f233381426107087437262fb6a802287/arknights_mower/utils/config/plan_advanced.py",
+        "bytes": 1557,
+        "sha256": "e8b79a300e2583680d7f205f49a0d73472e6eeba8cd324181bb72058d7d86153",
+        "retrievedAtUtc": "2026-10-16T07:37:40.102673+00:00",
+        "retrievedAtAsiaShanghai": "2026-10-16T15:37:40.102673+08:00"
+      }
+    ],
+    "scope": "Only ordinary bed takeover and ordered greedy whole-group admission; other engine scopes retain their existing source pins.",
+    "methods": [
+      "bed_takeover_allowed",
+      "Operators._slot_takable",
+      "Operators._find_dorm_slot",
+      "Operators.assign_dorm_group"
+    ],
+    "semantics": [
+      "Resident tiers 0..3 and 7 are protected from ordinary takeover.",
+      "Requester tier must be lower than a resident tier in 4..6.",
+      "Requester tiers 4..6 need an observed mood no greater than 80 percent of their own upper limit.",
+      "Ordered greedy failure for a mandatory member rejects the whole group without mutating beds or the input plan; optional standby members may be omitted.",
+      "No all-bed matching fallback and no extra local reverse-displacement policy."
+    ],
+    "implementationFiles": [
+      "src/scheduler/mowerAlphaDorm.ts",
+      "src/scheduler/mowerDormAssignment.ts"
+    ],
+    "verification": "Unmodified fixed-source Python AST call-chain oracle, tier matrix and measured-mood boundaries; local pure-state regressions. Production acceptance is recorded separately.",
+    "wholeSnapshotFreshness": "stale",
+    "freshnessNote": "GameData and the listed PRTS pages matched. Toolbox character/map and broader old Mower snapshots remain stale; this bounded update does not replace them.",
+    "gameRuntimeVerified": false
   }
 }
