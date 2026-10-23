@@ -72,6 +72,7 @@ export async function checkFreshness() {
   const game = read('gamedata-source-manifest.json')
   const update = read('logistics-update-manifest.json')
   const plan = read('mower-plan-source-manifest.json')
+  const planSource = plan.latestMechanicsImport?.mower ?? plan.mower
   const checks = [
     ['gameData', () => githubSnapshot('gameData', 'Kengxxiao/ArknightsGameData', 'master', game.commit,
       Object.entries(game.sources).map(([name, source]) => ({ path: name, ...source })))],
@@ -79,8 +80,8 @@ export async function checkFreshness() {
     ['prts', () => prtsSnapshot([...update.prts, update.prtsRecycle, ...plan.prts])],
     ['mowerRecycle', () => githubSnapshot('mowerRecycle', 'ArkMowers/arknights-mower', update.mowerRecycle.branch,
       update.mowerRecycle.commit, update.mowerRecycle.files)],
-    ['mowerPlanCompatibility', () => githubSnapshot('mowerPlanCompatibility', plan.mower.repository, plan.mower.branch,
-      plan.mower.commit, plan.mower.files)]
+    ['mowerPlanCompatibility', () => githubSnapshot('mowerPlanCompatibility', planSource.repository, planSource.branch,
+      planSource.commit, planSource.files)]
   ]
   const startedAt = new Date().toISOString()
   const results = await Promise.all(checks.map(async ([provider, run]) => {
