@@ -524,5 +524,204 @@
     "wholeSnapshotFreshness": "stale",
     "freshnessNote": "GameData and the listed PRTS pages matched. Toolbox character/map and broader old Mower snapshots remain stale; this bounded update does not replace them.",
     "gameRuntimeVerified": false
+  },
+  "backupGroupCompatibility": {
+    "checkedAt": "2026-10-18",
+    "repository": "ALEXsun0/arknights-mower",
+    "commit": "203f75329d7b07093889fe1630254fd648fde583",
+    "scope": "Backup group selection, multiple memberships and exclusive backups; RIIC maintenance-specific adaptation retained.",
+    "files": [
+      {
+        "path": "arknights_mower/utils/backup_groups.py",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/203f75329d7b07093889fe1630254fd648fde583/arknights_mower/utils/backup_groups.py",
+        "bytes": 1310,
+        "sha256": "feccccb9c5433aabe1ef1fd832f111c222e004838d1115bccae018c50ab1529f"
+      },
+      {
+        "path": "arknights_mower/utils/config/plan.py",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/203f75329d7b07093889fe1630254fd648fde583/arknights_mower/utils/config/plan.py",
+        "bytes": 15074,
+        "sha256": "114b395fececacd83a2bf94f6bbaf3810dbde584bc49fad1212146ea5c762fb7"
+      },
+      {
+        "path": "ui/src/riic/vendor/scheduler/backupGroups.ts",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/203f75329d7b07093889fe1630254fd648fde583/ui/src/riic/vendor/scheduler/backupGroups.ts",
+        "bytes": 1838,
+        "sha256": "e28dabc85a48fa652dafd516f4e52df8bf94190d1e840c631e8c07a63db39d5c"
+      },
+      {
+        "path": "ui/src/riic/vendor/scheduler/backupPlans.ts",
+        "url": "https://raw.githubusercontent.com/ALEXsun0/arknights-mower/203f75329d7b07093889fe1630254fd648fde583/ui/src/riic/vendor/scheduler/backupPlans.ts",
+        "bytes": 40752,
+        "sha256": "93c40207eeac5ee1f7709ce0f1fd19eae4ca6ad93088f1e53f21c3b0661ab216"
+      }
+    ]
+  },
+  "latestMechanicsImport": {
+    "checkedAt": "2026-10-23T22:44:54.281Z",
+    "mower": {
+      "repository": "ArkMowers/arknights-mower",
+      "branch": "alpha",
+      "commit": "84e3926c0f36045d7baeb1ac050f815b40952d6d",
+      "files": [
+        {
+          "path": "arknights_mower/solvers/base_schedule.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/solvers/base_schedule.py",
+          "bytes": 697728,
+          "sha256": "444518b735a389020bcc76744fcf262ef3b23c587e98436d1ae4afb406091a2c"
+        },
+        {
+          "path": "arknights_mower/utils/operators.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/operators.py",
+          "bytes": 141367,
+          "sha256": "e4b045d9743ffbc33e3cbc7b03157aff590fd70f9aa92264dfd81482c5402a34"
+        },
+        {
+          "path": "arknights_mower/utils/scheduler_task.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/scheduler_task.py",
+          "bytes": 138613,
+          "sha256": "3d46d555638caaf0a3caba9279ad5fe51a53b75fbd648be9c939772b62b94850"
+        },
+        {
+          "path": "arknights_mower/utils/replacement_check.py",
+          "sha256": "839c35adea1bb4e134c16052eb0154261f6524b7793bfb6922ede29f677ce088",
+          "bytes": 16764,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/replacement_check.py"
+        },
+        {
+          "path": "arknights_mower/utils/config/plan.py",
+          "sha256": "79301cf9bb25506f87b0db65a2802890a650dee50f5890e08e08e92f8bf9dca6",
+          "bytes": 15898,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/config/plan.py"
+        },
+        {
+          "path": "arknights_mower/utils/config/plan_advanced.py",
+          "sha256": "9814b7a8558023d4def403c8dcbbdca9696a3b6d57604ed27d70572e0b3950ba",
+          "bytes": 1590,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/config/plan_advanced.py"
+        },
+        {
+          "path": "arknights_mower/utils/config/conf.py",
+          "sha256": "5f09da3ca8f2b923dad000bf81fc3422458d70a2120d09faf90156b3c91426ea",
+          "bytes": 43562,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/config/conf.py"
+        },
+        {
+          "path": "arknights_mower/utils/logic_expression.py",
+          "sha256": "49ba3eca9aee5a55875b97f6a80681954d688bd95a07085b7c177d67145e6d42",
+          "bytes": 1963,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/logic_expression.py"
+        },
+        {
+          "path": "arknights_mower/utils/backup_validation.py",
+          "sha256": "a38285dfdbaee262ebe18c21ffd69f6c59d4442caff38f61af802b8823daf293",
+          "bytes": 16560,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/backup_validation.py"
+        },
+        {
+          "path": "arknights_mower/utils/backup_groups.py",
+          "sha256": "feccccb9c5433aabe1ef1fd832f111c222e004838d1115bccae018c50ab1529f",
+          "bytes": 1310,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/backup_groups.py"
+        },
+        {
+          "path": "arknights_mower/utils/plan.py",
+          "sha256": "8d278e95c5b8262301791dc822b3f243c9b6c822c9d3da8dcade1c6ffb638b86",
+          "bytes": 12808,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/plan.py"
+        },
+        {
+          "path": "arknights_mower/utils/group_recovery.py",
+          "sha256": "1299e0e22e03adc914452a3d9f9ee3c9492f7b6a664a219462a44b177ed8dcb6",
+          "bytes": 5480,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/group_recovery.py"
+        },
+        {
+          "path": "arknights_mower/utils/recovery_execution.py",
+          "sha256": "13320582c6eaa07fcb340bce7bc6997b5522c77e37e841b22c5ed58c55469cbd",
+          "bytes": 2448,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/recovery_execution.py"
+        },
+        {
+          "path": "arknights_mower/utils/retained_recovery.py",
+          "sha256": "0405f3b722450f90b9744991b461cbd7a71b0f66274bdba4bf5c1e69547a7610",
+          "bytes": 4557,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/retained_recovery.py"
+        },
+        {
+          "path": "arknights_mower/utils/urgent_recovery.py",
+          "sha256": "5074631c096cc0ef7217fdab013e1c399d5ed623c05bf51ba2e94466d536717e",
+          "bytes": 6296,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/urgent_recovery.py"
+        },
+        {
+          "path": "arknights_mower/utils/replacement_coordination.py",
+          "sha256": "8b57709f305c80f357106716e6a900c1c9e62c0adb45b4e3b3432eb24817e35e",
+          "bytes": 12223,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/replacement_coordination.py"
+        },
+        {
+          "path": "arknights_mower/tests/replacement_check_tests.py",
+          "sha256": "a875a7e8a92065fb69807a81b0597b51c8de8ff803524be110cc49c6ed3a44f4",
+          "bytes": 34872,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/tests/replacement_check_tests.py"
+        },
+        {
+          "path": "arknights_mower/tests/replacement_check_dispatch_tests.py",
+          "sha256": "6ca7b2724dc31afeba30e2e4b9eaa4f9b6ac418816ec05273674e41139f5cced",
+          "bytes": 8347,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/tests/replacement_check_dispatch_tests.py"
+        },
+        {
+          "path": "arknights_mower/tests/group_shift_confirmation_tests.py",
+          "sha256": "a3e55b16306b00b2c5c2775d663e9142a95b68a3759b2ceb1bc9bb08079df6c2",
+          "bytes": 45583,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/tests/group_shift_confirmation_tests.py"
+        },
+        {
+          "path": "arknights_mower/tests/logic_expression_tests.py",
+          "sha256": "0e5042d1d396de554f3a46a9343d23eac878d1f723adb0fb43dde9bf7b1e8e13",
+          "bytes": 3209,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/tests/logic_expression_tests.py"
+        },
+        {
+          "path": "arknights_mower/utils/resting_correction.py",
+          "sha256": "512fbf217560810759be2e78b7982b0283d1ba943fa32e10a274ee861309ab1b",
+          "bytes": 24017,
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/resting_correction.py"
+        },
+        {
+          "path": "arknights_mower/utils/dorm_candidates.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/dorm_candidates.py",
+          "bytes": 12639,
+          "sha256": "26a833125a563326f2a6f83c4610ae8dddb061e04af18f614c2ce3ff2cfe775a"
+        },
+        {
+          "path": "arknights_mower/utils/resting_priority.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/resting_priority.py",
+          "bytes": 7283,
+          "sha256": "25c33e1ee47f7c9a52e3a9765ce611650db02efb686912063dcbb95b3f2d763c"
+        }
+      ]
+    },
+    "scope": "Nested backup functions and group queries; observed recovery and deadlines; ordinary replacement checks; explicit group execution confirmation; confirmed work-position warmup; native manufacturing drone reserve.",
+    "implementationStatus": "implemented-and-source-reviewed",
+    "localContracts": [
+      "No unfinished training plan in local simulation; preserve native fields.",
+      "Low-tier tailoring uses the user-selected fixed level-three peak distribution.",
+      "Ideal trade-order model and local maintenance filtering retained.",
+      "GameData remains v078; this update does not update the game catalog.",
+      "Explicit local single-recovery targets remain caller modelling assumptions; invalid targets disable only that provider bonus instead of retargeting.",
+      "Previously supported proven recovery-dependency returns keep exact task-and-position proof within one preview; the default native path receives no proof exception."
+    ],
+    "evidence": [
+      "Source-pinned native recovery oracle and 15 complete-preview snapshots match; original inputs and historical fixtures retained.",
+      "Independent scheduler review and source/type/build checks recorded in UPDATE_PLAN.md; overlapping suite counts are not added.",
+      "Built-in browser completed the public 252 sample through the real production Worker (72h warmup plus 168h sample); installed and game runtime evidence tracked separately."
+    ],
+    "wholeNativeRuntimeParity": false,
+    "gameRuntimeVerified": false,
+    "initialComparisonCommit": "ae9fc3223a5429bd523901d32fa4c34c9c3e510d",
+    "latestIncrementScope": "84e3926 dynamic personal-cap bed fillers, standby recovery tier, mandatory-before-optional group beds. Recycling upload changes are outside this offline calculator."
   }
 }
