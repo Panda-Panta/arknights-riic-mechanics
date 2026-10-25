@@ -2,6 +2,16 @@
 
 独立的后勤技能资料与机制核验工具，按 [Agent Skills 规范](https://agentskills.io/specification) 打包。当前固定国服 GameData v078 / 78.0.0，收录432名干员、763个buff定义、929条阶段技能、760条独立槽最高阶段技能及82条术语。数据收录、软件规则实现和真实游戏证据分别说明。
 
+## 2026-10-25 Mower 兼容核查与本地修正
+
+本次同步计算器627文件的修复前审查范围、Mower alpha `f19abfa3a53489d018c6eabd115b6cb68afcdc66` 增量来源及明确保留的模型边界。用户授权将双方共有的5类公式错误作为本地修正；安全条件语法、值运算及Unicode按Python3.12/Unicode15参考验证。启动读单、近期实测复用及整批读单的逐站失败保留另有原生源码和定向运行证据，详细范围见 [兼容说明](skills/arknights-riic-mechanics/references/mower-plan-compatibility.md) 和 [覆盖说明](skills/arknights-riic-mechanics/references/coverage.md)。文件级阅读覆盖不代表所有输入、分支或真实设备循环等价。
+
+最终长测补齐了切表后的物理宿舍恢复：槽位在固定主位与Free床位间变化时，实际驻员继续按宿舍恢复，避免把保留驻员的恢复率误记为0。此修正统一单项及批量心情导数，不扩大床位准入、不删除未来任务、不调整模拟时钟或旧测试预算。
+
+协调任务按原生范围保留替班依赖、相关房间及有效候补顺序；实际相关规则或观测变化可恢复原任务，空副表激活及无关条件位不会单独触发重试。对应计算器更新见 [PR26](https://github.com/Panda-Panta/R.I.I.C-Calculator/pull/26)，当前验证与交付状态以该PR及计算器计划为准。
+
+GameData继续使用v078固定快照，本次不更新干员资料。来源检查保留GameData、PRTS和旧Mower固定范围的stale，以及工具箱连接失败的unknown；不能把规则说明同步、离线包校验或这一固定Mower范围的检查称为整个数据包最新，也不宣称各agent平台已实际导入。
+
 ## 发布或导入前
 
 先从仓库根目录运行：
