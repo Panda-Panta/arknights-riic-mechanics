@@ -1,6 +1,10 @@
 # 明日方舟基建机制 Agent Skill
 
-独立的后勤技能资料与机制核验工具，按 [Agent Skills 规范](https://agentskills.io/specification) 打包。当前固定国服 GameData v078 / 78.0.0，收录432名干员、763个buff定义、929条阶段技能、760条独立槽最高阶段技能及82条术语。数据收录、软件规则实现和真实游戏证据分别说明。
+独立的后勤技能资料与机制核验工具，按 [Agent Skills 规范](https://agentskills.io/specification) 打包。当前固定国服 GameData v078 / 78.4.0，收录432名干员、763个buff定义、929条阶段技能、760条独立槽最高阶段技能及82条术语。数据收录、软件规则实现和真实游戏证据分别说明。
+
+## 2026-10-25 本机解包与后勤数据更新
+
+通过 ArknightsUnpacker 0.1.10 只读提取本机 PC 的 78.4.0 数据，与固定 GameData `fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad`、工具箱全部929条技能阶段及相关PRTS页面交叉核对。432名干员、929条阶段和数值机制未增加；旅骨说明采用当前“副产品”措辞。PC未命名的5个回收根字段由同版本固定公开镜像补足，分别保留两侧版本和SHA-256。可重跑入口与完整证据见 [本机数据更新说明](skills/arknights-riic-mechanics/references/unpacker-data.md) 和 [解包来源清单](skills/arknights-riic-mechanics/references/unpacker-source-manifest.json)。保留下述已合入Mower规则，不把本轮数据核对称为所有上游或平台均已验证。
 
 ## 2026-10-25 Mower 兼容核查与本地修正
 

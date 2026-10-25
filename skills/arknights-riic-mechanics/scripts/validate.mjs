@@ -28,6 +28,51 @@ export function packageManifest(root = skillRoot) {
   return { schemaVersion: 1, algorithm: 'SHA-256', packageSha256: hash(JSON.stringify(files)), files }
 }
 
+function validateUnpackerEvidence(root, source, counts, versionControl) {
+  if (source.unpackerEvidence === undefined) return
+  const binding = source.unpackerEvidence
+  assert(binding?.manifest === 'unpacker-source-manifest.json', 'Unpacker evidence filename must name the bundled receipt')
+  const bytes = fs.readFileSync(path.join(root, 'references', binding.manifest))
+  assert(/^[a-f0-9]{64}$/.test(binding.sha256 ?? '') && hash(bytes) === binding.sha256, 'Unpacker evidence SHA-256 differs from the bundled receipt')
+  const evidence = JSON.parse(bytes.toString('utf8'))
+  assert(evidence.schemaVersion === 1 && evidence.provider === 'ArknightsUnpacker', 'Unsupported Unpacker evidence schema')
+  assert(evidence.localGame?.dataVersion === versionControl && binding.dataVersion === versionControl &&
+    evidence.localGame.sourceVersion === source.sourceVersion, 'Unpacker data version differs from the fixed snapshot')
+  assert(evidence.mirror?.commit === source.commit && evidence.mirror.sourceVersion === source.sourceVersion &&
+    evidence.mirror.repository === 'Kengxxiao/ArknightsGameData', 'Unpacker mirror commit or version differs from the fixed snapshot')
+  const required = ['building_data.json', 'character_table.json', 'data_version.txt', 'gamedata_const.json', 'item_table.json']
+  for (const name of required) {
+    const mirror = evidence.mirror.sources?.[name]
+    assert(mirror?.sha256 === source.sources[name]?.sha256 && mirror?.url === source.sources[name]?.url &&
+      /^[a-f0-9]{64}$/.test(mirror?.sha256 ?? '') && Number.isInteger(mirror?.bytes) && mirror.bytes > 0, 'Unpacker mirror source: ' + name)
+  }
+  for (const [key, count] of Object.entries(counts)) assert(evidence.verification?.[key] === count, 'Unpacker ' + key + ' count differs from the catalog')
+  const isRelative = value => typeof value === 'string' && value.length > 0 &&
+    !/^(?:[A-Za-z]:|[\\/]|file:)/.test(value) && !value.split(/[\\/]/).includes('..')
+  const isFilename = value => isRelative(value) && !/[\\/]/.test(value)
+  const isDigest = value => /^[a-f0-9]{64}$/.test(value ?? '')
+  const isFileDigest = value => isDigest(value?.sha256) && Number.isInteger(value?.bytes) && value.bytes > 0
+  assert(typeof evidence.checkedAt === 'string' && Number.isFinite(Date.parse(evidence.checkedAt)), 'Unpacker check timestamp missing')
+  assert(typeof evidence.localGame.resourceVersion === 'string' && evidence.localGame.resourceVersion.length > 0 &&
+    isFilename(evidence.localGame.activeIndex?.filename) && isDigest(evidence.localGame.activeIndex?.sha256), 'Unpacker active resource provenance missing')
+  const tool = evidence.tool
+  assert(typeof tool?.version === 'string' && tool.version.length > 0 && /^[a-f0-9]{40}$/.test(tool.commit ?? '') &&
+    /^[a-f0-9]{40}$/.test(tool.schemaCommit ?? '') && typeof tool.decoderVersion === 'string' &&
+    tool.decoderVersion.length > 0 && isDigest(tool.normalizerSha256), 'Unpacker tool provenance missing')
+  assert(Array.isArray(tool.sourceFiles) && tool.sourceFiles.length > 0 &&
+    tool.sourceFiles.every(file => isRelative(file.path) && isDigest(file.sha256)), 'Unpacker tool source provenance is not portable')
+  for (const name of required) {
+    const table = evidence.tables?.[name.replace(/\.(?:json|txt)$/, '')]
+    assert(isFilename(table?.source?.filename), 'Unpacker source filename must be a portable basename: ' + name)
+    assert(isRelative(table.source.logicalName) && typeof table.source.layer === 'string' && table.source.layer.length > 0 &&
+      isFileDigest(table.source) && isFileDigest(table.raw) && isFileDigest(table.normalized), 'Unpacker table provenance missing: ' + name)
+  }
+  const unknown = ['recycleData', 'recycleRoomConsts', 'recycleRoomInputItemDatas', 'recycleRoomOutputPoolDatas', 'recycleRoomOutputPoolContentDatas']
+  assert(Array.isArray(evidence.unknownFields?.buildingRoots) &&
+    JSON.stringify([...evidence.unknownFields.buildingRoots].sort()) === JSON.stringify(unknown.sort()), 'Unpacker unknown building fields must preserve the five undecoded recycle roots')
+  assert(typeof evidence.evidenceBoundary === 'string' && evidence.evidenceBoundary.length > 0, 'Unpacker evidence boundary missing')
+}
+
 export function validateSkill(root = skillRoot, { verifyManifest = true } = {}) {
   root = path.resolve(root)
   const entry = fs.readFileSync(path.join(root, 'SKILL.md'), 'utf8').replaceAll('\r\n', '\n')
@@ -77,6 +122,7 @@ export function validateSkill(root = skillRoot, { verifyManifest = true } = {}) 
   assert(catalog.manifest.sourceCommit === source.commit && decoded.metadata.sourceCommit === source.commit && terms.sourceCommit === source.commit && update.gameData.commit === source.commit, 'Mixed source commits in package')
   const versionControl = /VersionControl:([^\s]+)/.exec(source.sourceVersion)?.[1]
   assert(catalog.manifest.sourceVersion === source.sourceVersion && decoded.metadata.sourceVersion === source.sourceVersion && terms.dataVersion === versionControl && update.gameData.version === versionControl, 'Mixed GameData versions in package')
+  validateUnpackerEvidence(root, source, counts, versionControl)
   assert(catalog.manifest.operatorCount === counts.operators && catalog.manifest.skillStageCount === counts.skillStages && catalog.manifest.highestSkillCount === counts.highestSkills && catalog.manifest.buffDefinitionCount === counts.buffDefinitions, 'Catalog metadata count mismatch')
   assert(Object.keys(decoded.operators).length === counts.operators && decoded.metadata.skillStageCount === counts.skillStages, 'Decoded catalog is incomplete')
   for (const [filename, evidence] of Object.entries(source.sources)) assert(catalog.manifest.sources[filename]?.sha256 === evidence.sha256 && /^[a-f0-9]{64}$/.test(evidence.sha256) && evidence.url.includes(`/${source.commit}/`), `Inconsistent pinned source: ${filename}`)

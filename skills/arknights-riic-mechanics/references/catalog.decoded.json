@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-12T13:12:38.800Z",
-    "sourceVersion": "Stream://torappu-data/v078/rel78.0\nChange:124981 on 2026/10/08\nVersionControl:78.0.0",
-    "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+    "generatedAt": "2026-10-25T11:17:22.0073989Z",
+    "sourceVersion": "Stream://torappu-data/v078/rel78.0\nChange:126729 on 2026/10/22\nVersionControl:78.4.0",
+    "sourceCommit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
     "operatorCount": 432,
     "skillStageCount": 929,
     "sourceManifest": "gamedata-source-manifest.json",
@@ -17888,7 +17888,7 @@
           "efficiency": 0,
           "buffColor": "#e3eb00",
           "textColor": "#333333",
-          "description": "进驻加工站加工手性屈光体或重相位对映体时，副产物的产出概率提升90%",
+          "description": "进驻加工站加工手性屈光体或重相位对映体时，副产品的产出概率提升90%",
           "synergy": null,
           "skillIcon": "bskill_ws_Refractor",
           "buffCategory": "FUNCTION",

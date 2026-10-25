@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-12T13:12:38.800Z",
+  "generatedAt": "2026-10-25T11:17:22.0073989Z",
   "repository": "https://github.com/Kengxxiao/ArknightsGameData",
-  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
   "locale": "zh_CN",
-  "sourceVersion": "Stream://torappu-data/v078/rel78.0\nChange:124981 on 2026/10/08\nVersionControl:78.0.0",
+  "sourceVersion": "Stream://torappu-data/v078/rel78.0\nChange:126729 on 2026/10/22\nVersionControl:78.4.0",
   "sources": {
     "building_data.json": {
-      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/building_data.json",
-      "sha256": "b98657bc691224a01d3cd044bf68698e9664e7f26c5d24ae104352be7954049b"
+      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/building_data.json",
+      "sha256": "1bc8d9e968f428bd9e2fb50350815a1cb019bf5c37e02b656b1423ab06a1fcbd"
     },
     "character_table.json": {
-      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/character_table.json",
-      "sha256": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4"
-    },
-    "data_version.txt": {
-      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/data_version.txt",
-      "sha256": "5db63b06c30c2d245a652ae0227fddbe4fa55b86915f4b15bbda9e02629a8c40"
+      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/character_table.json",
+      "sha256": "e8f42a2dd5c5e72ec3fc7282ee7c0d06aadb5ccdfb2c0b63dd6da55de6c17ba5"
     },
     "gamedata_const.json": {
-      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/gamedata_const.json",
-      "sha256": "f0d9f0d4146c3a7adeedb57c114d9a1a9ea0eed6453aabbd05355115a441971c"
+      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/gamedata_const.json",
+      "sha256": "1994ccfd77b2503ce1309b9df0c3759a0ce1a0a097ef79d8cfa1a01f500353c2"
     },
     "item_table.json": {
-      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/item_table.json",
-      "sha256": "b909f23b29bb06bdecaaa6eda7b8bdb21a1a7434ebc51b94bfb93b289c535826"
+      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/item_table.json",
+      "sha256": "8de5dc5ce44a2c498e5fa17fb6a600684734055d13ac0e01b4ca9d5b3cd148a0"
+    },
+    "data_version.txt": {
+      "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/data_version.txt",
+      "sha256": "b87fdf2bb2aaad60f7e370523e5a982767ccf2f11030f05cc4869bf20efcb0d6"
     }
   },
   "counts": {
@@ -32,6 +32,11 @@
     "highestSkills": 760,
     "skillStages": 929,
     "terms": 82
+  },
+  "unpackerEvidence": {
+    "manifest": "unpacker-source-manifest.json",
+    "sha256": "b271f88d62396449f7599d6e978d3478d1ec5b4cd4cb226ad8b515743d2350bb",
+    "dataVersion": "78.4.0"
   },
   "evidenceType": "Pinned extracted GameData, cross-checked with Toolbox and new operator PRTS pages; numeric regressions are separate from live-game verification."
 }

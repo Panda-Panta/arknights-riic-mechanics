@@ -1,34 +1,34 @@
 {
   "manifest": {
-    "generatedAt": "2026-10-12T13:12:38.800Z",
-    "sourceVersion": "Stream://torappu-data/v078/rel78.0\nChange:124981 on 2026/10/08\nVersionControl:78.0.0",
-    "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+    "generatedAt": "2026-10-25T11:17:22.0073989Z",
+    "sourceVersion": "Stream://torappu-data/v078/rel78.0\nChange:126729 on 2026/10/22\nVersionControl:78.4.0",
+    "sourceCommit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
     "operatorCount": 432,
     "buffDefinitionCount": 763,
     "skillStageCount": 929,
     "highestSkillCount": 760,
-    "buildingSha256": "b98657bc691224a01d3cd044bf68698e9664e7f26c5d24ae104352be7954049b",
-    "charactersSha256": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4",
+    "buildingSha256": "1bc8d9e968f428bd9e2fb50350815a1cb019bf5c37e02b656b1423ab06a1fcbd",
+    "charactersSha256": "e8f42a2dd5c5e72ec3fc7282ee7c0d06aadb5ccdfb2c0b63dd6da55de6c17ba5",
     "sources": {
       "building_data.json": {
-        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/building_data.json",
-        "sha256": "b98657bc691224a01d3cd044bf68698e9664e7f26c5d24ae104352be7954049b"
+        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/building_data.json",
+        "sha256": "1bc8d9e968f428bd9e2fb50350815a1cb019bf5c37e02b656b1423ab06a1fcbd"
       },
       "character_table.json": {
-        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/character_table.json",
-        "sha256": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4"
-      },
-      "data_version.txt": {
-        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/data_version.txt",
-        "sha256": "5db63b06c30c2d245a652ae0227fddbe4fa55b86915f4b15bbda9e02629a8c40"
+        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/character_table.json",
+        "sha256": "e8f42a2dd5c5e72ec3fc7282ee7c0d06aadb5ccdfb2c0b63dd6da55de6c17ba5"
       },
       "gamedata_const.json": {
-        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/gamedata_const.json",
-        "sha256": "f0d9f0d4146c3a7adeedb57c114d9a1a9ea0eed6453aabbd05355115a441971c"
+        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/gamedata_const.json",
+        "sha256": "1994ccfd77b2503ce1309b9df0c3759a0ce1a0a097ef79d8cfa1a01f500353c2"
       },
       "item_table.json": {
-        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/item_table.json",
-        "sha256": "b909f23b29bb06bdecaaa6eda7b8bdb21a1a7434ebc51b94bfb93b289c535826"
+        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/item_table.json",
+        "sha256": "8de5dc5ce44a2c498e5fa17fb6a600684734055d13ac0e01b4ca9d5b3cd148a0"
+      },
+      "data_version.txt": {
+        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/data_version.txt",
+        "sha256": "b87fdf2bb2aaad60f7e370523e5a982767ccf2f11030f05cc4869bf20efcb0d6"
       }
     },
     "sourceManifest": "gamedata-source-manifest.json",
@@ -37,7 +37,12 @@
       "isAlter": "Previously audited isAlter flags are retained; new entries use character_table.isSpChar. RIIC term membership overrides roster affiliation where applicable."
     },
     "historicalSourceManifest": "arkntools-source-manifest.json",
-    "crossCheckManifest": "logistics-update-manifest.json"
+    "crossCheckManifest": "logistics-update-manifest.json",
+    "unpackerEvidence": {
+      "manifest": "unpacker-source-manifest.json",
+      "sha256": "b271f88d62396449f7599d6e978d3478d1ec5b4cd4cb226ad8b515743d2350bb",
+      "dataVersion": "78.4.0"
+    }
   },
   "operators": [
     {
@@ -100,7 +105,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_009_12fce"
       }
     },
@@ -166,7 +171,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_225_haak"
       }
     },
@@ -255,7 +260,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4178_alanna"
       }
     },
@@ -325,7 +330,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_446_aroma"
       }
     },
@@ -389,7 +394,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_002_amiya"
       }
     },
@@ -453,7 +458,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4132_ascln"
       }
     },
@@ -519,7 +524,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_277_sqrrel"
       }
     },
@@ -583,7 +588,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4218_aigis"
       }
     },
@@ -650,7 +655,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4043_erato"
       }
     },
@@ -723,7 +728,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4123_ela"
       }
     },
@@ -799,7 +804,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4009_irene"
       }
     },
@@ -868,7 +873,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_127_estell"
       }
     },
@@ -934,7 +939,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_180_amgoat"
       }
     },
@@ -998,7 +1003,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_338_iris"
       }
     },
@@ -1062,7 +1067,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_302_glaze"
       }
     },
@@ -1130,7 +1135,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_211_adnach"
       }
     },
@@ -1193,7 +1198,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_291_aglina"
       }
     },
@@ -1258,7 +1263,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_212_ansel"
       }
     },
@@ -1321,7 +1326,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_218_cuttle"
       }
     },
@@ -1385,7 +1390,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_236_rope"
       }
     },
@@ -1468,7 +1473,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4131_odda"
       }
     },
@@ -1536,7 +1541,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_346_aosta"
       }
     },
@@ -1600,7 +1605,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4186_tmoris"
       }
     },
@@ -1667,7 +1672,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_204_platnm"
       }
     },
@@ -1738,7 +1743,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_128_plosis"
       }
     },
@@ -1806,7 +1811,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4072_ironmn"
       }
     },
@@ -1872,7 +1877,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_118_yuki"
       }
     },
@@ -1961,7 +1966,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1026_gvial2"
       }
     },
@@ -2024,7 +2029,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_252_bibeak"
       }
     },
@@ -2087,7 +2092,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4166_varkis"
       }
     },
@@ -2150,7 +2155,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_325_bison"
       }
     },
@@ -2220,7 +2225,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_284_spot"
       }
     },
@@ -2309,7 +2314,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_388_mint"
       }
     },
@@ -2375,7 +2380,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_230_savage"
       }
     },
@@ -2462,7 +2467,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_304_zebra"
       }
     },
@@ -2545,7 +2550,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4037_demetr"
       }
     },
@@ -2613,7 +2618,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_369_bena"
       }
     },
@@ -2688,7 +2693,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_265_sophia"
       }
     },
@@ -2752,7 +2757,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4104_coldst"
       }
     },
@@ -2816,7 +2821,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_487_bobb"
       }
     },
@@ -2899,7 +2904,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_258_podego"
       }
     },
@@ -2967,7 +2972,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4223_botany"
       }
     },
@@ -3031,7 +3036,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4004_pudd"
       }
     },
@@ -3098,7 +3103,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_356_broca"
       }
     },
@@ -3169,7 +3174,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4155_talr"
       }
     },
@@ -3239,7 +3244,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4106_bryota"
       }
     },
@@ -3305,7 +3310,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_289_gyuki"
       }
     },
@@ -3369,7 +3374,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4047_pianst"
       }
     },
@@ -3433,7 +3438,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_010_chen"
       }
     },
@@ -3497,7 +3502,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1027_greyy2"
       }
     },
@@ -3560,7 +3565,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_377_gdglow"
       }
     },
@@ -3624,7 +3629,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_445_wscoot"
       }
     },
@@ -3688,7 +3693,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4065_judge"
       }
     },
@@ -3755,7 +3760,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_475_akafyu"
       }
     },
@@ -3819,7 +3824,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1050_chen3"
       }
     },
@@ -3886,7 +3891,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4082_qiubai"
       }
     },
@@ -3952,7 +3957,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_174_slbell"
       }
     },
@@ -4039,7 +4044,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1016_agoat2"
       }
     },
@@ -4103,7 +4108,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_427_vigil"
       }
     },
@@ -4166,7 +4171,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_494_vendla"
       }
     },
@@ -4234,7 +4239,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1031_slent2"
       }
     },
@@ -4301,7 +4306,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_362_saga"
       }
     },
@@ -4368,7 +4373,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_157_dagda"
       }
     },
@@ -4432,7 +4437,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4110_delphn"
       }
     },
@@ -4515,7 +4520,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4032_provs"
       }
     },
@@ -4592,7 +4597,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4126_fuze"
       }
     },
@@ -4675,7 +4680,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_393_toledo"
       }
     },
@@ -4739,7 +4744,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_102_texas"
       }
     },
@@ -4824,7 +4829,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_183_skgoat"
       }
     },
@@ -4888,7 +4893,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1034_jesca2"
       }
     },
@@ -4962,7 +4967,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4191_tippi"
       }
     },
@@ -5026,7 +5031,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4195_radian"
       }
     },
@@ -5096,7 +5101,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_181_flower"
       }
     },
@@ -5167,7 +5172,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4208_wintim"
       }
     },
@@ -5235,7 +5240,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_452_bstalk"
       }
     },
@@ -5308,7 +5313,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_130_doberm"
       }
     },
@@ -5369,7 +5374,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_501_durin"
       }
     },
@@ -5433,7 +5438,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4147_mitm"
       }
     },
@@ -5496,7 +5501,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_294_ayer"
       }
     },
@@ -5562,7 +5567,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_159_peacok"
       }
     },
@@ -5634,7 +5639,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4048_doroth"
       }
     },
@@ -5697,7 +5702,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4083_chimes"
       }
     },
@@ -5784,7 +5789,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_271_spikes"
       }
     },
@@ -5848,7 +5853,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4148_philae"
       }
     },
@@ -5912,7 +5917,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_300_phenxi"
       }
     },
@@ -5979,7 +5984,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_123_fang"
       }
     },
@@ -6062,7 +6067,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4182_oblvns"
       }
     },
@@ -6128,7 +6133,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_222_bpipe"
       }
     },
@@ -6192,7 +6197,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4016_kazema"
       }
     },
@@ -6256,7 +6261,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4222_taraxa"
       }
     },
@@ -6362,7 +6367,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_106_franka"
       }
     },
@@ -6427,7 +6432,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_120_hibisc"
       }
     },
@@ -6490,7 +6495,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4031_liesel"
       }
     },
@@ -6573,7 +6578,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_474_glady"
       }
     },
@@ -6640,7 +6645,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_220_grani"
       }
     },
@@ -6703,7 +6708,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_326_glacus"
       }
     },
@@ -6772,7 +6777,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_253_greyy"
       }
     },
@@ -6836,7 +6841,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_196_sunbr"
       }
     },
@@ -6925,7 +6930,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1023_ghost2"
       }
     },
@@ -6989,7 +6994,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4163_rosesa"
       }
     },
@@ -7056,7 +7061,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_394_hadiya"
       }
     },
@@ -7120,7 +7125,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4114_harold"
       }
     },
@@ -7203,7 +7208,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4045_heidi"
       }
     },
@@ -7271,7 +7276,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4066_highmo"
       }
     },
@@ -7334,7 +7339,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4079_haini"
       }
     },
@@ -7400,7 +7405,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1021_kroos2"
       }
     },
@@ -7473,7 +7478,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_341_sntlla"
       }
     },
@@ -7541,7 +7546,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4039_horn"
       }
     },
@@ -7605,7 +7610,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_297_hamoni"
       }
     },
@@ -7675,7 +7680,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4041_chnut"
       }
     },
@@ -7738,7 +7743,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4088_hodrer"
       }
     },
@@ -7842,7 +7847,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_188_helage"
       }
     },
@@ -7913,7 +7918,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_108_silent"
       }
     },
@@ -7979,7 +7984,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_340_shwaz"
       }
     },
@@ -8062,7 +8067,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4046_ebnhlz"
       }
     },
@@ -8128,7 +8133,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_500_noirc"
       }
     },
@@ -8191,7 +8196,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4140_lasher"
       }
     },
@@ -8260,7 +8265,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_226_hmau"
       }
     },
@@ -8324,7 +8329,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_144_red"
       }
     },
@@ -8392,7 +8397,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_290_vigna"
       }
     },
@@ -8456,7 +8461,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4023_rfalcn"
       }
     },
@@ -8524,7 +8529,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_190_clour"
       }
     },
@@ -8588,7 +8593,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4055_bgsnow"
       }
     },
@@ -8650,7 +8655,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4220_kormr"
       }
     },
@@ -8717,7 +8722,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_171_bldsk"
       }
     },
@@ -8785,7 +8790,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_243_waaifu"
       }
     },
@@ -8861,7 +8866,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1038_whitw2"
       }
     },
@@ -8927,7 +8932,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_017_huang"
       }
     },
@@ -8998,7 +9003,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_431_ashlok"
       }
     },
@@ -9062,7 +9067,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_367_swllow"
       }
     },
@@ -9126,7 +9131,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_456_ash"
       }
     },
@@ -9190,7 +9195,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1030_noirc2"
       }
     },
@@ -9254,7 +9259,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_493_firwhl"
       }
     },
@@ -9325,7 +9330,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_163_hpsts"
       }
     },
@@ -9408,7 +9413,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4027_heyak"
       }
     },
@@ -9478,7 +9483,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4230_mcnist"
       }
     },
@@ -9541,7 +9546,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4203_kichi"
       }
     },
@@ -9608,7 +9613,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_422_aurora"
       }
     },
@@ -9672,7 +9677,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_401_elysm"
       }
     },
@@ -9746,7 +9751,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_293_thorns"
       }
     },
@@ -9814,7 +9819,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_187_ccheal"
       }
     },
@@ -9878,7 +9883,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4237_jcinta"
       }
     },
@@ -9946,7 +9951,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_349_chiave"
       }
     },
@@ -10035,7 +10040,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1013_chen2"
       }
     },
@@ -10101,7 +10106,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_260_durnar"
       }
     },
@@ -10170,7 +10175,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1028_texas2"
       }
     },
@@ -10253,7 +10258,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4116_blkkgt"
       }
     },
@@ -10316,7 +10321,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4036_forcer"
       }
     },
@@ -10382,7 +10387,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_199_yak"
       }
     },
@@ -10446,7 +10451,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_272_strong"
       }
     },
@@ -10510,7 +10515,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_347_jaksel"
       }
     },
@@ -10578,7 +10583,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_235_jesica"
       }
     },
@@ -10646,7 +10651,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4217_makoto"
       }
     },
@@ -10737,7 +10742,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4078_bdhkgt"
       }
     },
@@ -10800,7 +10805,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_306_leizi"
       }
     },
@@ -10874,7 +10879,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4019_ncdeer"
       }
     },
@@ -10941,7 +10946,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1042_phatm2"
       }
     },
@@ -11008,7 +11013,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4221_ju"
       }
     },
@@ -11076,7 +11081,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_328_cammou"
       }
     },
@@ -11139,7 +11144,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_214_kafka"
       }
     },
@@ -11206,7 +11211,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_426_billro"
       }
     },
@@ -11273,7 +11278,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_209_ardign"
       }
     },
@@ -11342,7 +11347,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_003_kalts"
       }
     },
@@ -11435,7 +11440,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1052_kalts2"
       }
     },
@@ -11533,7 +11538,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4162_cathy"
       }
     },
@@ -11597,7 +11602,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4228_closur"
       }
     },
@@ -11660,7 +11665,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_201_moeshd"
       }
     },
@@ -11724,7 +11729,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4231_clemnt"
       }
     },
@@ -11791,7 +11796,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_124_kroos"
       }
     },
@@ -11859,7 +11864,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_301_cutter"
       }
     },
@@ -11927,7 +11932,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_2013_cerber"
       }
     },
@@ -11991,7 +11996,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_101_sora"
       }
     },
@@ -12056,7 +12061,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_282_catap"
       }
     },
@@ -12139,7 +12144,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4015_spuria"
       }
     },
@@ -12202,7 +12207,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_332_archet"
       }
     },
@@ -12266,7 +12271,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_405_absin"
       }
     },
@@ -12333,7 +12338,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_250_phatom"
       }
     },
@@ -12396,7 +12401,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_140_whitew"
       }
     },
@@ -12464,7 +12469,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_373_lionhd"
       }
     },
@@ -12528,7 +12533,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4142_laios"
       }
     },
@@ -12617,7 +12622,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4117_ray"
       }
     },
@@ -12684,7 +12689,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_129_bluep"
       }
     },
@@ -12748,7 +12753,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_322_lmlee"
       }
     },
@@ -12837,7 +12842,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1049_catap2"
       }
     },
@@ -12900,7 +12905,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_107_liskam"
       }
     },
@@ -12963,7 +12968,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4193_lemuen"
       }
     },
@@ -13035,7 +13040,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1036_fang2"
       }
     },
@@ -13106,7 +13111,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_237_gravel"
       }
     },
@@ -13174,7 +13179,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_194_leto"
       }
     },
@@ -13242,7 +13247,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_137_brownb"
       }
     },
@@ -13308,7 +13313,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4225_tanya"
       }
     },
@@ -13372,7 +13377,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4080_lin"
       }
     },
@@ -13436,7 +13441,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_148_nearl"
       }
     },
@@ -13500,7 +13505,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1033_swire2"
       }
     },
@@ -13563,7 +13568,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_115_headbr"
       }
     },
@@ -13626,7 +13631,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4102_threye"
       }
     },
@@ -13713,7 +13718,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1045_svash2"
       }
     },
@@ -13777,7 +13782,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_206_gnosis"
       }
     },
@@ -13844,7 +13849,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_358_lisa"
       }
     },
@@ -13909,7 +13914,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_192_falco"
       }
     },
@@ -13975,7 +13980,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4187_graceb"
       }
     },
@@ -14039,7 +14044,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_2023_ling"
       }
     },
@@ -14102,7 +14107,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4042_lumen"
       }
     },
@@ -14170,7 +14175,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_126_shotst"
       }
     },
@@ -14233,7 +14238,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_486_takila"
       }
     },
@@ -14308,7 +14313,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4196_reckpr"
       }
     },
@@ -14376,7 +14381,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4130_luton"
       }
     },
@@ -14446,7 +14451,7 @@
             "textColor": "#333333",
             "buffCategory": "FUNCTION",
             "roomType": "WORKSHOP",
-            "description": "进驻加工站加工<@cc.kw>手性屈光体</>或<@cc.kw>重相位对映体</>时，副产物的产出概率提升<@cc.vup>90%</>",
+            "description": "进驻加工站加工<@cc.kw>手性屈光体</>或<@cc.kw>重相位对映体</>时，副产品的产出概率提升<@cc.vup>90%</>",
             "efficiency": 0,
             "targetGroupSortId": 2,
             "targets": [
@@ -14461,7 +14466,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4232_hbound"
       }
     },
@@ -14531,7 +14536,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_433_windft"
       }
     },
@@ -14601,7 +14606,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_484_robrta"
       }
     },
@@ -14668,7 +14673,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_451_robin"
       }
     },
@@ -14730,7 +14735,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4215_buddy"
       }
     },
@@ -14804,7 +14809,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4067_lolxh"
       }
     },
@@ -14880,7 +14885,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4133_logos"
       }
     },
@@ -14951,7 +14956,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4040_rockr"
       }
     },
@@ -15015,7 +15020,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4064_mlynar"
       }
     },
@@ -15110,7 +15115,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4141_marcil"
       }
     },
@@ -15184,7 +15189,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_248_mgllan"
       }
     },
@@ -15251,7 +15256,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4006_melnte"
       }
     },
@@ -15319,7 +15324,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_208_melan"
       }
     },
@@ -15383,7 +15388,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_133_mm"
       }
     },
@@ -15456,7 +15461,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_242_otter"
       }
     },
@@ -15547,7 +15552,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_391_rosmon"
       }
     },
@@ -15611,7 +15616,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4017_puzzle"
       }
     },
@@ -15678,7 +15683,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_122_beagle"
       }
     },
@@ -15745,7 +15750,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_344_beewax"
       }
     },
@@ -15832,7 +15837,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_449_glider"
       }
     },
@@ -15915,7 +15920,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4071_peper"
       }
     },
@@ -15983,7 +15988,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4229_aphris"
       }
     },
@@ -16047,7 +16052,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_154_morgan"
       }
     },
@@ -16130,7 +16135,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4134_cetsyr"
       }
     },
@@ -16196,7 +16201,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_117_myrrh"
       }
     },
@@ -16259,7 +16264,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_213_mostma"
       }
     },
@@ -16323,7 +16328,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_249_mlyss"
       }
     },
@@ -16391,7 +16396,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4171_wulfen"
       }
     },
@@ -16455,7 +16460,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_185_frncat"
       }
     },
@@ -16522,7 +16527,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4025_aprot2"
       }
     },
@@ -16588,7 +16593,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4138_narant"
       }
     },
@@ -16658,7 +16663,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4212_nasti"
       }
     },
@@ -16721,7 +16726,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_103_angel"
       }
     },
@@ -16804,7 +16809,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4146_nymph"
       }
     },
@@ -16872,7 +16877,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_311_mudrok"
       }
     },
@@ -16940,7 +16945,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_2014_nian"
       }
     },
@@ -17027,7 +17032,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1051_headb2"
       }
     },
@@ -17095,7 +17100,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4173_nowell"
       }
     },
@@ -17161,7 +17166,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_485_pallas"
       }
     },
@@ -17229,7 +17234,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_381_bubble"
       }
     },
@@ -17296,7 +17301,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_281_popka"
       }
     },
@@ -17363,7 +17368,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4234_pedro"
       }
     },
@@ -17427,7 +17432,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4058_pepe"
       }
     },
@@ -17490,7 +17495,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_145_prove"
       }
     },
@@ -17554,7 +17559,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4144_chilc"
       }
     },
@@ -17618,7 +17623,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1029_yato2"
       }
     },
@@ -17681,7 +17686,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_478_kirara"
       }
     },
@@ -17753,7 +17758,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4062_totter"
       }
     },
@@ -17817,7 +17822,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_479_sleach"
       }
     },
@@ -17885,7 +17890,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_488_buildr"
       }
     },
@@ -17949,7 +17954,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_149_scave"
       }
     },
@@ -18015,7 +18020,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_385_finlpp"
       }
     },
@@ -18098,7 +18103,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4026_vulpis"
       }
     },
@@ -18166,7 +18171,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_363_toddi"
       }
     },
@@ -18230,7 +18235,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4183_mortis"
       }
     },
@@ -18293,7 +18298,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_202_demkni"
       }
     },
@@ -18357,7 +18362,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4184_dolris"
       }
     },
@@ -18440,7 +18445,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_473_mberry"
       }
     },
@@ -18531,7 +18536,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_416_zumama"
       }
     },
@@ -18595,7 +18600,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4143_sensi"
       }
     },
@@ -18662,7 +18667,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4139_papyrs"
       }
     },
@@ -18726,7 +18731,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_264_f12yin"
       }
     },
@@ -18790,7 +18795,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4235_thumpy"
       }
     },
@@ -18854,7 +18859,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_457_blitz"
       }
     },
@@ -18917,7 +18922,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_147_shining"
       }
     },
@@ -18985,7 +18990,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_150_snakek"
       }
     },
@@ -19053,7 +19058,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_379_sesa"
       }
     },
@@ -19136,7 +19141,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_469_indigo"
       }
     },
@@ -19205,7 +19210,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_110_deepcl"
       }
     },
@@ -19288,7 +19293,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4109_baslin"
       }
     },
@@ -19351,7 +19356,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4137_udflow"
       }
     },
@@ -19414,7 +19419,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1046_sbell2"
       }
     },
@@ -19503,7 +19508,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1032_excu2"
       }
     },
@@ -19576,7 +19581,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_308_swire"
       }
     },
@@ -19643,7 +19648,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_215_mantic"
       }
     },
@@ -19711,7 +19716,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_378_asbest"
       }
     },
@@ -19779,7 +19784,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4063_quartz"
       }
     },
@@ -19845,7 +19850,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4236_tmslot"
       }
     },
@@ -19934,7 +19939,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_489_serum"
       }
     },
@@ -20001,7 +20006,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_241_panda"
       }
     },
@@ -20068,7 +20073,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_210_stward"
       }
     },
@@ -20135,7 +20140,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_350_surtr"
       }
     },
@@ -20203,7 +20208,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1502_crosly"
       }
     },
@@ -20266,7 +20271,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_158_milu"
       }
     },
@@ -20334,7 +20339,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_2025_shu"
       }
     },
@@ -20407,7 +20412,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4124_iana"
       }
     },
@@ -20476,7 +20481,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_458_rfrost"
       }
     },
@@ -20542,7 +20547,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_193_frostl"
       }
     },
@@ -20605,7 +20610,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4177_brigid"
       }
     },
@@ -20677,7 +20682,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_437_mizuki"
       }
     },
@@ -20743,7 +20748,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1043_leizi2"
       }
     },
@@ -20806,7 +20811,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_263_skadi"
       }
     },
@@ -20895,7 +20900,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_450_necras"
       }
     },
@@ -20978,7 +20983,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_365_aprl"
       }
     },
@@ -21046,7 +21051,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_440_pinecn"
       }
     },
@@ -21110,7 +21115,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4199_makiri"
       }
     },
@@ -21176,7 +21181,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_279_excu"
       }
     },
@@ -21244,7 +21249,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_298_susuro"
       }
     },
@@ -21308,7 +21313,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_245_cello"
       }
     },
@@ -21380,7 +21385,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1047_halo2"
       }
     },
@@ -21444,7 +21449,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_366_acdrop"
       }
     },
@@ -21511,7 +21516,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_415_flint"
       }
     },
@@ -21577,7 +21582,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4077_palico"
       }
     },
@@ -21641,7 +21646,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_151_myrtle"
       }
     },
@@ -21709,7 +21714,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4164_tecno"
       }
     },
@@ -21775,7 +21780,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_411_tomimi"
       }
     },
@@ -21841,7 +21846,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_2012_typhon"
       }
     },
@@ -21930,7 +21935,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4056_titi"
       }
     },
@@ -21997,7 +22002,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_166_skfire"
       }
     },
@@ -22063,7 +22068,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4213_skybx"
       }
     },
@@ -22126,7 +22131,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_402_tuye"
       }
     },
@@ -22189,7 +22194,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_112_siege"
       }
     },
@@ -22263,7 +22268,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4119_wanqin"
       }
     },
@@ -22336,7 +22341,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_2027_wang"
       }
     },
@@ -22399,7 +22404,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_275_breeze"
       }
     },
@@ -22463,7 +22468,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4098_vvana"
       }
     },
@@ -22531,7 +22536,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4107_vrdant"
       }
     },
@@ -22594,7 +22599,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1019_siege2"
       }
     },
@@ -22677,7 +22682,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1035_wisdel"
       }
     },
@@ -22770,7 +22775,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4226_veen"
       }
     },
@@ -22834,7 +22839,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_261_sddrag"
       }
     },
@@ -22905,7 +22910,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_400_weedy"
       }
     },
@@ -22990,7 +22995,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4081_warmy"
       }
     },
@@ -23066,7 +23071,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4145_ulpia"
       }
     },
@@ -23129,7 +23134,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4224_turdus"
       }
     },
@@ -23193,7 +23198,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_455_nothin"
       }
     },
@@ -23257,7 +23262,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_254_vodfox"
       }
     },
@@ -23321,7 +23326,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_2015_dusk"
       }
     },
@@ -23391,7 +23396,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_336_folivo"
       }
     },
@@ -23459,7 +23464,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_348_ceylon"
       }
     },
@@ -23522,7 +23527,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4151_tinman"
       }
     },
@@ -23590,7 +23595,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_423_blemsh"
       }
     },
@@ -23654,7 +23659,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_492_quercu"
       }
     },
@@ -23721,7 +23726,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_240_wyvern"
       }
     },
@@ -23804,7 +23809,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4214_cairn"
       }
     },
@@ -23868,7 +23873,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4122_grabds"
       }
     },
@@ -23931,7 +23936,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_497_ctable"
       }
     },
@@ -24014,7 +24019,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4051_akkord"
       }
     },
@@ -24078,7 +24083,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1022_flwr2"
       }
     },
@@ -24161,7 +24166,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1041_angel2"
       }
     },
@@ -24244,7 +24249,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4194_rmixer"
       }
     },
@@ -24307,7 +24312,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_274_astesi"
       }
     },
@@ -24374,7 +24379,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_136_hsguma"
       }
     },
@@ -24445,7 +24450,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_135_halo"
       }
     },
@@ -24528,7 +24533,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4172_xingzh"
       }
     },
@@ -24596,7 +24601,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4105_almond"
       }
     },
@@ -24667,7 +24672,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_491_humus"
       }
     },
@@ -24731,7 +24736,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_436_whispr"
       }
     },
@@ -24802,7 +24807,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4211_snhunt"
       }
     },
@@ -24865,7 +24870,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_466_qanik"
       }
     },
@@ -24928,7 +24933,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_383_snsant"
       }
     },
@@ -24991,7 +24996,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4052_surfer"
       }
     },
@@ -25058,7 +25063,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_503_rang"
       }
     },
@@ -25122,7 +25127,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_198_blackd"
       }
     },
@@ -25186,7 +25191,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_173_slchan"
       }
     },
@@ -25254,7 +25259,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_345_folnic"
       }
     },
@@ -25321,7 +25326,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_131_flameb"
       }
     },
@@ -25386,7 +25391,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_121_lava"
       }
     },
@@ -25450,7 +25455,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1011_lava2"
       }
     },
@@ -25514,7 +25519,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_337_utage"
       }
     },
@@ -25578,7 +25583,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1048_orchd2"
       }
     },
@@ -25642,7 +25647,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_420_flamtl"
       }
     },
@@ -25731,7 +25736,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1020_reed2"
       }
     },
@@ -25799,7 +25804,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_464_cement"
       }
     },
@@ -25863,7 +25868,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4202_haruka"
       }
     },
@@ -25944,7 +25949,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1014_nearl2"
       }
     },
@@ -26027,7 +26032,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4013_kjera"
       }
     },
@@ -26098,7 +26103,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_496_wildmn"
       }
     },
@@ -26165,7 +26170,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_476_blkngt"
       }
     },
@@ -26231,7 +26236,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_502_nblade"
       }
     },
@@ -26297,7 +26302,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_164_nightm"
       }
     },
@@ -26363,7 +26368,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_141_nights"
       }
     },
@@ -26426,7 +26431,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_179_cgbird"
       }
     },
@@ -26489,7 +26494,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_134_ifrit"
       }
     },
@@ -26553,7 +26558,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4087_ines"
       }
     },
@@ -26617,7 +26622,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_355_ethan"
       }
     },
@@ -26690,7 +26695,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4125_rdoc"
       }
     },
@@ -26777,7 +26782,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_472_pasngr"
       }
     },
@@ -26840,7 +26845,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_155_tiger"
       }
     },
@@ -26903,7 +26908,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_172_svrash"
       }
     },
@@ -26971,7 +26976,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1039_thorn2"
       }
     },
@@ -27034,7 +27039,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4010_etlchi"
       }
     },
@@ -27098,7 +27103,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_498_inside"
       }
     },
@@ -27161,7 +27166,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_143_ghost"
       }
     },
@@ -27225,7 +27230,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4185_amoris"
       }
     },
@@ -27298,7 +27303,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_2026_yu"
       }
     },
@@ -27362,7 +27367,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1015_aglna2"
       }
     },
@@ -27430,7 +27435,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_421_crow"
       }
     },
@@ -27494,7 +27499,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_109_fmout"
       }
     },
@@ -27585,7 +27590,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_430_fartth"
       }
     },
@@ -27648,7 +27653,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_343_tknogi"
       }
     },
@@ -27713,7 +27718,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_283_midn"
       }
     },
@@ -27780,7 +27785,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4219_yukari"
       }
     },
@@ -27844,7 +27849,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4100_caper"
       }
     },
@@ -27912,7 +27917,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4165_ctrail"
       }
     },
@@ -27979,7 +27984,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_219_meteo"
       }
     },
@@ -28043,7 +28048,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_197_poca"
       }
     },
@@ -28107,7 +28112,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1044_hsgma2"
       }
     },
@@ -28171,7 +28176,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_459_tachak"
       }
     },
@@ -28234,7 +28239,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_499_kaitou"
       }
     },
@@ -28302,7 +28307,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4207_branch"
       }
     },
@@ -28368,7 +28373,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_195_glassb"
       }
     },
@@ -28431,7 +28436,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4204_mantra"
       }
     },
@@ -28493,7 +28498,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4000_jnight"
       }
     },
@@ -28582,7 +28587,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4011_lessng"
       }
     },
@@ -28673,7 +28678,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4054_malist"
       }
     },
@@ -28737,7 +28742,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_2024_chyue"
       }
     },
@@ -28801,7 +28806,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1040_blaze2"
       }
     },
@@ -28868,7 +28873,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_333_sidero"
       }
     },
@@ -28957,7 +28962,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1012_skadi2"
       }
     },
@@ -29023,7 +29028,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_1024_hbisc2"
       }
     },
@@ -29089,7 +29094,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4014_lunacu"
       }
     },
@@ -29152,7 +29157,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_278_orchid"
       }
     },
@@ -29227,7 +29232,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4121_zuole"
       }
     },
@@ -29291,7 +29296,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_286_cast3"
       }
     },
@@ -29353,7 +29358,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4188_confes"
       }
     },
@@ -29415,7 +29420,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4093_frston"
       }
     },
@@ -29477,7 +29482,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4227_gallus"
       }
     },
@@ -29539,7 +29544,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_285_medic2"
       }
     },
@@ -29605,7 +29610,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4198_christ"
       }
     },
@@ -29669,7 +29674,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4179_monstr"
       }
     },
@@ -29731,7 +29736,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4136_phonor"
       }
     },
@@ -29793,7 +29798,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_376_therex"
       }
     },
@@ -29855,7 +29860,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_4091_ulika"
       }
     },
@@ -29944,7 +29949,7 @@
       ],
       "source": {
         "kind": "gamedata",
-        "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+        "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
         "characterId": "char_113_cqbw"
       }
     }
@@ -30365,6 +30370,7 @@
     "randomMaterial_message3": "生命标本",
     "randomMaterial_act53side": "“幸福在途”补给包",
     "randomMaterial_message4": "“神秘动物的口袋”",
+    "randomMaterial_7d5": "2026感谢庆典物资补给",
     "mod_unlock_token": "模组数据块",
     "mod_update_token_2": "数据增补仪",
     "mod_update_token_1": "数据增补条",
@@ -31432,6 +31438,7 @@
     "main17_spitem_1": "“AMa-10”",
     "ark_odc_act53side_spitem_1": "温泉度假村体验券",
     "uni_set_darkForest_1": "黑流印象家具收藏包一",
+    "uni_set_darkForest_2": "黑流印象家具收藏包二",
     "itempack_main_2": "罗德岛补给箱",
     "itempack_main_3": "罗德岛补给箱",
     "SINGLE_66_0_1_GACHA": "空白频段寻访凭证",
@@ -31518,9 +31525,11 @@
     "tarot_8": "战车",
     "act1dp_milestone_point": "绒绒欢乐像",
     "uni_set_velvet": "月行水上家具收藏包",
+    "itempack_stickers_rog6": "贴纸包/黑流树海",
     "SINGLE_78_0_1_GACHA": "海渊巡游寻访凭证",
     "SINGLE_78_0_1_GACHA_10": "海渊巡游十连寻访凭证",
-    "act52side_token_scope": "“未来瞻望镜”"
+    "act52side_token_scope": "“未来瞻望镜”",
+    "act1museum_milestone_point": "积点卡券"
   },
   "building": {
     "controlSlotId": "slot_34",
@@ -54798,7 +54807,7 @@
         "textColor": "#333333",
         "buffCategory": "FUNCTION",
         "roomType": "WORKSHOP",
-        "description": "进驻加工站加工<@cc.kw>手性屈光体</>或<@cc.kw>重相位对映体</>时，副产物的产出概率提升<@cc.vup>90%</>",
+        "description": "进驻加工站加工<@cc.kw>手性屈光体</>或<@cc.kw>重相位对映体</>时，副产品的产出概率提升<@cc.vup>90%</>",
         "efficiency": 0,
         "targetGroupSortId": 2,
         "targets": [
@@ -141884,6 +141893,102 @@
           "enableRoomType": 4112,
           "quantity": 0
         },
+        "furni_guotu_wallset_01": {
+          "id": "furni_guotu_wallset_01",
+          "sortId": 10272,
+          "name": "绒毛读书伴侣",
+          "iconId": "furni_guotu_wallset_01",
+          "interactType": "NONE",
+          "musicId": "",
+          "type": "WALLDECO",
+          "subType": "BOARD_WD",
+          "location": "WALL",
+          "category": "FURNITURE",
+          "validOnRotate": false,
+          "enableRotate": false,
+          "rarity": 2,
+          "themeId": "",
+          "groupId": "",
+          "width": 5,
+          "depth": 2,
+          "height": 5,
+          "comfort": 120,
+          "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+          "description": "来自国家图书馆的罗德岛的读者卡样式纪念挂毯和书架，能让房间的一角充满阅读的氛围。\n令很多小干员疑惑的是，明明写了“读者卡”，图书馆闸机怎么不能刷这张毯子？",
+          "obtainApproach": "活动获得",
+          "processedProductId": "3401",
+          "processedProductCount": 0,
+          "processedByProductPercentage": 0,
+          "processedByProductGroup": [],
+          "canBeDestroy": false,
+          "isOnly": 1,
+          "enableRoomType": 4112,
+          "quantity": 0
+        },
+        "furni_guotu_sofa_01": {
+          "id": "furni_guotu_sofa_01",
+          "sortId": 10273,
+          "name": "“推荐书目”沙发",
+          "iconId": "furni_guotu_sofa_01",
+          "interactType": "NONE",
+          "musicId": "",
+          "type": "SEATING",
+          "subType": "SOFA",
+          "location": "FLOOR",
+          "category": "FURNITURE",
+          "validOnRotate": false,
+          "enableRotate": true,
+          "rarity": 2,
+          "themeId": "",
+          "groupId": "",
+          "width": 5,
+          "depth": 3,
+          "height": 4,
+          "comfort": 120,
+          "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+          "description": "由国家图书馆推荐的读物堆叠而成的造型沙发。\n不仅坐上去很舒适，还方便随时抽出一本来阅读，看完请记得及时归位。",
+          "obtainApproach": "活动获得",
+          "processedProductId": "3401",
+          "processedProductCount": 0,
+          "processedByProductPercentage": 0,
+          "processedByProductGroup": [],
+          "canBeDestroy": false,
+          "isOnly": 1,
+          "enableRoomType": 4112,
+          "quantity": 0
+        },
+        "furni_guotu_shelf_01": {
+          "id": "furni_guotu_shelf_01",
+          "sortId": 10274,
+          "name": "“纳入图中”置物架",
+          "iconId": "furni_guotu_shelf_01",
+          "interactType": "NONE",
+          "musicId": "",
+          "type": "DECORATION",
+          "subType": "ART_D",
+          "location": "FLOOR",
+          "category": "FURNITURE",
+          "validOnRotate": false,
+          "enableRotate": true,
+          "rarity": 2,
+          "themeId": "",
+          "groupId": "",
+          "width": 4,
+          "depth": 4,
+          "height": 3,
+          "comfort": 120,
+          "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+          "description": "以国家图书馆图标为灵感设计的置物架。\n正面的经典图标能让人立刻联想到图书馆，和它所藏的浩如烟海的书籍。想必这件置物架也能放很多东西吧！",
+          "obtainApproach": "活动获得",
+          "processedProductId": "3401",
+          "processedProductCount": 0,
+          "processedByProductPercentage": 0,
+          "processedByProductGroup": [],
+          "canBeDestroy": false,
+          "isOnly": 1,
+          "enableRoomType": 4112,
+          "quantity": 0
+        },
         "furni_dropS001_theLittleMermaid_01": {
           "id": "furni_dropS001_theLittleMermaid_01",
           "sortId": 11001,
@@ -147250,6 +147355,38 @@
           "comfort": 105,
           "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
           "description": "完成拉特兰默祷圣祠剿灭并提交报告后获得的纪念品。默祷圣祠的余音似乎还在耳边回响。",
+          "obtainApproach": "剿灭委托奖励",
+          "processedProductId": "3401",
+          "processedProductCount": 0,
+          "processedByProductPercentage": 0,
+          "processedByProductGroup": [],
+          "canBeDestroy": false,
+          "isOnly": 1,
+          "enableRoomType": 4112,
+          "quantity": 0
+        },
+        "furni_annihilation_s34_01": {
+          "id": "furni_annihilation_s34_01",
+          "sortId": 13032,
+          "name": "米诺斯回声-剧场",
+          "iconId": "furni_annihilation_s34_01",
+          "interactType": "NONE",
+          "musicId": "",
+          "type": "WALLDECO",
+          "subType": "ANNIHILATION",
+          "location": "WALL",
+          "category": "FURNITURE",
+          "validOnRotate": false,
+          "enableRotate": false,
+          "rarity": 2,
+          "themeId": "",
+          "groupId": "",
+          "width": 4,
+          "depth": 1,
+          "height": 4,
+          "comfort": 105,
+          "usage": "能够用来装扮宿舍与活动室，提高对应房间的氛围",
+          "description": "完成米诺斯灰石剧场剿灭并提交报告后获得的纪念品。灰石剧场的余音似乎还在耳边回响。",
           "obtainApproach": "剿灭委托奖励",
           "processedProductId": "3401",
           "processedProductCount": 0,
@@ -189979,6 +190116,19 @@
           "unlockType": "MainBG",
           "unlockParams": [
             "bg_redvelvet_1"
+          ]
+        },
+        "music_bg_arcade_1": {
+          "bgmId": "music_bg_arcade_1",
+          "bgmSortId": 37,
+          "bgmStartTime": 1792848600,
+          "bgmName": "演化-视相博物馆欢迎你！",
+          "gameMusicId": "music_bg_arcade_1",
+          "obtainApproach": "参与视相博物馆：演化活动获得",
+          "bgmDescUnlocked": "背景附赠音乐",
+          "unlockType": "MainBG",
+          "unlockParams": [
+            "bg_arcade_1"
           ]
         }
       }

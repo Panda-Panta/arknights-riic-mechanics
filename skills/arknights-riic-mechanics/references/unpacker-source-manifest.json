@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "provider": "ArknightsUnpacker",
+  "checkedAt": "2026-10-25T11:31:04.966Z",
+  "tool": {
+    "version": "0.1.10",
+    "commit": "70cf856d90e7252a0fa8de0fc679c7adf75dcd01",
+    "ref": "test",
+    "workingTreeDirty": false,
+    "decoderVersion": "pc-fbs-161d5e2-normalize-v1",
+    "schemaCommit": "161d5e229916d7193364983396076556fbeaa549",
+    "normalizerSha256": "8d5bfe32d7ab08195101c5e398b2c384b38625fbde65788d9b00add4ccfb96f1",
+    "sourceFiles": [
+      {
+        "path": "pyproject.toml",
+        "sha256": "0f25dd2d8d922bdb757d640697efc413d2ba2671dc7954fb645cf2bbe06407d2"
+      },
+      {
+        "path": "src/arknights_unpacker/__init__.py",
+        "sha256": "5bb0d3cbaf5cc89e14fd6d67214a0605c51696e1ae377e3e23760618199802b0"
+      },
+      {
+        "path": "src/arknights_unpacker/__main__.py",
+        "sha256": "d2d6773766a053df55196adf1eb46deb61888fe144f53c701853fd124db48990"
+      },
+      {
+        "path": "src/arknights_unpacker/application.py",
+        "sha256": "e31a6638d121180c41b1a43c216bbc92735c0d1ddd70f899bcc2356840657066"
+      },
+      {
+        "path": "src/arknights_unpacker/bootstrap.py",
+        "sha256": "9c70dbb5c89951224a1384280b6d094a1a60d2f557c8a78c13da1041f2711e1a"
+      },
+      {
+        "path": "src/arknights_unpacker/contracts.py",
+        "sha256": "ad7eab0546ee89089a02a1e9199ee49b6019331fc449996c232b1e34647a724a"
+      },
+      {
+        "path": "src/arknights_unpacker/extraction/__init__.py",
+        "sha256": "e9b6b8789301d91be870fbc8e2b0925501f8dfd8817f21afb423552a6644a4a3"
+      },
+      {
+        "path": "src/arknights_unpacker/extraction/decoder.py",
+        "sha256": "04561a951ea6431f5f2e849e86a1628264a893d8b0df8b0a559e815c9f47c505"
+      },
+      {
+        "path": "src/arknights_unpacker/extraction/engine.py",
+        "sha256": "4be010b589d4d7d5ad0c6a6087d9ccfc4caeab214c22d4432bcc580792500ab6"
+      },
+      {
+        "path": "src/arknights_unpacker/extraction/images.py",
+        "sha256": "cca356d5771c7307a213211fca72f302b9795e839d1ccb553cd7e9cb6313b908"
+      },
+      {
+        "path": "src/arknights_unpacker/extraction/manifest.py",
+        "sha256": "791a65da20372d7189306c07a3cd6f554e5df30d4bd56abc45869d3cd92bf447"
+      },
+      {
+        "path": "src/arknights_unpacker/extraction/spine.py",
+        "sha256": "3c022aa9c4ed51f485eee2546801e033a94cc0fc43acc754a64724fcf93175d9"
+      },
+      {
+        "path": "src/arknights_unpacker/extraction/tables.py",
+        "sha256": "6f045e6e4fdd86c959b919c861738abac73ebc482afc8628cc7ec446bff7b59d"
+      },
+      {
+        "path": "src/arknights_unpacker/extraction/unity.py",
+        "sha256": "66fe5322ad74fcbae98a706bb9aa70b310ce008094917e06a4ff30e7a49dcc33"
+      },
+      {
+        "path": "src/arknights_unpacker/extraction/usm.py",
+        "sha256": "19c03c0d37a59c475e48760b91cacc0179e8c5b08f092535592387bc8961c034"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/__init__.py",
+        "sha256": "1e69672e69829df65acb029f54aff2697753e839a59bce1fda3c9124c19c0659"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/attributes.py",
+        "sha256": "f0446d3672d99609165acacc9d2fdded67f75a90a803f84a05969b22c73bdf54"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/build.py",
+        "sha256": "a4e7873166b30d0e955ef3120f55d1a36c2b8d2b26e75980dea6faa00eaa8c33"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/candidates.py",
+        "sha256": "30f79e6cc17cbbdbc19d538e15c775ac1b52a36e3218bb6868d68d35c8daa5fa"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/descriptions.py",
+        "sha256": "3482a1a58a7dddbc2a97cc89a3a6a19dc5bd4cc94b1bdf628810ec2856a01b0e"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/diff.py",
+        "sha256": "7a431e01ca5774f5c306ff5dcfc53fea8112a67d889267e02e92a230a25742ba"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/module_comparison.py",
+        "sha256": "220bb5924fc472a1c4f82d2a54e87d9c10de1d7cf3a19e727ee10bc95cb5071e"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/modules.py",
+        "sha256": "142619dc25fd3eff81197cdadde7c21a8b4ec6b42b75cbfff5108ef6ab06f2c2"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/normalize.py",
+        "sha256": "8d5bfe32d7ab08195101c5e398b2c384b38625fbde65788d9b00add4ccfb96f1"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/operators.py",
+        "sha256": "1c7882e26218e42f5ae1670b82410310da1b191f4a24de62876a6f634c427c0b"
+      },
+      {
+        "path": "src/arknights_unpacker/gamedata/repository.py",
+        "sha256": "ddaba44974129c3f77b311ab7f3309b613ec1cadacee203f25decbb389bdea6d"
+      },
+      {
+        "path": "src/arknights_unpacker/jobs.py",
+        "sha256": "058fad0235fe1eefb07bfa4522ec1ccd160eba09142f4c7737dee9ba92c614e9"
+      },
+      {
+        "path": "src/arknights_unpacker/library/__init__.py",
+        "sha256": "1b8d3354cd5d87ba595a17578afb97d2cd502385a5d3ac7718b22e4b334c871b"
+      },
+      {
+        "path": "src/arknights_unpacker/library/changes.py",
+        "sha256": "2e06e972b57f1c83c70a84ede2150bc3761f6fa228c569edee39a8d2b5eb8e2c"
+      },
+      {
+        "path": "src/arknights_unpacker/library/classifications.py",
+        "sha256": "31791b5847b5662155ae62c4346b2f61939d1f09e762007015b1bc5d0072b55f"
+      },
+      {
+        "path": "src/arknights_unpacker/library/discover.py",
+        "sha256": "4031d33c4d2687adce7fe8dcff20f53e358c19f5bfbbeadbe72eb683c052754b"
+      },
+      {
+        "path": "src/arknights_unpacker/library/manifests.py",
+        "sha256": "4f8da23e5850025eb21c168ffc695cae70b9a7fa526300357a719de42def927e"
+      },
+      {
+        "path": "src/arknights_unpacker/library/resolver.py",
+        "sha256": "c1e2a0903cacb6b73ab2fba27aa1113f1f370f6b2fb460c5dcbc295837266004"
+      },
+      {
+        "path": "src/arknights_unpacker/library/scan.py",
+        "sha256": "7e434bc39b9c4199e3f837a36fced0a42f37617f7df386bf228bd81fb46a80a4"
+      },
+      {
+        "path": "src/arknights_unpacker/library/serialization.py",
+        "sha256": "3f380fa6206e1b91649b706f1e5fe39eb517bab280af479eb204735525a8b433"
+      },
+      {
+        "path": "src/arknights_unpacker/library/store.py",
+        "sha256": "a07d7521ab958f54ec2e7cb35ad4cea0ddf82498f719673ab8920e4fc98c08ac"
+      },
+      {
+        "path": "src/arknights_unpacker/paths.py",
+        "sha256": "8404a992b1fbc33c1743f7bee637429de68aebe619055fae0fcb0d4cdd1f5084"
+      },
+      {
+        "path": "src/arknights_unpacker/reports/__init__.py",
+        "sha256": "e721efc8a9179700aac92f1d8c70c12ccefc475e1f5caf54a7e96ee04d9a7dd2"
+      },
+      {
+        "path": "src/arknights_unpacker/reports/compose.py",
+        "sha256": "7e202e186cefb57f943d5de621d88f4e1fd4b922d5064ef56c355fddf2f52a02"
+      },
+      {
+        "path": "src/arknights_unpacker/reports/export.py",
+        "sha256": "08d5a4d95e2c3dfacd62b4c671e04c6de1fee1d0e442f523d4452121b772b950"
+      },
+      {
+        "path": "src/arknights_unpacker/reports/exporters.py",
+        "sha256": "517031fcf61f7aac2af4095185919400c58b5a2294e685377b44c1d885d97b20"
+      },
+      {
+        "path": "src/arknights_unpacker/reports/html_render.py",
+        "sha256": "57defa5a0052901c4334c8da96a146e17a9fa1b0147d5f174f77e1a7a3ea3c79"
+      },
+      {
+        "path": "src/arknights_unpacker/reports/model.py",
+        "sha256": "01266175b06842e575d7a6cb96afc5749ce56cf0aca37ab30f4a25ec38a4c725"
+      },
+      {
+        "path": "src/arknights_unpacker/reports/render.py",
+        "sha256": "664f06972c8b51649331319246a49108c4dc9400ef99be7cb0e667c0f85ee628"
+      },
+      {
+        "path": "src/arknights_unpacker/reports/style.py",
+        "sha256": "1e6fd2f88f08fabed4655db507bd22f3921ce209a95274f787fd4867b996efa8"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/__init__.py",
+        "sha256": "12758e27c38e06d6f7c6f96900fb8b8434c4db72483f3ae55628f0f7c703132d"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/entity_view.py",
+        "sha256": "381cc4dda21912bbc13dda45b1db79d2990b719cb9c11e4391b18660eb2cb2bf"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/explorer.py",
+        "sha256": "70266bfccdbc79fc48ce4cfb7e7e30036ca04ab8fb3021948273d3b58ee8c46e"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/job_history.py",
+        "sha256": "bb108cb7f3833e009f2ab17cb96d03d76f08b1d9565c83d67a6d96ea269e5caa"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/jobs.py",
+        "sha256": "0989a4c9b3aa61c36041b3667a056b7200dc7081bebf6791163ba0242e6dd42c"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/main_window.py",
+        "sha256": "172633f696e22b5bb3af66c9de3cad8997867c382c23968a6148a54171ceac21"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/models.py",
+        "sha256": "2ae389cf513dc05e82084cc3673e9a1fafa034dacb8f33bc564275991c56ca4d"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/module_view.py",
+        "sha256": "6f4777a4f601149b56cbaf3603da73ab675d08aba57268ae320e322c7bdb7158"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/operator_view.py",
+        "sha256": "39ed68d7d18271a90a312b76d4e662a6b1f40ade02aefd0180b65ab06f709ff7"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/pages.py",
+        "sha256": "92b1f944754d03f7c16e3e1aa6ba39926aea00795019f93a5d92ecf5ace8fc19"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/preview_cache.py",
+        "sha256": "402ee2f85c29365fe35d50fd224a01ee29dc33b04db02b5cdeb4236165ee6201"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/report_preview.py",
+        "sha256": "ee503db40c2ae2f99487188ed5be59b37ae7e5130d92fd5c3d4b5bdf83f8c045"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/settings.py",
+        "sha256": "387f9f9e39257d00fa8b26781c164fe2eb21d1d813f859d034bab2ffa2f16f3e"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/styles.py",
+        "sha256": "63ede1d64ec28edd1c830281729f3383e41389fe9afd702e0d3404713d45e133"
+      },
+      {
+        "path": "src/arknights_unpacker/ui/updates.py",
+        "sha256": "5921a9617d5feafd1d26f71fe910d30ad21361ddd0050df2c37122c3713d2bfe"
+      },
+      {
+        "path": "uv.lock",
+        "sha256": "a6d899a1c17246e405c5ac6b560f2c9c8178bf649f77364600f4a0e7c4778347"
+      },
+      {
+        "path": "vendor/ark_fbs/CN/building_data.py",
+        "sha256": "20666818aa8e9740f098a6f6c8c486a5f2295f6e6592f3a8d7cf309c15534ac5"
+      },
+      {
+        "path": "vendor/ark_fbs/CN/character_table.py",
+        "sha256": "f3825d3e29d1e3bf7c1b34880e138fedd77791f4633242cc5c236d7f9cab7704"
+      },
+      {
+        "path": "vendor/ark_fbs/CN/gamedata_const.py",
+        "sha256": "e3a7f82af5b2d2d61d1b1efeab092a85230d63c8dcced23882c1735ead7157a3"
+      },
+      {
+        "path": "vendor/ark_fbs/CN/item_table.py",
+        "sha256": "5b07a5b9a86fa63d45ab63a17493843c941c5142d68a2ce4e4a52b44b78bc962"
+      },
+      {
+        "path": "vendor/ark_fbs/CN/resource_manifest.py",
+        "sha256": "3f0baa11d7651acd0ef82e2b6c670716e88fcb19457f8ee68dfad7e7edf77e65"
+      },
+      {
+        "path": "vendor/lz4ak/__init__.py",
+        "sha256": "36de1525096a460537826861c34c13b028031f5860e58dfda1315b3809a90790"
+      },
+      {
+        "path": "vendor/lz4ak/Block.py",
+        "sha256": "981189532a088e48e59fdb925d128c2c623068632598e909b61dacfdeeeb4ed3"
+      },
+      {
+        "path": "vendor/sources.json",
+        "sha256": "fa03602a827f216c9d229eb67cbf56c6a3c1ae1a53cb9b3f92c0fd941b4105a6"
+      }
+    ]
+  },
+  "localGame": {
+    "sourceVersion": "Stream://torappu-data/v078/rel78.0\nChange:126729 on 2026/10/22\nVersionControl:78.4.0",
+    "dataVersion": "78.4.0",
+    "resourceVersion": "26-10-22-13-56-52-86025105",
+    "activeIndex": {
+      "filename": "6060387c8d584af07f8d7ff33b69c93f.idx",
+      "sha256": "ed5272815ab394791f0d334e10faf389212b9c22f063a814f448b8261edba348"
+    }
+  },
+  "mirror": {
+    "repository": "Kengxxiao/ArknightsGameData",
+    "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
+    "sourceVersion": "Stream://torappu-data/v078/rel78.0\nChange:126729 on 2026/10/22\nVersionControl:78.4.0",
+    "sources": {
+      "building_data.json": {
+        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/building_data.json",
+        "sha256": "1bc8d9e968f428bd9e2fb50350815a1cb019bf5c37e02b656b1423ab06a1fcbd",
+        "bytes": 5319137
+      },
+      "character_table.json": {
+        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/character_table.json",
+        "sha256": "e8f42a2dd5c5e72ec3fc7282ee7c0d06aadb5ccdfb2c0b63dd6da55de6c17ba5",
+        "bytes": 15099388
+      },
+      "gamedata_const.json": {
+        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/gamedata_const.json",
+        "sha256": "1994ccfd77b2503ce1309b9df0c3759a0ce1a0a097ef79d8cfa1a01f500353c2",
+        "bytes": 57974
+      },
+      "item_table.json": {
+        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/item_table.json",
+        "sha256": "8de5dc5ce44a2c498e5fa17fb6a600684734055d13ac0e01b4ca9d5b3cd148a0",
+        "bytes": 1877742
+      },
+      "data_version.txt": {
+        "url": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad/zh_CN/gamedata/excel/data_version.txt",
+        "sha256": "b87fdf2bb2aaad60f7e370523e5a982767ccf2f11030f05cc4869bf20efcb0d6",
+        "bytes": 85
+      }
+    }
+  },
+  "tables": {
+    "building_data": {
+      "source": {
+        "filename": "b93bfe1e72a05930500b83b1b7ad56c7.bin",
+        "layer": "hot",
+        "logicalName": "gamedata/excel/building_data73949e",
+        "sha256": "f211c85937af8feb745be3bf0e53b83140a49764b4f7c39095c551b8680941ce",
+        "bytes": 959620
+      },
+      "raw": {
+        "sha256": "b771a7503cafab36ed33e91eef1d79f07c37f84c9549706b9667b5422d731caf",
+        "bytes": 3797422
+      },
+      "normalized": {
+        "sha256": "eacef51ea2bd657f381ae309bdbe9caad0505f8e03b8650fc2692c0f6faaab4a",
+        "bytes": 5344934
+      }
+    },
+    "character_table": {
+      "source": {
+        "filename": "517e712a85e65729e8a83b8f8b5a0b73.bin",
+        "layer": "hot",
+        "logicalName": "gamedata/excel/character_table9fc534",
+        "sha256": "b84c0b75c0a90012025c8005d5207bc844cd2ba29825bd036c6f9be871909d0a",
+        "bytes": 1003760
+      },
+      "raw": {
+        "sha256": "aa72b57f66148ef630110d1bcce9f7c97bac30cf17dff271b7f6ef5802dced4f",
+        "bytes": 8460670
+      },
+      "normalized": {
+        "sha256": "819f540830c3c735c2081e60a86e83ac0f56d123ba6c1b710c8c8a1a6c4ce07f",
+        "bytes": 15495756
+      }
+    },
+    "gamedata_const": {
+      "source": {
+        "filename": "9443247c7b717b2b10c9b8ee3025ec84.bin",
+        "layer": "hot",
+        "logicalName": "gamedata/excel/gamedata_const61fefd",
+        "sha256": "390bb77fac6a424980abd96d19db523e04bbcb6ea1974c853d1f2c0fa5ed144e",
+        "bytes": 26835
+      },
+      "raw": {
+        "sha256": "ac93c92a049b506e4ca6d83acaf7275bb254a7b88d953869eb33d949fd9f54db",
+        "bytes": 47104
+      },
+      "normalized": {
+        "sha256": "0c1d636f197bd98bc99bda706aa4929238bcdcdc4a4da77b2e6af23d1d09ee2e",
+        "bytes": 60830
+      }
+    },
+    "item_table": {
+      "source": {
+        "filename": "bebf6111baf27fd08b8985578bd8bc7b.bin",
+        "layer": "hot",
+        "logicalName": "gamedata/excel/item_table1c04fa",
+        "sha256": "9f1f503101d7aa4f15d16e896c1085e7d503d7e13c20a72975ef1eb5b262737b",
+        "bytes": 371220
+      },
+      "raw": {
+        "sha256": "3b71882ef4f3d70f935c8c161aaaec614c9c785be9c43c4687f9946b7c0ad503",
+        "bytes": 1364688
+      },
+      "normalized": {
+        "sha256": "9dd569201241884dfa7aeda10fa4da3f67e3145b62156de9e966107a606692ec",
+        "bytes": 1841793
+      }
+    },
+    "data_version": {
+      "source": {
+        "filename": "296b3dd4104d667c83abd86f84dd63fd.bin",
+        "layer": "hot",
+        "logicalName": "gamedata/excel/data_version",
+        "sha256": "c58b8d95a2bc44d3f6e7a9909a839e15b0231b82750b04617d23eaf6a0e93cfc",
+        "bytes": 1572
+      },
+      "raw": {
+        "sha256": "d5a59710fd027f48dc5da5adf114cb4db6b4508fbc12c464e6026bfb899bf7c2",
+        "bytes": 202
+      },
+      "normalized": {
+        "sha256": "b87fdf2bb2aaad60f7e370523e5a982767ccf2f11030f05cc4869bf20efcb0d6",
+        "bytes": 85
+      }
+    }
+  },
+  "verification": {
+    "operators": 432,
+    "buffDefinitions": 763,
+    "skillStages": 929,
+    "highestSkills": 760,
+    "terms": 82,
+    "itemNames": 1575,
+    "workshopFormulas": 68,
+    "roomLevels": 34,
+    "buffCategoryMapping": {
+      "1": "FUNCTION",
+      "2": "OUTPUT",
+      "3": "RECOVERY"
+    },
+    "comparedFields": [
+      "Obtainable RIIC operator identities, rarity, profession, level caps and max manpower",
+      "Every slot, phase and level; every known buff field including description, targets and efficiency",
+      "All cc. terms including nested descriptions; all item names",
+      "Room names/counts and each level electricity, staffing and manpower cost",
+      "Workshop formula IDs, product IDs and base byproduct probabilities"
+    ]
+  },
+  "unknownFields": {
+    "buildingRoots": [
+      "recycleData",
+      "recycleRoomConsts",
+      "recycleRoomInputItemDatas",
+      "recycleRoomOutputPoolDatas",
+      "recycleRoomOutputPoolContentDatas"
+    ]
+  },
+  "evidenceBoundary": "Only installed active-manifest PC resources and the pinned mirror were compared. Absent PC building roots remain unverified by extraction and use separately pinned mirror evidence. This does not prove server freshness, decoder correctness, full skill algorithm coverage, live game behavior or agent-platform installation."
+}

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-12T13:12:38.800Z",
+  "generatedAt": "2026-10-25T11:17:22.0073989Z",
   "gameData": {
-    "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
-    "version": "78.0.0",
+    "commit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
+    "version": "78.4.0",
     "counts": {
       "operators": 432,
       "buffDefinitions": 763,
@@ -15,30 +15,30 @@
     "schemaVersion": 1,
     "provider": "arkntools",
     "route": "https://arkntools.app/#/riic",
-    "retrievedAt": "2026-10-12T13:13:34.682Z",
+    "retrievedAt": "2026-10-25T11:18:10.7867285+00:00",
     "checkUrl": "https://data.arkntools.app/check.json",
     "check": {
-      "mapMd5": "c6c33034",
-      "timestamp": 1791703003281,
+      "mapMd5": "96fbd12e",
+      "timestamp": 1792848777599,
       "version": "2.5.0"
     },
-    "mapUrl": "https://data.arkntools.app/map.c6c33034.json",
-    "mapSha256": "05a50869d93a2502ee5cd9058ea9cae6f4275aa49bef7f38e350c937bcf59013",
+    "mapUrl": "https://data.arkntools.app/map.96fbd12e.json",
+    "mapSha256": "30d2545b17c010ec58cdefacf2a9fb2a86ebdb0aff69b852f146c9b9ba5f510c",
     "resources": {
       "building": {
-        "url": "https://data.arkntools.app/data/building.3db77af1.json",
-        "filename": "building.3db77af1.json",
-        "sha256": "16fc38f1ac5c90daf4ca597457b5341d8788088e3314ea6dda8b8af089811fb4"
+        "url": "https://data.arkntools.app/data/building.f0f75d38.json",
+        "filename": "building.f0f75d38.json",
+        "sha256": "d30a4a6801764f59cd6c5185a53da6a1a4cb735acc931b654473a40c28f348c5"
       },
       "character": {
-        "url": "https://data.arkntools.app/data/character.2ffaa90c.json",
-        "filename": "character.2ffaa90c.json",
-        "sha256": "e629c262d6b9336b3bf082f25722ada778524e6d066ad0782c3a47bde93be211"
+        "url": "https://data.arkntools.app/data/character.8a04709f.json",
+        "filename": "character.8a04709f.json",
+        "sha256": "114495122737713e2b9763f4a28d495d2d1e55b2b73656ab3af6ddc054c912a6"
       },
       "cnBuilding": {
-        "url": "https://data.arkntools.app/locales/cn/building.8a955245.json",
-        "filename": "building.8a955245.json",
-        "sha256": "dd2514d81be4b1821f75b3f57218ee99a3fb1ad374d32c088cf066bbd6043f15"
+        "url": "https://data.arkntools.app/locales/cn/building.54b36853.json",
+        "filename": "building.54b36853.json",
+        "sha256": "98404b06e6c43a87a16ed6fc6e27fefa67910e1fadac20e68b768dec9a251344"
       },
       "cnCharacter": {
         "url": "https://data.arkntools.app/locales/cn/character.7d402757.json",
@@ -63,9 +63,10 @@
     {
       "name": "德·托莱多",
       "characterId": "char_393_toledo",
-      "revision": 440178,
-      "url": "https://prts.wiki/w/%E5%BE%B7%C2%B7%E6%89%98%E8%8E%B1%E5%A4%9A?oldid=440178",
-      "responseSha256": "dccdde9a5fecb2cc4f208676aec613d6b1433d0836de74cb9da33ab1cfd39eb2",
+      "revision": 443366,
+      "url": "https://prts.wiki/w/%E5%BE%B7%C2%B7%E6%89%98%E8%8E%B1%E5%A4%9A?oldid=443366",
+      "responseSha256": "c9b09a3d2acb2cedd056ee9fe28bc922fe070cfdb2d5eb32865034e764271634",
+      "checkedGameDataCommit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
       "logisticsText": "条件 图标 技能1 房间 描述 精英0 拉拢听众 办公室 进驻人力办公室时，人脉资源的联络速度+20%，心情每小时消耗-0.25 精英2 聚众宣讲 办公室 进驻人力办公室时，人脉资源的联络速度+30%，心情每小时消耗-0.25\n条件 图标 技能2 房间 描述 精英2 忠实拥趸 宿舍 进驻宿舍时，该宿舍内所有干员心情每小时恢复+0.1，同时每个招募位（不包含初始招募位）额外+0.05恢复效果（叠加后的最终值同种效果取最高）",
       "checks": [
         {
@@ -103,9 +104,10 @@
     {
       "name": "克莱门莎",
       "characterId": "char_4231_clemnt",
-      "revision": 440582,
-      "url": "https://prts.wiki/w/%E5%85%8B%E8%8E%B1%E9%97%A8%E8%8E%8E?oldid=440582",
-      "responseSha256": "c43f08a594126e02c4ad82fd409d65401d038d6f98f5dcd96f39f66de01e5f35",
+      "revision": 443367,
+      "url": "https://prts.wiki/w/%E5%85%8B%E8%8E%B1%E9%97%A8%E8%8E%8E?oldid=443367",
+      "responseSha256": "cc3c86617ea643833da901e3a18c821c0a376ad4327e52f212f2cd3915f5a6c8",
+      "checkedGameDataCommit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
       "logisticsText": "条件 图标 技能1 房间 描述 精英0 谈判技巧 会客室 进驻会客室时，线索搜集速度提升20%，心情每小时消耗+1\n条件 图标 技能2 房间 描述 精英2 合作原则 会客室 与其他干员进驻会客室一起工作时，线索搜集速度提升15%，心情每小时消耗+1",
       "checks": [
         {
@@ -133,10 +135,11 @@
     {
       "name": "旅骨",
       "characterId": "char_4232_hbound",
-      "revision": 440890,
-      "url": "https://prts.wiki/w/%E6%97%85%E9%AA%A8?oldid=440890",
-      "responseSha256": "41e5977933b447a3e7e4d849e7576b17e996931c38f491b0f8de8334cda16ab8",
-      "logisticsText": "条件 图标 技能1 房间 描述 精英0 拾荒者 回收站 进驻回收站时，材料转化效率+20% 精英2 捡海人 回收站 进驻回收站时，材料转化效率+30%\n条件 图标 技能2 房间 描述 精英2 指尖的光 加工站 进驻加工站加工手性屈光体或重相位对映体时，副产物的产出概率提升90%",
+      "revision": 443243,
+      "url": "https://prts.wiki/w/%E6%97%85%E9%AA%A8?oldid=443243",
+      "responseSha256": "df9a2ad9d02395d36e8377468a4e946ca86cc45229dca82a65832750eff96ad0",
+      "checkedGameDataCommit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
+      "logisticsText": "条件 图标 技能1 房间 描述 精英0 拾荒者 回收站 进驻回收站时，材料转化效率+20% 精英2 捡海人 回收站 进驻回收站时，材料转化效率+30%\n条件 图标 技能2 房间 描述 精英2 指尖的光 加工站 进驻加工站加工手性屈光体或重相位对映体时，副产品的产出概率提升90%",
       "checks": [
         {
           "buffId": "recycle_spd&cost[000]",
@@ -165,38 +168,31 @@
             "phase": "PHASE_2",
             "level": 1
           },
-          "description": "进驻加工站加工手性屈光体或重相位对映体时，副产物的产出概率提升90%",
+          "description": "进驻加工站加工手性屈光体或重相位对映体时，副产品的产出概率提升90%",
           "matched": true
         }
       ]
     }
   ],
   "delta": {
-    "fromCommit": "a550f5e048bb94e7cdefc6eb97a4091f0c4c7add",
-    "toCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
-    "fromVersion": "Stream://torappu-data/v077/rel77.0\nChange:123576 on 2026/09/17\nVersionControl:77.6.0",
-    "toVersion": "Stream://torappu-data/v078/rel78.0\nChange:124981 on 2026/10/08\nVersionControl:78.0.0",
-    "addedOperators": [
-      {
-        "id": "char_393_toledo",
-        "name": "德·托莱多"
-      },
-      {
-        "id": "char_4231_clemnt",
-        "name": "克莱门莎"
-      },
+    "fromCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+    "toCommit": "fe7d8d05edc36cf5678a24bfe9e84e891f6cf7ad",
+    "fromVersion": "Stream://torappu-data/v078/rel78.0\nChange:124981 on 2026/10/08\nVersionControl:78.0.0",
+    "toVersion": "Stream://torappu-data/v078/rel78.0\nChange:126729 on 2026/10/22\nVersionControl:78.4.0",
+    "addedOperators": [],
+    "removedOperators": [],
+    "changedExistingOperators": [
       {
         "id": "char_4232_hbound",
-        "name": "旅骨"
+        "name": "旅骨",
+        "unchanged": false
       }
     ],
-    "removedOperators": [],
-    "changedExistingOperators": [],
-    "unchangedExistingOperators": 429,
+    "unchangedExistingOperators": 431,
     "previousCounts": {
-      "operators": 429,
-      "highestSkills": 754,
-      "skillStages": 921
+      "operators": 432,
+      "highestSkills": 760,
+      "skillStages": 929
     },
     "counts": {
       "operators": 432,
@@ -315,5 +311,10 @@
     "boostUnlockLevel": 3,
     "boostLimitSeconds": 345600,
     "implementationBoundary": "Static boost preview only; conversion timeline does not feed materials or assign random output identities, value or LMD scores."
+  },
+  "unpackerEvidence": {
+    "manifest": "unpacker-source-manifest.json",
+    "sha256": "b271f88d62396449f7599d6e978d3478d1ec5b4cd4cb226ad8b515743d2350bb",
+    "dataVersion": "78.4.0"
   }
 }
