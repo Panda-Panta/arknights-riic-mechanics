@@ -723,5 +723,764 @@
     "gameRuntimeVerified": false,
     "initialComparisonCommit": "ae9fc3223a5429bd523901d32fa4c34c9c3e510d",
     "latestIncrementScope": "84e3926 dynamic personal-cap bed fillers, standby recovery tier, mandatory-before-optional group beds. Recycling upload changes are outside this offline calculator."
+  },
+  "fullCodeParityAudit20261025": {
+    "checkedAt": "2026-10-25T10:16:48.250Z",
+    "mower": {
+      "repository": "ArkMowers/arknights-mower",
+      "branch": "alpha",
+      "commit": "94a49b4c78bf03f30007f9384b4163630f8da98d",
+      "files": [
+        {
+          "path": "arknights_mower/solvers/base_schedule.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/94a49b4c78bf03f30007f9384b4163630f8da98d/arknights_mower/solvers/base_schedule.py",
+          "gitBlob": "96b7d083e0ada3302fe0cc1741cf53634dea791d",
+          "bytes": 716556,
+          "sha256": "d1b63654f0cfcad7e7e441b63495efdebb472162f4c181c62320e0b5d82731ce"
+        },
+        {
+          "path": "arknights_mower/utils/operators.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/94a49b4c78bf03f30007f9384b4163630f8da98d/arknights_mower/utils/operators.py",
+          "gitBlob": "05d378acb895fc86b3f28cb51e49d48e59e39dfb",
+          "bytes": 146406,
+          "sha256": "04c05e1e7b32f0b2f6e571bc754faeca5e7106aac34e780a53a6220851c0fd06"
+        },
+        {
+          "path": "arknights_mower/utils/dorm_recovery.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/94a49b4c78bf03f30007f9384b4163630f8da98d/arknights_mower/utils/dorm_recovery.py",
+          "gitBlob": "b292ed8e60e88c1ce385a704af40e7efa93fd6b2",
+          "bytes": 7951,
+          "sha256": "3b402cb76b37d83edad8879590a2bb8952556f8835fcf552e0aa9583167d640d"
+        },
+        {
+          "path": "arknights_mower/utils/dorm_candidates.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/94a49b4c78bf03f30007f9384b4163630f8da98d/arknights_mower/utils/dorm_candidates.py",
+          "gitBlob": "1438370361d2740cd348ed82a56a6934a857e371",
+          "bytes": 12809,
+          "sha256": "2d20f24fe6744884f52e72b43241d3933ad07a097cafb751975c293e437c6432"
+        },
+        {
+          "path": "arknights_mower/utils/resting_priority.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/94a49b4c78bf03f30007f9384b4163630f8da98d/arknights_mower/utils/resting_priority.py",
+          "gitBlob": "2ff27ab383c77f1e34ed8b5b8d1f13d2b7bd2b61",
+          "bytes": 8080,
+          "sha256": "db371649b2d61b4e05fb24a8ced04371816db723df460ed398d7e454fdbbfd8f"
+        },
+        {
+          "path": "arknights_mower/utils/replacement_check.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/94a49b4c78bf03f30007f9384b4163630f8da98d/arknights_mower/utils/replacement_check.py",
+          "gitBlob": "5bc1a4177b078e6d4d6d91befc4164339fe7a6f8",
+          "bytes": 20800,
+          "sha256": "65922128d804bbd23e44cbcda0654c9686ab0ba21ca692347e48323aa9949b55"
+        },
+        {
+          "path": "arknights_mower/utils/scheduler_task.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/94a49b4c78bf03f30007f9384b4163630f8da98d/arknights_mower/utils/scheduler_task.py",
+          "gitBlob": "681d892bc4189a774b99d2c1a3fffc7f9871aa74",
+          "bytes": 140904,
+          "sha256": "1b5b81fac26f04b80d2f014ffa18eb892319ef64220aa36398e869643257a225"
+        },
+        {
+          "path": "arknights_mower/utils/config/plan.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/94a49b4c78bf03f30007f9384b4163630f8da98d/arknights_mower/utils/config/plan.py",
+          "gitBlob": "ae2e6df8543b0cf58ecd24119a928401babf7240",
+          "bytes": 15898,
+          "sha256": "79301cf9bb25506f87b0db65a2802890a650dee50f5890e08e08e92f8bf9dca6"
+        },
+        {
+          "path": "arknights_mower/utils/logic_expression.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/94a49b4c78bf03f30007f9384b4163630f8da98d/arknights_mower/utils/logic_expression.py",
+          "gitBlob": "7b6c5711f6ff502ae5953ae23702834a15c3deb1",
+          "bytes": 1963,
+          "sha256": "49ba3eca9aee5a55875b97f6a80681954d688bd95a07085b7c177d67145e6d42"
+        },
+        {
+          "path": "arknights_mower/utils/backup_groups.py",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/94a49b4c78bf03f30007f9384b4163630f8da98d/arknights_mower/utils/backup_groups.py",
+          "gitBlob": "08abb8363612221975554afd4c0a990eebb3e87d",
+          "bytes": 1310,
+          "sha256": "feccccb9c5433aabe1ef1fd832f111c222e004838d1115bccae018c50ab1529f"
+        }
+      ]
+    },
+    "latestHeadObservation": {
+      "commit": "0c321af26b61184bf058d4c6fcdc7a3ecf841604",
+      "comparisonBase": "f19abfa3a53489d018c6eabd115b6cb68afcdc66",
+      "changedFiles": 58,
+      "commits": 7,
+      "scope": "Ordinary scheduling continuity checked separately from new default-off calculated-mood scheduling, timing logs, manager, configuration and export UI changes; builtin vendor sources unchanged."
+    },
+    "baselineCalculatorCommit": "668a18628747bde46b1dbdcf786c8c10917530be",
+    "auditCoverage": {
+      "controlledCodeFiles": 627,
+      "implementationFiles": 284,
+      "testAndHelperFiles": 343,
+      "fullyRead": 627,
+      "missing": 0,
+      "changedDuringReadOnlyAudit": 0,
+      "meaning": "File-level source review; not branch/input coverage or full native/device runtime parity.",
+      "excluded": [
+        "generated data",
+        "static media",
+        "dependencies",
+        "build outputs",
+        "historical validation artifacts"
+      ]
+    },
+    "confirmedFindings": 25,
+    "sharedFormulaCorrectionsAuthorizedByUser": [
+      "Count completed fragments by producing recipe across switches and warmup, rather than relabeling lifetime items with the final product.",
+      "Gnosis, Walter and Viviana control links require the selected unlocked provider skill; Walter capacity is +1 or +2 by stage.",
+      "Senshi cuisine requires the unlocked independent cuisine skill.",
+      "Lappland E0 order capacity requires Texas physically present in the same trading room.",
+      "Control count-based morale providers require an active control assignment and selected control skill."
+    ],
+    "localContracts": [
+      "No unfinished training plan in local simulation; preserve native fields.",
+      "Low-tier tailoring uses the user-selected fixed level-three peak distribution.",
+      "Ideal trade-order model and local maintenance filtering retained.",
+      "GameData remains v078; this update does not update the game catalog.",
+      "Explicit local single-recovery targets remain caller modelling assumptions; invalid targets disable only that provider bonus instead of retargeting.",
+      "Previously supported proven recovery-dependency returns keep exact task-and-position proof within one preview; the default native path receives no proof exception.",
+      "Default initial mood uses each operator personal upper limit, including Fiammetta.",
+      "The five explicitly authorized common-formula corrections above intentionally differ from the pinned built-in Mower engine.",
+      "Facility type queries without a production observation host remain unknown; formal calculation/Worker paths supply that host."
+    ],
+    "implementationStatus": "validated-calculator-candidate",
+    "evidence": [
+      "UPDATE_PLAN.md",
+      "artifacts/mower-parity-audit-20261025/full-scope/COVERAGE_REPORT.json",
+      "artifacts/mower-parity-fixes-20261025"
+    ],
+    "wholeNativeRuntimeParity": false,
+    "gameRuntimeVerified": false,
+    "previousHeadObservations": [
+      {
+        "commit": "0c3504a8a2394e17b1c93fe55571a2c4b1cfe136",
+        "comparisonBase": "94a49b4c78bf03f30007f9384b4163630f8da98d",
+        "changedFiles": 27,
+        "scope": "Manager, navigation, settings and default screenshot command; scheduling, recovery, plan schema and built-in RIIC simulation unchanged."
+      },
+      {
+        "commit": "f19abfa3a53489d018c6eabd115b6cb68afcdc66",
+        "comparisonBase": "0c3504a8a2394e17b1c93fe55571a2c4b1cfe136",
+        "changedFiles": 21,
+        "scope": "Shared native mood calculation caching and run-order observation scheduling; built-in vendor rules unchanged. Local ideal-run-order model retained."
+      }
+    ],
+    "latestSchedulingIncrement": {
+      "mower": {
+        "repository": "ArkMowers/arknights-mower",
+        "branch": "alpha",
+        "commit": "f19abfa3a53489d018c6eabd115b6cb68afcdc66",
+        "files": [
+          {
+            "path": "arknights_mower/solvers/base_schedule.py",
+            "commit": "f19abfa3a53489d018c6eabd115b6cb68afcdc66",
+            "gitBlob": "03ae01324bb8a1b32c81453253882f8da44f4476",
+            "bytes": 721298,
+            "sha256": "7dda9890b2c4250e136ff7ec05952a1ef76bdcacb0a77d2f594300c7e8efdc95",
+            "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/arknights_mower/solvers/base_schedule.py"
+          },
+          {
+            "path": "arknights_mower/utils/operators.py",
+            "commit": "f19abfa3a53489d018c6eabd115b6cb68afcdc66",
+            "gitBlob": "1cde8abe3c7237fdfbb8945cfe46d1621a14ee14",
+            "bytes": 146575,
+            "sha256": "de7407ffbbb0dd1d45cbbda7cb3e52e2c7c474429d8fef2b154717eb3cd48957",
+            "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/arknights_mower/utils/operators.py"
+          },
+          {
+            "path": "arknights_mower/utils/scheduler_task.py",
+            "commit": "f19abfa3a53489d018c6eabd115b6cb68afcdc66",
+            "gitBlob": "8b7f1764f05505c6b8d4e38b039e8249c72eedba",
+            "bytes": 141258,
+            "sha256": "a67e51e318262be722278005ce274fadfddbd511620ebf09d9ed6bfe2c7ea279",
+            "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/arknights_mower/utils/scheduler_task.py"
+          },
+          {
+            "path": "arknights_mower/utils/calculated_mood.py",
+            "commit": "f19abfa3a53489d018c6eabd115b6cb68afcdc66",
+            "gitBlob": "4a7f9343e89e9546eb59ffe467f840bfb62800d0",
+            "bytes": 17779,
+            "sha256": "b84724f1752555a2f6b84b7c5ba44ec27bb4ccd7e404f23e0ffa57601fcde9f2",
+            "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/arknights_mower/utils/calculated_mood.py"
+          }
+        ]
+      },
+      "scope": "One-time startup order observations before ordinary staffing, safe measured-mood reuse, the native near-order window, and completed-batch order reads after the final physical room return but before metadata. Per-room priority checks and shared dispatch admission retain unread/failed refresh objects and deadlines without microsecond polling. Native physical runner insertion and collision drone use remain outside the local ideal-run-order contract.",
+      "expressionFunctionsCompared": 15,
+      "expressionAstUnchangedFrom94a": true,
+      "implementationStatus": "validated-calculator-candidate"
+    },
+    "nativeReferenceEnvironment": {
+      "pythonRequirement": ">=3.12,<3.13",
+      "referencePython": "3.12.14",
+      "referencePlatform": "Windows",
+      "unicodeVersion": "15.0.0",
+      "scope": "Actual source-model/schema and expression probes; no native device/game execution."
+    },
+    "expressionCompatibility": [
+      "Safe whitelisted Python syntax with native 2048-codepoint source, 128 AST-node, 256-bit integer literal and 512-codepoint string literal limits.",
+      "Native numeric multiplication/power resource estimates remain 4096 bits; power exponent is a literal integer from 0 through 64.",
+      "Exact integer/float distinction, Python 3.12 Windows sum paths, bytes/complex values, Unicode escapes/printability, single-operand percent formatting and query integer counts.",
+      "Native default 4300-digit decimal integer conversion limit; no extra local sequence, format-width or ordinary integer-result caps.",
+      "Unknown or missing observed operators and condition execution errors deactivate only that condition. Invalid syntax/permissions remain validation errors.",
+      "Compile-time dependency folding is limited to small safe values and does not execute formatting, repetition, power or function calls in an unselected branch."
+    ],
+    "unicodeData": {
+      "version": "15.0.0",
+      "repositorySources": "scripts/unicode-escape-names/sources.json",
+      "license": "Unicode-3.0",
+      "distributedLicense": "licenses/Unicode-Data-License.txt",
+      "offlineRegeneration": true
+    },
+    "additionalIntegrationFindings": [
+      {
+        "id": "F19A-STARTUP-1",
+        "scope": "Once-only startup observations before ordinary staffing with safe measured mood reuse."
+      },
+      {
+        "id": "LATEST-STARTUP-REVIEW-001",
+        "scope": "Independent room read failures retain their own refresh work and do not skip other completed-batch rooms."
+      },
+      {
+        "id": "LATEST-PRIORITY-001",
+        "scope": "Per-room critical windows and retained unread refresh responsibility, at the native pre-metadata completion boundary."
+      },
+      {
+        "id": "LR-04",
+        "scope": "Alpha post-arrangement backup changes do not force another microsecond-anchored correction; frozen default semantics remain separate."
+      },
+      {
+        "id": "FINAL-SLOW-ROUTING-001",
+        "scope": "Physical dorm residents continue recovering across backup changes between fixed and Free slot roles, regardless of which occupancy map retained their actual position. Single and batched derivatives share the same slot lookup; task deadlines and native clock gates are unchanged."
+      },
+      {
+        "id": "FINAL-RETRY-SNAPSHOT-001",
+        "scope": "Retained coordination tasks capture the native replacement dependency rooms and names, including their live scoped plan definitions and ordered replacements. Real relevant policy changes resume the original task and deadline; an empty backup activation or unrelated condition bitmap does not."
+      },
+      {
+        "id": "FINAL-RETURN-DISPATCH-001",
+        "scope": "Ordinary observed alpha dispatch does not impose an extra group-full-mood confirmation after preview. Native calculated tap-confirm validation is a separate, default-off mode and excludes retained execution; this calculator does not silently enable that optional mode. Existing full-recovery planning, personal limits, task identity/deadline and precise same-task/position preview proofs remain."
+      }
+    ],
+    "sharedSchedulingCorrections": {
+      "decision": {
+        "status": "approved-local-corrections",
+        "confirmedAt": "2026-10-25T04:58:42.653Z",
+        "authority": "Latest Mower native ordinary scheduling is the primary reference for this task.",
+        "userChoice": "以原生调度为准，共同错误一并修复（建议）",
+        "sharedSchedulingChoice": "一并修复，登记为本地修正（建议）",
+        "scope": "Original 25 findings and seven canonical integration findings; fix confirmed common defects and explicitly record differences from the builtin simulator.",
+        "preservedLocalContracts": [
+          "Personal upper morale initialization; Fiammetta not forced to 16",
+          "No unfinished mastery plan; preserve raw imported advanced settings",
+          "Ideal run orders, maintenance filtering and local inventory/drone model",
+          "Low-tier tailoring fixed level-three distribution",
+          "Invalid explicit single-recovery target does not retarget",
+          "Precise same-task and position preview proof exception"
+        ],
+        "boundary": "This decision removes the scope blocker. It is not evidence that the new candidate has passed full tests, a fresh Worker window, or actual game/device validation."
+      },
+      "findings": [
+        "LR-04",
+        "FINAL-SLOW-ROUTING-001",
+        "FINAL-RETRY-SNAPSHOT-001",
+        "FINAL-RETURN-DISPATCH-001"
+      ],
+      "authority": "Mower native ordinary scheduling; test_mood_calculation is default false and is not silently enabled locally.",
+      "builtinBehaviorDiffers": true,
+      "builtinCommit": "f19abfa3a53489d018c6eabd115b6cb68afcdc66",
+      "builtinSources": [
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerSourceRuntime.ts",
+          "sha256": "cdb04798f5ff1e12ada4244a16d95b3a6743a7dd480f44248a4b41d7abeb5780",
+          "gitBlobSha1": "e29279bf899485ce526d02c7808ab5d231163799",
+          "blobVerification": "https://api.github.com/repos/ArkMowers/arknights-mower/git/blobs/e29279bf899485ce526d02c7808ab5d231163799",
+          "sourceContent": "exact UTF-8 pinned raw contents; official Git blob endpoint independently returned identical decoded content"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerTaskFailure.ts",
+          "sha256": "ebe6e2c8a1c691037918cfea9eb5104e21ced00a09eb46e40fd1586342178d14",
+          "gitBlobSha1": "621acefa11da170f3865efea6874a0378dff7f1d",
+          "blobVerification": "https://api.github.com/repos/ArkMowers/arknights-mower/git/blobs/621acefa11da170f3865efea6874a0378dff7f1d",
+          "sourceContent": "exact UTF-8 pinned raw contents; official Git blob endpoint independently returned identical decoded content"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/rosterRuntime.ts",
+          "sha256": "f3a5f1991cf9627b894895acf591c1f6db8bffb39538bfa59a5062e5b3a31f75",
+          "gitBlobSha1": "87df21f67c62e5d2ee38af655e513563d367af19",
+          "blobVerification": "https://api.github.com/repos/ArkMowers/arknights-mower/git/blobs/87df21f67c62e5d2ee38af655e513563d367af19",
+          "sourceContent": "exact UTF-8 pinned raw contents; official Git blob endpoint independently returned identical decoded content"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerTaskExecutor.ts",
+          "sha256": "eb5385ad4472870acaa26364b2eb21206e517b1b49bb8bd70fcdc19510615fc3",
+          "computedGitBlobSha1": "af8a7468c5d0108db3e997011a3308cb5ec45d27",
+          "sourceContent": "Exact UTF-8 text returned by GitHub connector pinned raw URL; blob computed, not independently checked against a Git tree"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerRunOrderPlanning.ts",
+          "sha256": "749b6454c412436a2ceac899f0d9aba043b18581a9f3a96bb2f48488c67dd5b0",
+          "computedGitBlobSha1": "f8af9768be0b20236f5aae50731d3baa1b933d85",
+          "sourceContent": "Exact UTF-8 text returned by GitHub connector pinned raw URL; blob computed, not independently checked against a Git tree"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerAlphaDorm.ts",
+          "sha256": "99ce280784b5e2d012afd9f554e22ddc12f809902cec0e02de0e7cd9a7ff4825",
+          "computedGitBlobSha1": "2123c2339afff066380713095e69aed2c981261a",
+          "sourceContent": "Exact UTF-8 text returned by GitHub connector pinned raw URL; blob computed, not independently checked against a Git tree"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerAlphaCandidates.ts",
+          "sha256": "b512c664d5d4e66e2c3d9a0c642b9c19e4a1041f70e4b5fcc0936ef8336812ca",
+          "computedGitBlobSha1": "711f118271feefe4b77195610ca617b37467a49a",
+          "sourceContent": "Exact UTF-8 text returned by GitHub connector pinned raw URL; blob computed, not independently checked against a Git tree"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerDormRecovery.ts",
+          "sha256": "d9474a7e9edbfeb946aa446237afaf54640ab843a143124597e896b1540b8535",
+          "computedGitBlobSha1": "b7eced0e766641ca91b9a38e0c7f848d38bb3916",
+          "sourceContent": "Exact UTF-8 text returned by GitHub connector pinned raw URL; blob computed, not independently checked against a Git tree"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerTodoTask.ts",
+          "sha256": "a739d8499d93277f33b42d38b92c1a5718f8b68f509bdf3ef598ad1aad766cc8",
+          "computedGitBlobSha1": "248bd8df26c787fe2ab84041b5bb3b56689c820d",
+          "sourceContent": "Exact UTF-8 text returned by GitHub connector pinned raw URL; blob computed, not independently checked against a Git tree"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/backupExpression.ts",
+          "sha256": "7a78c42d94f92012dfc703744752c92f104d124f60ff8c165950eb3bab81cc41",
+          "computedGitBlobSha1": "203cfb40cdf380a601ac9d7966ca0f4a162d5c20",
+          "sourceContent": "Exact UTF-8 text returned by GitHub connector pinned raw URL; blob computed, not independently checked against a Git tree"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/backupPlans.ts",
+          "sha256": "a8779174d59cc342d6bd58599656d79e1e859661a90965a836bdae84b4f4e649",
+          "computedGitBlobSha1": "1a21abc8f8cbbf08b451fc306773f0413984e30e",
+          "sourceContent": "Exact UTF-8 text returned by GitHub connector pinned raw URL; blob computed, not independently checked against a Git tree"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerWorkingReplacement.ts",
+          "sha256": "a7f5106e6ca614a2faa896788b30f8f80f74dce2283e94f2aa62ec8ec5c0afa0",
+          "computedGitBlobSha1": "b7ea087effaf0d4c58aa14ec4885a91f0bbfae89",
+          "sourceContent": "Exact UTF-8 text returned by GitHub connector pinned raw URL; blob computed, not independently checked against a Git tree"
+        }
+      ],
+      "boundary": "These shared bugs are not local lag behind the builtin simulator. No complete builtin equivalence or actual device/game proof is claimed.",
+      "savedTaskScope": "Native ordinary admitted/retained tasks can continue below a member cap; explicit full recovery continues to constrain normal generated planning rather than adding a global execution gate."
+    },
+    "nativeVsBuiltinAuthorityClassification": {
+      "commit": "f19abfa3a53489d018c6eabd115b6cb68afcdc66",
+      "classificationSha256": "c6be0e68f3742969cd46bcec68a45976e13f503f48d508ebbecfd7e3fae8be6d",
+      "counts": {
+        "original": 25,
+        "originalSharedFormula": 5,
+        "originalSharedNonFormula": 9,
+        "originalLocalGapsAlreadyFixedInBuiltin": 2,
+        "originalLocalProduct": 9,
+        "latestSharedNonFormula": 7
+      },
+      "originalFindings": [
+        {
+          "id": "BG-001",
+          "title": "绑组Free缺少按组额度校验，其他组受保护成员可超额入宿",
+          "category": "local-port-gap-already-handled-by-builtin",
+          "evidence": "f19 builtin alphaSlotTakable computes pending transitions and calls mowerDormCapacityAllows before takeover; this specific quota omission is absent there. Local helper port converges with native and builtin on the reviewed premise.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerAlphaDorm.ts",
+          "builtinSha256": "99ce280784b5e2d012afd9f554e22ddc12f809902cec0e02de0e7cd9a7ff4825"
+        },
+        {
+          "id": "BG-002",
+          "title": "单回排序保留目标前方未满固定住客，却仍登记目标已确认",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Pinned builtin whole file equals the audited668 baseline after LF normalization. Before-target fixed ordinary residents are retained without full-mood padding validation, as the original native probe demonstrated.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerDormRecovery.ts",
+          "builtinSha256": "d9474a7e9edbfeb946aa446237afaf54640ab843a143124597e896b1540b8535"
+        },
+        {
+          "id": "BG-003",
+          "title": "固定绑组互换恢复床未进入单回目标选择",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Pinned builtin whole file equals audited668 baseline after LF normalization; recovery target searches dynamicDormPosition only and omits fixed group recovery beds.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerDormRecovery.ts",
+          "builtinSha256": "d9474a7e9edbfeb946aa446237afaf54640ab843a143124597e896b1540b8535"
+        },
+        {
+          "id": "BG-004",
+          "title": "仅在共享跟班附加绑组列的候补被误分为空闲层级",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Builtin tier and referenced candidate set still inspect only current owner.replacement, not groupBindings/all replacements. The local fix follows the already-probed native resting_tier rule.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerAlphaDorm.ts",
+          "builtinSha256": "99ce280784b5e2d012afd9f554e22ddc12f809902cec0e02de0e7cd9a7ff4825"
+        },
+        {
+          "id": "INPUT-001",
+          "title": "新建或编辑条件后导出的 string trigger 无法被原生 Mower 读取",
+          "category": "local-product-native-document-compatibility",
+          "evidence": "Local editor/export round-trip creates the wrong native trigger schema; no same-path builtin scheduler equivalence claim is made for this UI product issue."
+        },
+        {
+          "id": "INPUT-002",
+          "title": "固定源允许的设施查询和多类合法表达式在正式收益入口失败",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Builtin tokenizer/query whitelist and grammar still omit native-authorized forms present in original probe cases, including conditional expressions/list semantics/facility queries. This is a scoped static comparison to those already native-probed forms, not full Python compatibility.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/backupExpression.ts",
+          "builtinSha256": "7a78c42d94f92012dfc703744752c92f104d124f60ff8c165950eb3bab81cc41"
+        },
+        {
+          "id": "INPUT-003",
+          "title": "单条条件求值错误从原生的 false 扩大为整次收益模拟失败",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Builtin selection and observation signatures directly evaluate conditions without native complete-condition error-to-false handling. The local correction also changes comparable diagnostic handling, as independently reviewed.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/backupPlans.ts",
+          "builtinSha256": "a8779174d59cc342d6bd58599656d79e1e859661a90965a836bdae84b4f4e649"
+        },
+        {
+          "id": "INPUT-004",
+          "title": "新增副表任务使用静态槽位数，低级设施立刻无效且训练/回收第二槽不可新建",
+          "category": "local-product-native-document-compatibility",
+          "evidence": "Local task-editor capacity creation/export/validation issue; do not claim corresponding upstream UI paths are the same application."
+        },
+        {
+          "id": "UI-LARGE-001",
+          "title": "下一个副表事件持续选回同一事件",
+          "category": "local-product-state-display-navigation",
+          "evidence": "Local UI/report/edit behavior; original finding explicitly does not claim an upstream scheduler parity defect."
+        },
+        {
+          "id": "UI-LARGE-002",
+          "title": "内容区光标定位把标签列计入时间宽度",
+          "category": "local-product-state-display-navigation",
+          "evidence": "Local UI/report/edit behavior; original finding explicitly does not claim an upstream scheduler parity defect."
+        },
+        {
+          "id": "UI-LARGE-003",
+          "title": "更改分卷天数后旧卷号越界并回退导出全周期",
+          "category": "local-product-state-display-navigation",
+          "evidence": "Local UI/report/edit behavior; original finding explicitly does not claim an upstream scheduler parity defect."
+        },
+        {
+          "id": "RT-01",
+          "title": "耗尽任务按归零倒计时排期，忽略正数个人下限",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Builtin positive physical-rate branch computes mood/rate minus margin and does not subtract the personal lower limit. Same native lower-limit scaling premise as original audit.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerSourceRuntime.ts",
+          "builtinSha256": "cdb04798f5ff1e12ada4244a16d95b3a6743a7dd480f44248a4b41d7abeb5780"
+        },
+        {
+          "id": "RT-02",
+          "title": "休满标记与组名匹配错误，耗尽交接统一提前30分钟",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Builtin fullGroups contains group names but tests fullGroups.has(op.name), with no direct op.restInFull test. This retains the audited10/30-minute handover difference.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerSourceRuntime.ts",
+          "builtinSha256": "cdb04798f5ff1e12ada4244a16d95b3a6743a7dd480f44248a4b41d7abeb5780"
+        },
+        {
+          "id": "RT-03",
+          "title": "失败保留任务仍阻挡待办服务的无人机和补货门控",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Pinned builtin whole file equals audited668 baseline after LF normalization; noPendingTask times all queue.tasks including retained executionFailure rather than dispatch view.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerTodoTask.ts",
+          "builtinSha256": "a739d8499d93277f33b42d38b92c1a5718f8b68f509bdf3ef598ad1aad766cc8"
+        },
+        {
+          "id": "SE-F01",
+          "title": "切配方后按最终产物分类累计件数，导致potential碎片漏计或多计",
+          "category": "previously-authorized-shared-formula-local-exception",
+          "evidence": "Preserved five-class formula exception explicitly authorized by user and independently reviewed; not reopened."
+        },
+        {
+          "id": "SE-F02",
+          "title": "部分中枢联动仍按姓名注入，绕过实际已解锁技能阶段",
+          "category": "previously-authorized-shared-formula-local-exception",
+          "evidence": "Preserved five-class formula exception explicitly authorized by user and independently reviewed; not reopened."
+        },
+        {
+          "id": "SE-F03",
+          "title": "森西未解锁E2料理技能仍向全局制造/贸易提供料理",
+          "category": "previously-authorized-shared-formula-local-exception",
+          "evidence": "Preserved five-class formula exception explicitly authorized by user and independently reviewed; not reopened."
+        },
+        {
+          "id": "SE-F04",
+          "title": "精零拉普兰德订单容量分支绕过同站德克萨斯条件",
+          "category": "previously-authorized-shared-formula-local-exception",
+          "evidence": "Preserved five-class formula exception explicitly authorized by user and independently reviewed; not reopened."
+        },
+        {
+          "id": "SE-F05",
+          "title": "中枢阵营心情技能可由会客等其他工作设施的提供者触发",
+          "category": "previously-authorized-shared-formula-local-exception",
+          "evidence": "Preserved five-class formula exception explicitly authorized by user and independently reviewed; not reopened."
+        },
+        {
+          "id": "SURF-F1",
+          "title": "自动排班完成结果会覆盖运行期间的新排班编辑",
+          "category": "local-product-state-display-navigation",
+          "evidence": "Local UI/report/edit behavior; original finding explicitly does not claim an upstream scheduler parity defect."
+        },
+        {
+          "id": "SURF-F2",
+          "title": "已完成收益在普通编辑后仍作为当前结果展示并可随新排班导出",
+          "category": "local-product-state-display-navigation",
+          "evidence": "Local UI/report/edit behavior; original finding explicitly does not claim an upstream scheduler parity defect."
+        },
+        {
+          "id": "SURF-F3",
+          "title": "海报将支持的源石碎片配方显示为未设定",
+          "category": "local-product-state-display-navigation",
+          "evidence": "Local UI/report/edit behavior; original finding explicitly does not claim an upstream scheduler parity defect."
+        },
+        {
+          "id": "SURF-F4",
+          "title": "全局替换的影响预估漏掉实际会修改的关联组和副表",
+          "category": "local-product-state-display-navigation",
+          "evidence": "Local UI/report/edit behavior; original finding explicitly does not claim an upstream scheduler parity defect."
+        },
+        {
+          "id": "ORIGINAL-F2",
+          "title": "无关副表条件布尔值变化也会解除普通失败任务",
+          "category": "local-port-gap-already-handled-by-builtin",
+          "evidence": "Builtin failure intent snapshot has scoped effectivePlan/products/eligibility and no global planConditions vector. The local original bug is absent from builtin. This is separate from later missing coordination dependency collection.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerTaskFailure.ts",
+          "builtinSha256": "ebe6e2c8a1c691037918cfea9eb5104e21ced00a09eb46e40fd1586342178d14"
+        },
+        {
+          "id": "ORIGINAL-F4",
+          "title": "普通替班检查未复用原生近期有效工作心情观测",
+          "category": "shared-native-builtin-io-adapter-difference",
+          "evidence": "Builtin working-replacement consumer unconditionally reads the room after applies(), while the native cached-work-mood contract used in original audit can reuse the existing observation. The audited local cached-observation correction differs from this current builtin adapter. This is a known I/O/model difference, not proof of a real-game defect or profit error.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerWorkingReplacement.ts",
+          "builtinSha256": "a7f5106e6ca614a2faa896788b30f8f80f74dce2283e94f2aa62ec8ec5c0afa0"
+        }
+      ],
+      "integrationFindings": [
+        {
+          "id": "F19A-STARTUP-1",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Builtin settleMowerSource initializes ordinary reads/staffing without the native one-time startup order/mood observation phase. Local new startup phase is a native port and a builtin behavioral difference.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerSourceRuntime.ts",
+          "builtinSha256": "cdb04798f5ff1e12ada4244a16d95b3a6743a7dd480f44248a4b41d7abeb5780"
+        },
+        {
+          "id": "LATEST-STARTUP-REVIEW-001",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Builtin still sequentially yield*s planDefaultRunOrder with no per-room recoverable-failure isolation; SourceRuntime catches the whole planning tail. Local independent REFRESH ownership/continuation differs from builtin.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerRunOrderPlanning.ts",
+          "builtinSha256": "749b6454c412436a2ceac899f0d9aba043b18581a9f3a96bb2f48488c67dd5b0"
+        },
+        {
+          "id": "LATEST-PRIORITY-001",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Builtin runs trade observations in ordinary planning after arrangement metadata, without the local new pre-metadata complete-batch wrapper and per-room native critical-window gate. This is native observation-scope alignment, not same builtin behavior.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerSourceRuntime.ts",
+          "builtinSha256": "cdb04798f5ff1e12ada4244a16d95b3a6743a7dd480f44248a4b41d7abeb5780"
+        },
+        {
+          "id": "LR-04",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Builtin else if(result.generated.length) forces corrections and microsecond anchors in alpha too. Local reviewed !hooks.alpha gate preserves default-only behavior and follows native alpha.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerTaskExecutor.ts",
+          "builtinSha256": "eb5385ad4472870acaa26364b2eb21206e517b1b49bb8bd70fcdc19510615fc3"
+        },
+        {
+          "id": "FINAL-SLOW-ROUTING-001",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Parent-pinned builtin physical recovery still uses logical-map-specific lookups; local two helpers plus single/bulk physical cross-map derivatives differ. Canonical aliases PHY-01/LR-05 are one fix.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/rosterRuntime.ts",
+          "builtinSha256": "f3a5f1991cf9627b894895acf591c1f6db8bffb39538bfa59a5062e5b3a31f75"
+        },
+        {
+          "id": "FINAL-RETRY-SNAPSHOT-001",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Parent-pinned builtin only expands replacement dependencies for task.type===EXHAUST_OFF and lacks the reviewed native coordination dependency closure/live plan scope for support tasks.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerTaskFailure.ts",
+          "builtinSha256": "ebe6e2c8a1c691037918cfea9eb5104e21ced00a09eb46e40fd1586342178d14"
+        },
+        {
+          "id": "FINAL-RETURN-DISPATCH-001",
+          "category": "shared-nonformula-native-builtin-difference",
+          "evidence": "Parent-pinned builtin globally readMissing/confirmMowerGroupReturn gates normal dispatch; local pending final reviewed candidate removes ordinary global gating and follows native optional calculated-validation/caller scope. No new Worker success is claimed.",
+          "builtinUrl": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/f19abfa3a53489d018c6eabd115b6cb68afcdc66/ui/src/riic/vendor/scheduler/mowerSourceRuntime.ts",
+          "builtinSha256": "cdb04798f5ff1e12ada4244a16d95b3a6743a7dd480f44248a4b41d7abeb5780"
+        }
+      ],
+      "interpretation": "Original25 has nine nonformula native-vs-builtin differences in addition to the five explicitly authorized formula classes. Eight are shared scheduler/expression omissions; ORIGINAL-F4 is an I/O adapter model difference, not a proven game defect. All seven later canonical routes also differ from current builtin. Do not call these all local lag behind builtin; keep native ordinary path authority, builtin current behavior, local exception policy and actual finite Worker outcome separate.",
+      "decision": {
+        "status": "approved-local-corrections",
+        "confirmedAt": "2026-10-25T04:58:42.653Z",
+        "authority": "Latest Mower native ordinary scheduling is the primary reference for this task.",
+        "userChoice": "以原生调度为准，共同错误一并修复（建议）",
+        "sharedSchedulingChoice": "一并修复，登记为本地修正（建议）",
+        "scope": "Original 25 findings and seven canonical integration findings; fix confirmed common defects and explicitly record differences from the builtin simulator.",
+        "preservedLocalContracts": [
+          "Personal upper morale initialization; Fiammetta not forced to 16",
+          "No unfinished mastery plan; preserve raw imported advanced settings",
+          "Ideal run orders, maintenance filtering and local inventory/drone model",
+          "Low-tier tailoring fixed level-three distribution",
+          "Invalid explicit single-recovery target does not retarget",
+          "Precise same-task and position preview proof exception"
+        ],
+        "boundary": "This decision removes the scope blocker. It is not evidence that the new candidate has passed full tests, a fresh Worker window, or actual game/device validation."
+      },
+      "boundary": "Classification covers the original 25 findings and 7 canonical integration additions. It is not a claim that every intentional model difference or all possible branches were tested."
+    },
+    "latestDeliveryIncrement": {
+      "base": "f19abfa3a53489d018c6eabd115b6cb68afcdc66",
+      "head": "0c321af26b61184bf058d4c6fcdc7a3ecf841604",
+      "checkedAt": "2026-10-25T10:16:48.250Z",
+      "comparisonUrl": "https://api.github.com/repos/ArkMowers/arknights-mower/compare/f19abfa3a53489d018c6eabd115b6cb68afcdc66...0c321af26b61184bf058d4c6fcdc7a3ecf841604",
+      "comparisonSha256": "00775f87a2af35850f8dfebe6103aa9c778636c6acd447b8c087383db18dae59",
+      "commits": 7,
+      "changedFiles": 58,
+      "builtinVendorFilesChanged": 0,
+      "supportedMode": "Native default ordinary measured-observation scheduling; test_mood_calculation remains false. Continuous local physical integration is not that optional mode.",
+      "ordinaryConclusion": "No new supported ordinary scheduling implementation gap confirmed. Dispatch return values, ordinary replacement metadata/query consumers, real Fiammetta timer producers and existing return callers were checked.",
+      "scopeBoundary": "Scoped full-diff, AST and original-function probes, not native pytest, actual devices, all upstream modes, or all-file whole-source human review. Manager/device/log exports and optional calculated scheduling are recorded separately from calculator ordinary behavior.",
+      "reviews": [
+        {
+          "path": "latest-delivery-mode-review/review.json",
+          "sha256": "73e58f243571cd9f0af7721712520d2868d027f343f3c771df93f05968dc2b64"
+        },
+        {
+          "path": "latest-delivery-ordinary-review/review.json",
+          "sha256": "a3c988f57cea2dbdc551eb7da7f25f6c2049d8ecdcf722b7dc0e5eb58e99e646"
+        }
+      ],
+      "expressionAstFunctionsUnchanged": 15,
+      "requiresCalculatorProductionChanges": false,
+      "sources": [
+        {
+          "path": "arknights_mower/solvers/base_schedule.py",
+          "sha256": "a5d645d2f3454fc68babf1457e313b87413380d3c87abc5841dfc64ca64c268e",
+          "gitBlob": "b75bc9fe760e98aa76c087779ee0ca5db5f1fc5e",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/solvers/base_schedule.py"
+        },
+        {
+          "path": "arknights_mower/tests/backup_snapshot_tests.py",
+          "sha256": "666856c33f8005c835c7af465ea5384a13f6229a3bc8ded87c59a31be8e5f6f2",
+          "gitBlob": "92cd563e7b5173c792ff6c45ca351d3304a19f6e",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/tests/backup_snapshot_tests.py"
+        },
+        {
+          "path": "arknights_mower/tests/base_scheduler_tests.py",
+          "sha256": "1e1b649b0a0516cff9045bf3e108b17340d67677ceff685ffdd3ee6452da2a6b",
+          "gitBlob": "2bc916477c664d89fcc7fb4b58741a9edc9e50e1",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/tests/base_scheduler_tests.py"
+        },
+        {
+          "path": "arknights_mower/tests/calculated_exhaust_dispatch_tests.py",
+          "sha256": "60a1b88ba2c3412b504dd81c0fec42501d3c36b799eb71157f426e9cee686e50",
+          "gitBlob": "9dbe5524b4acd14aa484667dd6df44842fac5b7b",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/tests/calculated_exhaust_dispatch_tests.py"
+        },
+        {
+          "path": "arknights_mower/tests/calculated_mood_tests.py",
+          "sha256": "003c4adb9249783009f49767d70af8a853452a66f496d0bbf4449ce369cd9e35",
+          "gitBlob": "1939a578a11db6521c12edae84d67ab6e3938ad2",
+          "gitBlobVerified": true,
+          "verification": "Pinned official Contents API Git blob and exact source bytes.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/tests/calculated_mood_tests.py"
+        },
+        {
+          "path": "arknights_mower/tests/calculated_replacement_threshold_tests.py",
+          "sha256": "b43ceb40f7d141b8d870b94c4b5b22079535baa08d27490a20043e5b24c6a15b",
+          "gitBlob": "ab6dec9726496f52c3175579b5ad3810ad7e66de",
+          "gitBlobVerified": true,
+          "verification": "Pinned official Contents API Git blob and exact source bytes.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/tests/calculated_replacement_threshold_tests.py"
+        },
+        {
+          "path": "arknights_mower/tests/mood_calculation_consumers_tests.py",
+          "sha256": "0812147ea0f03e7f286d37abd4ad7f8d72e59142dbaaa0991e81d7ff9e113e0c",
+          "gitBlob": "3343f91d828fc2568f2036cdf42ff7dad221f6b7",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/tests/mood_calculation_consumers_tests.py"
+        },
+        {
+          "path": "arknights_mower/tests/shift_backup_convergence_tests.py",
+          "sha256": "d10b0744be51a17a3a7cf9906f73d82c0665eaa73eb4e18c4f22ae891c513ea3",
+          "gitBlob": "88e43d29154993aa18fd419e9a547b692471f1f3",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/tests/shift_backup_convergence_tests.py"
+        },
+        {
+          "path": "arknights_mower/utils/calculated_mood.py",
+          "sha256": "c1501ba3c2b4b153868a027689519cdda00ba07139def2d4cfcff6cdd739f457",
+          "gitBlob": "c68a80bd406f8d812d585d840e702172dabf7db1",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/utils/calculated_mood.py"
+        },
+        {
+          "path": "arknights_mower/utils/config/conf.py",
+          "sha256": "597641097e657c888d8b0aa4be1a0e9b5cfdbc38493427eab8b676ab5a89c8ca",
+          "gitBlob": "e63c07ea7ef10fb7dd04e436ce008ee850fb9503",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/utils/config/conf.py"
+        },
+        {
+          "path": "arknights_mower/utils/operators.py",
+          "sha256": "3f00387a46fe3fb515b889d22415564aed19ff880d4f146d9b4c9501cda0468d",
+          "gitBlob": "db141bd500023cf0111a00407d0af31a879b01ec",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/utils/operators.py"
+        },
+        {
+          "path": "arknights_mower/utils/replacement_check.py",
+          "sha256": "9bd04182caabb069f6e8fdb2a603c70d7f3ada0ca2dfd1787f05467debeae8d2",
+          "gitBlob": "cf65ab242689659c86d7a6332c5f98216e640c28",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/utils/replacement_check.py"
+        },
+        {
+          "path": "arknights_mower/utils/scheduler_task.py",
+          "sha256": "03f71866ba57d4297dca54511739998633efe76138a00bc63d747eb09a1f91c7",
+          "gitBlob": "14eec8fa76e912db76157a42aa19fbe8c6fc0600",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/arknights_mower/utils/scheduler_task.py"
+        },
+        {
+          "path": "docs/subsystems/base-scheduler.md",
+          "sha256": "3c7fe94af965c67df0630411f2d02e01d4bff3bd6dccce85a0cc02d0fb242be3",
+          "gitBlob": "bbfa368663bb2d9da711cf16fae72e62acdacec6",
+          "gitBlobVerified": true,
+          "verification": "Pinned exact source bytes; changed-file Git blob checked against complete official comparison when available.",
+          "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/0c321af26b61184bf058d4c6fcdc7a3ecf841604/docs/subsystems/base-scheduler.md"
+        }
+      ]
+    },
+    "candidateValidation": {
+      "coreSha256": "ab93699216b45e0d7879454bc1295aa210b445a81a90b272fb99d49b5b146e66",
+      "fullTestFiles": 355,
+      "passedTests": 4705,
+      "skippedTests": 1,
+      "buildFiles": 1007,
+      "workerSha256": "0daec7029396cecbb499c403b5de27567e880189a55e2cf670fba37f2dac4605",
+      "actualWorkerWindowHours": [
+        72,
+        168
+      ],
+      "actualWorkerFiniteWindowAccepted": true,
+      "realGameOrDeviceValidated": false,
+      "terminalQueueAndLatchesExported": false
+    }
   }
 }
