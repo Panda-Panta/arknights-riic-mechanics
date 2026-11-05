@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-12T13:12:38.800Z",
+  "generatedAt": "2026-11-05T05:26:29.219473+00:00",
   "gameData": {
-    "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
-    "version": "78.0.0",
+    "commit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
+    "version": "79.0.0",
     "counts": {
-      "operators": 432,
-      "buffDefinitions": 763,
-      "highestSkills": 760,
-      "skillStages": 929,
+      "operators": 438,
+      "buffDefinitions": 778,
+      "highestSkills": 770,
+      "skillStages": 944,
       "terms": 82
     }
   },
@@ -15,35 +15,35 @@
     "schemaVersion": 1,
     "provider": "arkntools",
     "route": "https://arkntools.app/#/riic",
-    "retrievedAt": "2026-10-12T13:13:34.682Z",
+    "retrievedAt": "2026-11-05T05:26:29.220501+00:00",
     "checkUrl": "https://data.arkntools.app/check.json",
     "check": {
-      "mapMd5": "c6c33034",
-      "timestamp": 1791703003281,
+      "mapMd5": "ce5c405e",
+      "timestamp": 1793596383822,
       "version": "2.5.0"
     },
-    "mapUrl": "https://data.arkntools.app/map.c6c33034.json",
-    "mapSha256": "05a50869d93a2502ee5cd9058ea9cae6f4275aa49bef7f38e350c937bcf59013",
+    "mapUrl": "https://data.arkntools.app/map.ce5c405e.json",
+    "mapSha256": "01032818becb830898e2e19042b98bbd9076e747d7969959c7148f6617b273c4",
     "resources": {
       "building": {
-        "url": "https://data.arkntools.app/data/building.3db77af1.json",
-        "filename": "building.3db77af1.json",
-        "sha256": "16fc38f1ac5c90daf4ca597457b5341d8788088e3314ea6dda8b8af089811fb4"
+        "url": "https://data.arkntools.app/data/building.a267480d.json",
+        "filename": "building.a267480d.json",
+        "sha256": "0629be80d8a1536b71d0cae7e1b74e707c15c38f5d7926e3066e6a057cd28aec"
       },
       "character": {
-        "url": "https://data.arkntools.app/data/character.2ffaa90c.json",
-        "filename": "character.2ffaa90c.json",
-        "sha256": "e629c262d6b9336b3bf082f25722ada778524e6d066ad0782c3a47bde93be211"
+        "url": "https://data.arkntools.app/data/character.333962cd.json",
+        "filename": "character.333962cd.json",
+        "sha256": "f5dfca3d15b5e38e8bfc17c09345a5fbb98c3f99c74933fb4fdf3406b11db347"
       },
       "cnBuilding": {
-        "url": "https://data.arkntools.app/locales/cn/building.8a955245.json",
-        "filename": "building.8a955245.json",
-        "sha256": "dd2514d81be4b1821f75b3f57218ee99a3fb1ad374d32c088cf066bbd6043f15"
+        "url": "https://data.arkntools.app/locales/cn/building.ac5ab471.json",
+        "filename": "building.ac5ab471.json",
+        "sha256": "9644cfa201c3584e6c3de2c3ead4bdc928ffdfd9cfd919e56427c815cd764a66"
       },
       "cnCharacter": {
-        "url": "https://data.arkntools.app/locales/cn/character.7d402757.json",
-        "filename": "character.7d402757.json",
-        "sha256": "07c4cfc447fbde5991fd6f0cf9ae71f725cff67a0899c5627098d34fcc240476"
+        "url": "https://data.arkntools.app/locales/cn/character.c5ac09b5.json",
+        "filename": "character.c5ac09b5.json",
+        "sha256": "43ac1660898a0e17d08fa5b9f7112476bcc85c2794931eb44a0d4e89e1f17c82"
       },
       "cnTerm": {
         "url": "https://data.arkntools.app/locales/cn/term.3ed0dfee.json",
@@ -52,20 +52,52 @@
       }
     },
     "verification": {
-      "operators": 432,
-      "skillStageEntries": 929,
-      "skillTagLabels": 763,
+      "operators": 438,
+      "skillStageEntries": 944,
+      "skillTagLabels": 778,
       "terms": 82,
       "comparison": "All obtainable operator stages match GameData skill IDs, unlocks, facility types, names, raw descriptions and icons."
     }
   },
   "prts": [
     {
+      "name": "奥尔佳",
+      "characterId": "char_4245_alga",
+      "revision": 447205,
+      "url": "https://prts.wiki/w/%E5%A5%A5%E5%B0%94%E4%BD%B3?oldid=447205",
+      "responseSha256": "ea180de17062d724219c321397e5b5a3de4ca8791142bfc005b9ce2d75ca7b08",
+      "checkedGameDataCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
+      "logisticsText": "条件 图标 技能1 房间 描述 精英0 外交禀赋 会客室 进驻会客室时，线索搜集速度提升10% 精英2 群策群力 会客室 进驻会客室时，线索搜集速度提升10%，与其他乌萨斯学生自治团术语: 乌萨斯学生自治团包含以下干员早露、凛冬、真理、古米、烈夏、苦艾干员进驻会客室一起工作时，线索搜集速度额外提升20%",
+      "checks": [
+        {
+          "buffId": "meet_spd&sami[200]",
+          "name": "外交禀赋",
+          "unlock": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "description": "进驻会客室时，线索搜集速度提升10%",
+          "matched": true
+        },
+        {
+          "buffId": "meet_spd&sami[210]",
+          "name": "群策群力",
+          "unlock": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "description": "进驻会客室时，线索搜集速度提升10%，与其他乌萨斯学生自治团干员进驻会客室一起工作时，线索搜集速度额外提升20%",
+          "matched": true
+        }
+      ]
+    },
+    {
       "name": "德·托莱多",
       "characterId": "char_393_toledo",
-      "revision": 440178,
-      "url": "https://prts.wiki/w/%E5%BE%B7%C2%B7%E6%89%98%E8%8E%B1%E5%A4%9A?oldid=440178",
-      "responseSha256": "dccdde9a5fecb2cc4f208676aec613d6b1433d0836de74cb9da33ab1cfd39eb2",
+      "revision": 443366,
+      "url": "https://prts.wiki/w/%E5%BE%B7%C2%B7%E6%89%98%E8%8E%B1%E5%A4%9A?oldid=443366",
+      "responseSha256": "8779dd3038c6213c4e5fdc356cc1aa7942e4d994c4f5199aa419d8245d18332e",
+      "checkedGameDataCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
       "logisticsText": "条件 图标 技能1 房间 描述 精英0 拉拢听众 办公室 进驻人力办公室时，人脉资源的联络速度+20%，心情每小时消耗-0.25 精英2 聚众宣讲 办公室 进驻人力办公室时，人脉资源的联络速度+30%，心情每小时消耗-0.25\n条件 图标 技能2 房间 描述 精英2 忠实拥趸 宿舍 进驻宿舍时，该宿舍内所有干员心情每小时恢复+0.1，同时每个招募位（不包含初始招募位）额外+0.05恢复效果（叠加后的最终值同种效果取最高）",
       "checks": [
         {
@@ -101,11 +133,135 @@
       ]
     },
     {
+      "name": "冻河",
+      "characterId": "char_4244_tocka",
+      "revision": 447330,
+      "url": "https://prts.wiki/w/%E5%86%BB%E6%B2%B3?oldid=447330",
+      "responseSha256": "76a7fa0368ab31a7559a2745d745d3316e210ff1f00e7b1b34bb4d441adda64d",
+      "checkedGameDataCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
+      "logisticsText": "条件 图标 技能1 房间 描述 精英0 “无用的人脉” 贸易站 进驻贸易站时，贸易站内除自身以外每名处于工作状态的干员+15%订单获取效率 精英2 “真有用？” 贸易站 进驻贸易站时，贸易站内除自身以外每名处于工作状态的干员+20%订单获取效率\n条件 图标 技能2 房间 描述 精英0 微小的帮助 宿舍 进驻宿舍时，该宿舍内所有干员的心情每小时恢复+0.1；同时该宿舍每有1名心情未满的干员，则恢复效果额外+0.01（同种效果取最高）",
+      "checks": [
+        {
+          "buffId": "trade_ord_spd&share[100]",
+          "name": "“无用的人脉”",
+          "unlock": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "description": "进驻贸易站时，贸易站内除自身以外每名处于工作状态的干员+15%订单获取效率",
+          "matched": true
+        },
+        {
+          "buffId": "trade_ord_spd&share[110]",
+          "name": "“真有用？”",
+          "unlock": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "description": "进驻贸易站时，贸易站内除自身以外每名处于工作状态的干员+20%订单获取效率",
+          "matched": true
+        },
+        {
+          "buffId": "dorm_rec_all&unfull[100]",
+          "name": "微小的帮助",
+          "unlock": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "description": "进驻宿舍时，该宿舍内所有干员的心情每小时恢复+0.1；同时该宿舍每有1名心情未满的干员，则恢复效果额外+0.01（同种效果取最高）",
+          "matched": true
+        }
+      ]
+    },
+    {
+      "name": "国度",
+      "characterId": "char_4246_dminon",
+      "revision": 447273,
+      "url": "https://prts.wiki/w/%E5%9B%BD%E5%BA%A6?oldid=447273",
+      "responseSha256": "62e85f8d241e29a9b0da77e62d3a8148223139905363f3d6377e51b2fab57a9b",
+      "checkedGameDataCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
+      "logisticsText": "条件 图标 技能1 房间 描述 精英0 无差别回收 回收站 进驻回收站时，材料转化效率+20%，心情每小时消耗-0.1 精英2 无差别转化 回收站 进驻回收站时，材料转化效率+30%，心情每小时消耗-0.1\n条件 图标 技能2 房间 描述 精英0 人造物之畏 发电站 进驻发电站时，无人机充能速度+15%",
+      "checks": [
+        {
+          "buffId": "recycle_spd&cost[100]",
+          "name": "无差别回收",
+          "unlock": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "description": "进驻回收站时，材料转化效率+20%，心情每小时消耗-0.1",
+          "matched": true
+        },
+        {
+          "buffId": "recycle_spd&cost[110]",
+          "name": "无差别转化",
+          "unlock": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "description": "进驻回收站时，材料转化效率+30%，心情每小时消耗-0.1",
+          "matched": true
+        },
+        {
+          "buffId": "power_rec_spd[018]",
+          "name": "人造物之畏",
+          "unlock": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "description": "进驻发电站时，无人机充能速度+15%",
+          "matched": true
+        }
+      ]
+    },
+    {
+      "name": "镜匠",
+      "characterId": "char_4169_caledo",
+      "revision": 447206,
+      "url": "https://prts.wiki/w/%E9%95%9C%E5%8C%A0?oldid=447206",
+      "responseSha256": "443d9489e05a0b953cf67f34493c83b0ca934bf35c748a8016773f22e1154f9e",
+      "checkedGameDataCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
+      "logisticsText": "条件 图标 技能1 房间 描述 精英0 制镜基本功·α 加工站 进驻加工站加工精英材料时，副产品的产出概率提升75% 精英2 制镜基本功·β 加工站 进驻加工站加工精英材料时，副产品的产出概率提升80%\n条件 图标 技能2 房间 描述 精英2 浸剂回收 加工站 进驻加工站加工精英材料产出T3品质的副产品时，副产品必定为酮凝集组",
+      "checks": [
+        {
+          "buffId": "workshop_formula_probability[1111]",
+          "name": "制镜基本功·α",
+          "unlock": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "description": "进驻加工站加工精英材料时，副产品的产出概率提升75%",
+          "matched": true
+        },
+        {
+          "buffId": "workshop_formula_probability[1121]",
+          "name": "制镜基本功·β",
+          "unlock": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "description": "进驻加工站加工精英材料时，副产品的产出概率提升80%",
+          "matched": true
+        },
+        {
+          "buffId": "workshop_formula_drop[050]",
+          "name": "浸剂回收",
+          "unlock": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "description": "进驻加工站加工精英材料产出T3品质的副产品时，副产品必定为酮凝集组",
+          "matched": true
+        }
+      ]
+    },
+    {
       "name": "克莱门莎",
       "characterId": "char_4231_clemnt",
-      "revision": 440582,
-      "url": "https://prts.wiki/w/%E5%85%8B%E8%8E%B1%E9%97%A8%E8%8E%8E?oldid=440582",
-      "responseSha256": "c43f08a594126e02c4ad82fd409d65401d038d6f98f5dcd96f39f66de01e5f35",
+      "revision": 444724,
+      "url": "https://prts.wiki/w/%E5%85%8B%E8%8E%B1%E9%97%A8%E8%8E%8E?oldid=444724",
+      "responseSha256": "1ca482cafbcc383fa082b553f7406fb47c15f62d562017b043c702bd84de7437",
+      "checkedGameDataCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
       "logisticsText": "条件 图标 技能1 房间 描述 精英0 谈判技巧 会客室 进驻会客室时，线索搜集速度提升20%，心情每小时消耗+1\n条件 图标 技能2 房间 描述 精英2 合作原则 会客室 与其他干员进驻会客室一起工作时，线索搜集速度提升15%，心情每小时消耗+1",
       "checks": [
         {
@@ -133,10 +289,11 @@
     {
       "name": "旅骨",
       "characterId": "char_4232_hbound",
-      "revision": 440890,
-      "url": "https://prts.wiki/w/%E6%97%85%E9%AA%A8?oldid=440890",
-      "responseSha256": "41e5977933b447a3e7e4d849e7576b17e996931c38f491b0f8de8334cda16ab8",
-      "logisticsText": "条件 图标 技能1 房间 描述 精英0 拾荒者 回收站 进驻回收站时，材料转化效率+20% 精英2 捡海人 回收站 进驻回收站时，材料转化效率+30%\n条件 图标 技能2 房间 描述 精英2 指尖的光 加工站 进驻加工站加工手性屈光体或重相位对映体时，副产物的产出概率提升90%",
+      "revision": 447397,
+      "url": "https://prts.wiki/w/%E6%97%85%E9%AA%A8?oldid=447397",
+      "responseSha256": "716183519a9b985b48681ce5d8ea9085342046481411e634f08dfd3b582a3bd7",
+      "checkedGameDataCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
+      "logisticsText": "条件 图标 技能1 房间 描述 精英0 拾荒者 回收站 进驻回收站时，材料转化效率+20% 精英2 捡海人 回收站 进驻回收站时，材料转化效率+30%\n条件 图标 技能2 房间 描述 精英2 指尖的光 加工站 进驻加工站加工手性屈光体或重相位对映体时，副产品的产出概率提升90%",
       "checks": [
         {
           "buffId": "recycle_spd&cost[000]",
@@ -165,44 +322,124 @@
             "phase": "PHASE_2",
             "level": 1
           },
-          "description": "进驻加工站加工手性屈光体或重相位对映体时，副产物的产出概率提升90%",
+          "description": "进驻加工站加工手性屈光体或重相位对映体时，副产品的产出概率提升90%",
+          "matched": true
+        }
+      ]
+    },
+    {
+      "name": "塔露拉",
+      "characterId": "char_4247_oxi",
+      "revision": 448172,
+      "url": "https://prts.wiki/w/%E5%A1%94%E9%9C%B2%E6%8B%89?oldid=448172",
+      "responseSha256": "0aea8dda7d90680a8460d42eba7ecdac6c7e236d3542590fe825ce3ac6b6bc51",
+      "checkedGameDataCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
+      "logisticsText": "条件 图标 技能1 房间 描述 精英0 剑与昔时 训练室 进驻训练室协助位时，近卫与术师干员的专精技能训练速度+30%\n条件 图标 技能2 房间 描述 精英2 火旁新事 训练室 进驻训练室协助位时，如果训练位干员分支为本源近卫或本源术师，则专精技能训练速度额外+45%",
+      "checks": [
+        {
+          "buffId": "train_spd_doubleProf[302]",
+          "name": "剑与昔时",
+          "unlock": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "description": "进驻训练室协助位时，近卫与术师干员的专精技能训练速度+30%",
+          "matched": true
+        },
+        {
+          "buffId": "train_spd_branches[000]",
+          "name": "火旁新事",
+          "unlock": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "description": "进驻训练室协助位时，如果训练位干员分支为本源近卫或本源术师，则专精技能训练速度额外+45%",
+          "matched": true
+        }
+      ]
+    },
+    {
+      "name": "行铃",
+      "characterId": "char_4170_hdbell",
+      "revision": 447209,
+      "url": "https://prts.wiki/w/%E8%A1%8C%E9%93%83?oldid=447209",
+      "responseSha256": "18380e6968e482b38829494ce213048d51731c72c5b41d225cdf74958eda7cad",
+      "checkedGameDataCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
+      "logisticsText": "条件 图标 技能1 房间 描述 精英0 梅里塔精拣 回收站 进驻回收站时，材料转化效率+20% 精英2 花椰菜甄选 回收站 进驻回收站时，材料转化效率+30%",
+      "checks": [
+        {
+          "buffId": "recycle_spd&cost[001]",
+          "name": "梅里塔精拣",
+          "unlock": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "description": "进驻回收站时，材料转化效率+20%",
+          "matched": true
+        },
+        {
+          "buffId": "recycle_spd&cost[011]",
+          "name": "花椰菜甄选",
+          "unlock": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "description": "进驻回收站时，材料转化效率+30%",
           "matched": true
         }
       ]
     }
   ],
   "delta": {
-    "fromCommit": "a550f5e048bb94e7cdefc6eb97a4091f0c4c7add",
-    "toCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
-    "fromVersion": "Stream://torappu-data/v077/rel77.0\nChange:123576 on 2026/09/17\nVersionControl:77.6.0",
-    "toVersion": "Stream://torappu-data/v078/rel78.0\nChange:124981 on 2026/10/08\nVersionControl:78.0.0",
+    "fromCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+    "toCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
+    "fromVersion": "Stream://torappu-data/v078/rel78.0\nChange:124981 on 2026/10/08\nVersionControl:78.0.0",
+    "toVersion": "Stream://torappu-data/v079/rel79.0\nChange:127206 on 2026/10/28\nVersionControl:79.0.0",
     "addedOperators": [
       {
-        "id": "char_393_toledo",
-        "name": "德·托莱多"
+        "id": "char_4245_alga",
+        "name": "奥尔佳"
       },
       {
-        "id": "char_4231_clemnt",
-        "name": "克莱门莎"
+        "id": "char_4244_tocka",
+        "name": "冻河"
       },
       {
-        "id": "char_4232_hbound",
-        "name": "旅骨"
+        "id": "char_4246_dminon",
+        "name": "国度"
+      },
+      {
+        "id": "char_4169_caledo",
+        "name": "镜匠"
+      },
+      {
+        "id": "char_4247_oxi",
+        "name": "塔露拉"
+      },
+      {
+        "id": "char_4170_hdbell",
+        "name": "行铃"
       }
     ],
     "removedOperators": [],
-    "changedExistingOperators": [],
-    "unchangedExistingOperators": 429,
+    "changedExistingOperators": [
+      {
+        "id": "char_4232_hbound",
+        "name": "旅骨",
+        "unchanged": false
+      }
+    ],
+    "unchangedExistingOperators": 431,
     "previousCounts": {
-      "operators": 429,
-      "highestSkills": 754,
-      "skillStages": 921
+      "operators": 432,
+      "highestSkills": 760,
+      "skillStages": 929
     },
     "counts": {
-      "operators": 432,
-      "buffDefinitions": 763,
-      "highestSkills": 760,
-      "skillStages": 929,
+      "operators": 438,
+      "buffDefinitions": 778,
+      "highestSkills": 770,
+      "skillStages": 944,
       "terms": 82
     }
   },

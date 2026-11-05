@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-12T13:12:38.800Z",
-    "sourceVersion": "Stream://torappu-data/v078/rel78.0\nChange:124981 on 2026/10/08\nVersionControl:78.0.0",
-    "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
-    "operatorCount": 432,
-    "skillStageCount": 929,
+    "generatedAt": "2026-11-05T05:26:29.219473+00:00",
+    "sourceVersion": "Stream://torappu-data/v079/rel79.0\nChange:127206 on 2026/10/28\nVersionControl:79.0.0",
+    "sourceCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
+    "operatorCount": 438,
+    "skillStageCount": 944,
     "sourceManifest": "gamedata-source-manifest.json",
     "terms": "terms.json",
     "description": "Display projection of catalog.json. Term membership overrides roster affiliations for the corresponding skill. All stages are shown; select one unlocked version per slot before calculation."
@@ -4276,6 +4276,61 @@
       ],
       "isAlter": false
     },
+    "行铃": {
+      "name": "行铃",
+      "appellation": "Herdbells",
+      "rarity": 4,
+      "profession": "特种",
+      "pinyin": "xingling",
+      "pinyinInitial": "xl",
+      "sourceId": "char_4170_hdbell",
+      "nationId": "minos",
+      "groupId": null,
+      "teamId": null,
+      "skills": [
+        {
+          "slot": 1,
+          "buffId": "recycle_spd&cost[001]",
+          "buffName": "梅里塔精拣",
+          "room": "回收站",
+          "roomCode": "RECYCLE",
+          "phase": "初始",
+          "level": 1,
+          "unlockDesc": "初始",
+          "efficiency": 20,
+          "buffColor": "#6ccbcb",
+          "textColor": "#333333",
+          "description": "进驻回收站时，材料转化效率+20%",
+          "synergy": null,
+          "skillIcon": "bskill_recycle_spd&cost1",
+          "buffCategory": "FUNCTION",
+          "targets": [],
+          "targetGroupSortId": 0,
+          "termReferences": []
+        },
+        {
+          "slot": 1,
+          "buffId": "recycle_spd&cost[011]",
+          "buffName": "花椰菜甄选",
+          "room": "回收站",
+          "roomCode": "RECYCLE",
+          "phase": "精英2",
+          "level": 1,
+          "unlockDesc": "精英2",
+          "efficiency": 30,
+          "buffColor": "#6ccbcb",
+          "textColor": "#333333",
+          "description": "进驻回收站时，材料转化效率+30%",
+          "synergy": null,
+          "skillIcon": "bskill_recycle_spd&cost2",
+          "buffCategory": "FUNCTION",
+          "targets": [],
+          "targetGroupSortId": 0,
+          "termReferences": []
+        }
+      ],
+      "isAlter": false
+    },
     "末药": {
       "name": "末药",
       "appellation": "Myrrh",
@@ -7015,6 +7070,78 @@
           "targets": [],
           "targetGroupSortId": 0,
           "termReferences": []
+        }
+      ],
+      "isAlter": false
+    },
+    "奥尔佳": {
+      "name": "奥尔佳",
+      "appellation": "Ольга",
+      "rarity": 5,
+      "profession": "近卫",
+      "pinyin": "aoerjia",
+      "pinyinInitial": "aej",
+      "sourceId": "char_4245_alga",
+      "nationId": "ursus",
+      "groupId": null,
+      "teamId": null,
+      "skills": [
+        {
+          "slot": 1,
+          "buffId": "meet_spd&sami[200]",
+          "buffName": "外交禀赋",
+          "room": "会客室",
+          "roomCode": "MEETING",
+          "phase": "初始",
+          "level": 1,
+          "unlockDesc": "初始",
+          "efficiency": 10,
+          "buffColor": "#dd653f",
+          "textColor": "#ffffff",
+          "description": "进驻会客室时，线索搜集速度提升10%",
+          "synergy": null,
+          "skillIcon": "bskill_meet_spd1",
+          "buffCategory": "FUNCTION",
+          "targets": [],
+          "targetGroupSortId": 0,
+          "termReferences": []
+        },
+        {
+          "slot": 1,
+          "buffId": "meet_spd&sami[210]",
+          "buffName": "群策群力",
+          "room": "会客室",
+          "roomCode": "MEETING",
+          "phase": "精英2",
+          "level": 1,
+          "unlockDesc": "精英2",
+          "efficiency": 10,
+          "buffColor": "#dd653f",
+          "textColor": "#ffffff",
+          "description": "进驻会客室时，线索搜集速度提升10%，与其他乌萨斯学生自治团干员进驻会客室一起工作时，线索搜集速度额外提升20%",
+          "synergy": {
+            "operators": [],
+            "factions": [
+              {
+                "name": "乌萨斯学生自治团",
+                "members": [
+                  "早露",
+                  "凛冬",
+                  "真理",
+                  "古米",
+                  "烈夏",
+                  "苦艾"
+                ]
+              }
+            ]
+          },
+          "skillIcon": "bskill_meet_spd&ussg1",
+          "buffCategory": "FUNCTION",
+          "targets": [],
+          "targetGroupSortId": 0,
+          "termReferences": [
+            "cc.g.ussg"
+          ]
         }
       ],
       "isAlter": false
@@ -14416,6 +14543,87 @@
       ],
       "isAlter": false
     },
+    "镜匠": {
+      "name": "镜匠",
+      "appellation": "Caleido",
+      "rarity": 5,
+      "profession": "重装",
+      "pinyin": "jingjiang",
+      "pinyinInitial": "jj",
+      "sourceId": "char_4169_caledo",
+      "nationId": "rhodes",
+      "groupId": null,
+      "teamId": null,
+      "skills": [
+        {
+          "slot": 1,
+          "buffId": "workshop_formula_probability[1111]",
+          "buffName": "制镜基本功·α",
+          "room": "加工站",
+          "roomCode": "WORKSHOP",
+          "phase": "初始",
+          "level": 1,
+          "unlockDesc": "初始",
+          "efficiency": 75,
+          "buffColor": "#e3eb00",
+          "textColor": "#333333",
+          "description": "进驻加工站加工精英材料时，副产品的产出概率提升75%",
+          "synergy": null,
+          "skillIcon": "bskill_ws_evolve2",
+          "buffCategory": "FUNCTION",
+          "targets": [
+            "F_EVOLVE"
+          ],
+          "targetGroupSortId": 2,
+          "termReferences": []
+        },
+        {
+          "slot": 1,
+          "buffId": "workshop_formula_probability[1121]",
+          "buffName": "制镜基本功·β",
+          "room": "加工站",
+          "roomCode": "WORKSHOP",
+          "phase": "精英2",
+          "level": 1,
+          "unlockDesc": "精英2",
+          "efficiency": 80,
+          "buffColor": "#e3eb00",
+          "textColor": "#333333",
+          "description": "进驻加工站加工精英材料时，副产品的产出概率提升80%",
+          "synergy": null,
+          "skillIcon": "bskill_ws_evolve3",
+          "buffCategory": "FUNCTION",
+          "targets": [
+            "F_EVOLVE"
+          ],
+          "targetGroupSortId": 2,
+          "termReferences": []
+        },
+        {
+          "slot": 2,
+          "buffId": "workshop_formula_drop[050]",
+          "buffName": "浸剂回收",
+          "room": "加工站",
+          "roomCode": "WORKSHOP",
+          "phase": "精英2",
+          "level": 1,
+          "unlockDesc": "精英2",
+          "efficiency": 0,
+          "buffColor": "#e3eb00",
+          "textColor": "#333333",
+          "description": "进驻加工站加工精英材料产出T3品质的副产品时，副产品必定为酮凝集组",
+          "synergy": null,
+          "skillIcon": "bskill_ws_drop_aketon",
+          "buffCategory": "FUNCTION",
+          "targets": [
+            "F_EVOLVE"
+          ],
+          "targetGroupSortId": 2,
+          "termReferences": []
+        }
+      ],
+      "isAlter": false
+    },
     "普罗旺斯": {
       "name": "普罗旺斯",
       "appellation": "Provence",
@@ -16999,6 +17207,81 @@
       ],
       "isAlter": false
     },
+    "冻河": {
+      "name": "冻河",
+      "appellation": "Тоска",
+      "rarity": 6,
+      "profession": "辅助",
+      "pinyin": "donghe",
+      "pinyinInitial": "dh",
+      "sourceId": "char_4244_tocka",
+      "nationId": "ursus",
+      "groupId": null,
+      "teamId": null,
+      "skills": [
+        {
+          "slot": 1,
+          "buffId": "trade_ord_spd&share[100]",
+          "buffName": "“无用的人脉”",
+          "room": "贸易站",
+          "roomCode": "TRADING",
+          "phase": "初始",
+          "level": 1,
+          "unlockDesc": "初始",
+          "efficiency": 0,
+          "buffColor": "#0075a9",
+          "textColor": "#ffffff",
+          "description": "进驻贸易站时，贸易站内除自身以外每名处于工作状态的干员+15%订单获取效率",
+          "synergy": null,
+          "skillIcon": "bskill_tra_share4",
+          "buffCategory": "OUTPUT",
+          "targets": [],
+          "targetGroupSortId": 0,
+          "termReferences": []
+        },
+        {
+          "slot": 1,
+          "buffId": "trade_ord_spd&share[110]",
+          "buffName": "“真有用？”",
+          "room": "贸易站",
+          "roomCode": "TRADING",
+          "phase": "精英2",
+          "level": 1,
+          "unlockDesc": "精英2",
+          "efficiency": 0,
+          "buffColor": "#0075a9",
+          "textColor": "#ffffff",
+          "description": "进驻贸易站时，贸易站内除自身以外每名处于工作状态的干员+20%订单获取效率",
+          "synergy": null,
+          "skillIcon": "bskill_tra_share5",
+          "buffCategory": "OUTPUT",
+          "targets": [],
+          "targetGroupSortId": 0,
+          "termReferences": []
+        },
+        {
+          "slot": 2,
+          "buffId": "dorm_rec_all&unfull[100]",
+          "buffName": "微小的帮助",
+          "room": "宿舍",
+          "roomCode": "DORMITORY",
+          "phase": "初始",
+          "level": 1,
+          "unlockDesc": "初始",
+          "efficiency": 0,
+          "buffColor": "#21cdcb",
+          "textColor": "#ffffff",
+          "description": "进驻宿舍时，该宿舍内所有干员的心情每小时恢复+0.1；同时该宿舍每有1名心情未满的干员，则恢复效果额外+0.01（同种效果取最高）",
+          "synergy": null,
+          "skillIcon": "bskill_dorm_unfull2",
+          "buffCategory": "RECOVERY",
+          "targets": [],
+          "targetGroupSortId": 0,
+          "termReferences": []
+        }
+      ],
+      "isAlter": false
+    },
     "狮蝎": {
       "name": "狮蝎",
       "appellation": "Manticore",
@@ -17888,7 +18171,7 @@
           "efficiency": 0,
           "buffColor": "#e3eb00",
           "textColor": "#333333",
-          "description": "进驻加工站加工手性屈光体或重相位对映体时，副产物的产出概率提升90%",
+          "description": "进驻加工站加工手性屈光体或重相位对映体时，副产品的产出概率提升90%",
           "synergy": null,
           "skillIcon": "bskill_ws_Refractor",
           "buffCategory": "FUNCTION",
@@ -23191,6 +23474,81 @@
       ],
       "isAlter": false
     },
+    "国度": {
+      "name": "国度",
+      "appellation": "Территория",
+      "rarity": 6,
+      "profession": "特种",
+      "pinyin": "guodu",
+      "pinyinInitial": "gd",
+      "sourceId": "char_4246_dminon",
+      "nationId": "ursus",
+      "groupId": null,
+      "teamId": null,
+      "skills": [
+        {
+          "slot": 1,
+          "buffId": "recycle_spd&cost[100]",
+          "buffName": "无差别回收",
+          "room": "回收站",
+          "roomCode": "RECYCLE",
+          "phase": "初始",
+          "level": 1,
+          "unlockDesc": "初始",
+          "efficiency": 20,
+          "buffColor": "#6ccbcb",
+          "textColor": "#333333",
+          "description": "进驻回收站时，材料转化效率+20%，心情每小时消耗-0.1",
+          "synergy": null,
+          "skillIcon": "bskill_recycle_spd&cost4",
+          "buffCategory": "FUNCTION",
+          "targets": [],
+          "targetGroupSortId": 0,
+          "termReferences": []
+        },
+        {
+          "slot": 1,
+          "buffId": "recycle_spd&cost[110]",
+          "buffName": "无差别转化",
+          "room": "回收站",
+          "roomCode": "RECYCLE",
+          "phase": "精英2",
+          "level": 1,
+          "unlockDesc": "精英2",
+          "efficiency": 30,
+          "buffColor": "#6ccbcb",
+          "textColor": "#333333",
+          "description": "进驻回收站时，材料转化效率+30%，心情每小时消耗-0.1",
+          "synergy": null,
+          "skillIcon": "bskill_recycle_spd&cost5",
+          "buffCategory": "FUNCTION",
+          "targets": [],
+          "targetGroupSortId": 0,
+          "termReferences": []
+        },
+        {
+          "slot": 2,
+          "buffId": "power_rec_spd[018]",
+          "buffName": "人造物之畏",
+          "room": "发电站",
+          "roomCode": "POWER",
+          "phase": "初始",
+          "level": 1,
+          "unlockDesc": "初始",
+          "efficiency": 15,
+          "buffColor": "#8fc31f",
+          "textColor": "#ffffff",
+          "description": "进驻发电站时，无人机充能速度+15%",
+          "synergy": null,
+          "skillIcon": "bskill_pow_spd2",
+          "buffCategory": "OUTPUT",
+          "targets": [],
+          "targetGroupSortId": 0,
+          "termReferences": []
+        }
+      ],
+      "isAlter": false
+    },
     "归溟幽灵鲨": {
       "name": "归溟幽灵鲨",
       "appellation": "Specter the Unchained",
@@ -27374,6 +27732,64 @@
         }
       ],
       "isAlter": true
+    },
+    "塔露拉": {
+      "name": "塔露拉",
+      "appellation": "Talulah",
+      "rarity": 6,
+      "profession": "近卫",
+      "pinyin": "talula",
+      "pinyinInitial": "tll",
+      "sourceId": "char_4247_oxi",
+      "nationId": "ursus",
+      "groupId": null,
+      "teamId": null,
+      "skills": [
+        {
+          "slot": 1,
+          "buffId": "train_spd_doubleProf[302]",
+          "buffName": "剑与昔时",
+          "room": "训练室",
+          "roomCode": "TRAINING",
+          "phase": "初始",
+          "level": 1,
+          "unlockDesc": "初始",
+          "efficiency": 30,
+          "buffColor": "#7d0022",
+          "textColor": "#ffffff",
+          "description": "进驻训练室协助位时，近卫与术师干员的专精技能训练速度+30%",
+          "synergy": null,
+          "skillIcon": "bskill_train_caster&vanguard1",
+          "buffCategory": "FUNCTION",
+          "targets": [
+            "CASTER",
+            "WARRIOR"
+          ],
+          "targetGroupSortId": 2,
+          "termReferences": []
+        },
+        {
+          "slot": 2,
+          "buffId": "train_spd_branches[000]",
+          "buffName": "火旁新事",
+          "room": "训练室",
+          "roomCode": "TRAINING",
+          "phase": "精英2",
+          "level": 1,
+          "unlockDesc": "精英2",
+          "efficiency": 45,
+          "buffColor": "#7d0022",
+          "textColor": "#ffffff",
+          "description": "进驻训练室协助位时，如果训练位干员分支为本源近卫或本源术师，则专精技能训练速度额外+45%",
+          "synergy": null,
+          "skillIcon": "bskill_train_branches1",
+          "buffCategory": "FUNCTION",
+          "targets": [],
+          "targetGroupSortId": 9,
+          "termReferences": []
+        }
+      ],
+      "isAlter": false
     },
     "克莱门莎": {
       "name": "克莱门莎",
