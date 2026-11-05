@@ -3,6 +3,25 @@
   "checkedAt": "2026-10-14T00:37:17.872Z",
   "scope": "Verified PR10 reuse and bounded drone capacity, skill stage caps, minimum-rest anchors, caller options and dorm-order supplements; no full latest Mower parity claim.",
   "gameDataCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "planFormat20261105": {
+    "checkedAt": "2026-11-05",
+    "releaseTag": "v4.1.6-alpha.14",
+    "releaseCommit": "fc5579ad6e2f0a460ad6038246a537bd9ea8a277",
+    "alphaCommit": "a891b8110ec57d26b67287c492aad85ab7e964fc",
+    "repository": "https://github.com/ArkMowers/arknights-mower",
+    "scope": "Plan document, grouped tasks, group resting thresholds, training protection query and QR format. File hashes are for alphaCommit.",
+    "sha256": {
+      "arknights_mower/utils/config/plan.py": "f7ff7195e4ede2b015a21dcf6a9308f8cddb601254b7e2fc919d62386d2124ab",
+      "arknights_mower/utils/config/plan_advanced.py": "12685b7335b40af9d6426056f42e3e0bca6614107d81ea2cc63b657564722837",
+      "arknights_mower/utils/config/conf.py": "9735b1cb77f1038f9497dc256e88579a1d4be273052dca398954ec028bd0cf42",
+      "arknights_mower/utils/backup_group_tasks.py": "32eb385ca710e348352bd3ff967841c4843cfa1e3b8d1f37758e5f817c2f77d9",
+      "arknights_mower/utils/operators.py": "4f51f06001ac02c2176f454760391d59d3d4c0d07a7f5bf3c8a9c7636d4fc387",
+      "arknights_mower/utils/qrcode.py": "bbc651da3714dda1419bcd63c29db937d5e689ce47503f65a576345e17983147",
+      "server.py": "b7a90f3178bd0e8db68373a67380984d87436f244568cff631ca4b2fad636e5b",
+      "ui/src/stores/plan.js": "5fc94e9e571c44906d188f5f681a489bf4608eae93f85bc2fb34c2ff165fa843",
+      "ui/src/components/TaskDialog.vue": "c16485370fb7d91c4895ba9b065474a64ff8566b2c2e0f986a96130e2b52cdc6"
+    }
+  },
   "mower": {
     "repository": "ArkMowers/arknights-mower",
     "branch": "alpha",
@@ -1482,5 +1501,119 @@
       "realGameOrDeviceValidated": false,
       "terminalQueueAndLatchesExported": false
     }
+  },
+  "runtimeSchedulingCompatibility": {
+    "checkedAt": "2026-10-24",
+    "repository": "ArkMowers/arknights-mower",
+    "alphaCommit": "84e3926c0f36045d7baeb1ac050f815b40952d6d",
+    "scope": "Dorm tier and takeover, latest valid scheduling mood, group Free capacity, observed group and fixed-slot recovery, backup expressions and invalidated dynamic exhaustion reservations, initial staffing, ordinary replacement working-time readback, coordination and recovery dependencies. Other fixed sources and model exclusions remain separate.",
+    "alphaFiles": [
+      {
+        "path": "arknights_mower/solvers/base_schedule.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/solvers/base_schedule.py",
+        "bytes": 697728,
+        "sha256": "444518b735a389020bcc76744fcf262ef3b23c587e98436d1ae4afb406091a2c"
+      },
+      {
+        "path": "arknights_mower/utils/operators.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/operators.py",
+        "bytes": 141367,
+        "sha256": "e4b045d9743ffbc33e3cbc7b03157aff590fd70f9aa92264dfd81482c5402a34"
+      },
+      {
+        "path": "arknights_mower/utils/dorm_candidates.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/dorm_candidates.py",
+        "bytes": 12639,
+        "sha256": "26a833125a563326f2a6f83c4610ae8dddb061e04af18f614c2ce3ff2cfe775a"
+      },
+      {
+        "path": "arknights_mower/utils/logic_expression.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/logic_expression.py",
+        "bytes": 1963,
+        "sha256": "49ba3eca9aee5a55875b97f6a80681954d688bd95a07085b7c177d67145e6d42"
+      },
+      {
+        "path": "arknights_mower/utils/scheduler_task.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/scheduler_task.py",
+        "bytes": 138613,
+        "sha256": "3d46d555638caaf0a3caba9279ad5fe51a53b75fbd648be9c939772b62b94850"
+      },
+      {
+        "path": "arknights_mower/utils/group_recovery.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/group_recovery.py",
+        "bytes": 5480,
+        "sha256": "1299e0e22e03adc914452a3d9f9ee3c9492f7b6a664a219462a44b177ed8dcb6"
+      },
+      {
+        "path": "arknights_mower/utils/resting_priority.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/resting_priority.py",
+        "bytes": 7283,
+        "sha256": "25c33e1ee47f7c9a52e3a9765ce611650db02efb686912063dcbb95b3f2d763c"
+      },
+      {
+        "path": "arknights_mower/utils/dorm_recovery.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/dorm_recovery.py",
+        "bytes": 7697,
+        "sha256": "98670df7a03c1009ea705b8fe672bd00bb9a589ead231898e40dae9fa438e6fa"
+      },
+      {
+        "path": "arknights_mower/utils/replacement_check.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/replacement_check.py",
+        "bytes": 16764,
+        "sha256": "839c35adea1bb4e134c16052eb0154261f6524b7793bfb6922ede29f677ce088"
+      },
+      {
+        "path": "arknights_mower/utils/resting_correction.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/84e3926c0f36045d7baeb1ac050f815b40952d6d/arknights_mower/utils/resting_correction.py",
+        "bytes": 24017,
+        "sha256": "512fbf217560810759be2e78b7982b0283d1ba943fa32e10a274ee861309ab1b"
+      }
+    ],
+    "gameRuntimeVerified": false,
+    "simulationInitialCondition": {
+      "fiammettaMood": 16,
+      "source": "User-specified simulation input; applied only on first registration, with current morale preserved on backup changes and runtime rebuilds."
+    },
+    "initialComparisonAlphaCommit": "ae9fc3223a5429bd523901d32fa4c34c9c3e510d",
+    "checkedMowerRevision": "84e3926c0f36045d7baeb1ac050f815b40952d6d",
+    "dormPolicyCommit": "71fc94e031636a8843b8b3cfc430a3e0b5f65257",
+    "dormPolicyStatus": "Merged into the checked alpha revision; initial comparison used the open pull request.",
+    "dormPolicyFiles": [
+      {
+        "path": "arknights_mower/utils/resting_priority.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/71fc94e031636a8843b8b3cfc430a3e0b5f65257/arknights_mower/utils/resting_priority.py",
+        "bytes": 7283,
+        "sha256": "25c33e1ee47f7c9a52e3a9765ce611650db02efb686912063dcbb95b3f2d763c"
+      },
+      {
+        "path": "arknights_mower/utils/dorm_candidates.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/71fc94e031636a8843b8b3cfc430a3e0b5f65257/arknights_mower/utils/dorm_candidates.py",
+        "bytes": 12639,
+        "sha256": "26a833125a563326f2a6f83c4610ae8dddb061e04af18f614c2ce3ff2cfe775a"
+      },
+      {
+        "path": "arknights_mower/utils/operators.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/71fc94e031636a8843b8b3cfc430a3e0b5f65257/arknights_mower/utils/operators.py",
+        "bytes": 141367,
+        "sha256": "e4b045d9743ffbc33e3cbc7b03157aff590fd70f9aa92264dfd81482c5402a34"
+      },
+      {
+        "path": "arknights_mower/utils/scheduler_task.py",
+        "url": "https://raw.githubusercontent.com/ArkMowers/arknights-mower/71fc94e031636a8843b8b3cfc430a3e0b5f65257/arknights_mower/utils/scheduler_task.py",
+        "bytes": 138613,
+        "sha256": "3d46d555638caaf0a3caba9279ad5fe51a53b75fbd648be9c939772b62b94850"
+      }
+    ],
+    "latestAlphaReview": "The checked alpha includes the dorm policy changes. The additional recycle-report retry change does not affect this simulation scope."
+  },
+  "pr22Integration": {
+    "date": "2026-10-28",
+    "pullRequest": "https://github.com/Panda-Panta/R.I.I.C-Calculator/pull/22",
+    "head": "6ddbeece6264e1881b7bf34f9b346bbf03704fff",
+    "mainBaseline": "f84b4081bf05a3a0cbf8ec2ebeba7a62c6ba3523",
+    "scope": "Initial final staffing, invalidation of dynamic exhausted reservations, Fiammetta first registration at 16; retain later main dorm, expression and replacement-clock fixes.",
+    "fiammettaInitialMorale": 16,
+    "freshnessRechecked": false,
+    "gameRuntimeVerified": false
   }
 }
