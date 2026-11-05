@@ -17,7 +17,7 @@ node scripts/check-freshness.mjs --output freshness-check.json
 |---|---|---|
 |GameData|查询 GitHub `master` 当前提交；提交变化时比较五份相关原文件哈希|`gamedata-source-manifest.json` 的 commit、sourceVersion 和 sources|
 |工具箱|读取 `check.json` 和对应map；比较五份基建/干员/术语资源位置及SHA-256|`logistics-update-manifest.json.toolbox` 的版本、map和resources|
-|PRTS|查询本次三名新干员与回收站的当前页面revision|`logistics-update-manifest.json.prts` 与 `prtsRecycle` 的固定修订及响应哈希|
+|PRTS|查询本轮九名干员与回收站的当前页面revision|`logistics-update-manifest.json.prts` 与 `prtsRecycle` 的固定修订及响应哈希|
 |Mower回收/QR|查询 `alpha` 当前提交；提交变化时比较此次回收站/收取/QR相关文件SHA-256|`logistics-update-manifest.json.mowerRecycle` 的提交、范围与文件清单|
 |Mower新版计划|独立核对组绑定与高级设置schema/执行片段，保留基础调度原有来源|`mower-plan-source-manifest.json` 的提交、范围与文件清单|
 |PRTS联动边界|额外核对承曦格雷伊和歌蕾蒂娅页面revision|`mower-plan-source-manifest.json.prts` 的固定修订与响应哈希|
@@ -31,11 +31,13 @@ PRTS页面修订改变可能只涉及战斗资料，Mower新提交也可能不�
 - `unknown`、退出码3：某来源无法连接、API限制或响应不可解释。保留失败来源及错误；可离线核对当前包，不宣称最新来源已经确认。
 - 退出码1：本地包格式、引用或哈希损坏，先修复打包问题。
 
-导入动作应在这次 `current` 检查后进行；不要长期复用旧检查作为未来导入的凭据。脚本输出会列明PRTS核对范围，仅覆盖本次列出的六个页面，不意味着全站全部后勤页面都重新校验。源数据收录、可执行算法和真实游戏/agent运行依然是三个独立证据层。
+导入动作应在这次 `current` 检查后进行；不要长期复用旧检查作为未来导入的凭据。脚本输出会列明PRTS核对范围，仅覆盖来源清单列出的页面，不意味着全站全部后勤页面都重新校验。源数据收录、可执行算法和真实游戏/agent运行依然是三个独立证据层。
 
 2026-10-14本轮固定规则更新保留了已有离线快照：工具箱map及character资源推进，其他四份列出资源哈希相同；原Mower回收固定来源的两个整体文件也已推进，故整体状态为stale。GameData、六个PRTS页面和新版计划固定来源仍匹配。保留这些差异，不以本次规则/PR核验宣称整个快照最新，也不自动替换未经机制审查的数据。
 
 ## 离线使用
+
+2026-11-05 v079 录入时，脚本重新确认工具箱五份资源与九名干员页面均匹配；GameData 和 Mower 的 Node fetch 连接失败，整体报告保留 `unknown`。补充 HTTPS/远端 HEAD 核对确认 GameData master 仍为 `63c7cec73c3858d0ae913f85cc89af3cef4d744f`，Mower alpha 仍为 `a891b8110ec57d26b67287c492aad85ab7e964fc`。回收站、承曦格雷伊、歌蕾蒂娅页面修订已推进；后两人的五条后勤阶段与 v079 原始数据重新核对通过，回收页新增组成表仍给出基础 100%／三级 120%、每名进驻 1%、提效 50% 和容量 5／10／10。保留这次限定范围的固定快照，不据此声明所有历史 Mower 固定源码及全站页面均为最新。
 
 `scripts/validate.mjs` 验证 frontmatter、相对引用、内部版本一致性、术语依赖及包文件哈希。`scripts/query.mjs`、两个catalog与HTML检索均可离线使用；HTML的数据、样式和逻辑全部内嵌，无外部脚本、图片或网络请求依赖。
 

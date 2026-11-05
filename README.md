@@ -1,6 +1,10 @@
 # 明日方舟基建机制 Agent Skill
 
-独立的后勤技能资料与机制核验工具，按 [Agent Skills 规范](https://agentskills.io/specification) 打包。当前固定国服 GameData v078 / 78.0.0，收录432名干员、763个buff定义、929条阶段技能、760条独立槽最高阶段技能及82条术语。数据收录、软件规则实现和真实游戏证据分别说明。
+独立的后勤技能资料与机制核验工具，按 [Agent Skills 规范](https://agentskills.io/specification) 打包。当前固定国服 GameData v079 / 79.0.0，收录438名干员、778个buff定义、944条阶段技能、770条独立槽最高阶段技能及82条术语。数据收录、软件规则实现和真实游戏证据分别说明。
+
+## 2026-11-05 六名新干员
+
+新增塔露拉、冻河、国度、奥尔佳、行铃、镜匠的完整槽位与阶段，来源固定 GameData `63c7cec73c3858d0ae913f85cc89af3cef4d744f`。工具箱全部 944 条阶段及 PRTS 九页 23 条阶段交叉核验通过；查询和离线 HTML 可检索六人，奥尔佳的学生自治团联动保留明确六人名单。技能条件、手算及计算器训练/加工模拟范围见 [v079 说明](skills/arknights-riic-mechanics/references/new-operators-v079.md)。本轮来源观察及 Node 连接失败的边界见 [时效检查](skills/arknights-riic-mechanics/references/freshness.md)。
 
 ## 2026-10-25 Mower 兼容核查与本地修正
 
@@ -10,7 +14,7 @@
 
 协调任务按原生范围保留替班依赖、相关房间及有效候补顺序；实际相关规则或观测变化可恢复原任务，空副表激活及无关条件位不会单独触发重试。普通回班按原生caller执行，已接纳或保留的任务可在成员低于上限时续行；正常恢复规划中的显式回满约束、个人上限和具体位置证明例外仍保留。新增可选预测模式维持原生默认关闭的边界，本地连续物理积分不代表启用该模式。对应计算器更新见 [PR26](https://github.com/Panda-Panta/R.I.I.C-Calculator/pull/26)，当前验证与交付状态以该PR及计算器计划为准。
 
-GameData继续使用v078固定快照，本次不更新干员资料。最终来源检查于2026-10-25 11:18:58 UTC取得全部五类结果，GameData、工具箱、PRTS及旧Mower固定范围整体stale；此前工具箱连接失败的unknown记录保留；不能把规则说明同步、离线包校验或这一固定Mower范围的检查称为整个数据包最新，也不宣称各agent平台已实际导入。
+该轮 GameData 仍使用 v078 固定快照，未更新干员资料。历史来源检查于2026-10-25 11:18:58 UTC取得全部五类结果，GameData、工具箱、PRTS及旧Mower固定范围整体stale；此前工具箱连接失败的unknown记录保留；不能把规则说明同步、离线包校验或这一固定Mower范围的检查称为整个数据包最新，也不宣称各agent平台已实际导入。
 
 ## 发布或导入前
 
@@ -21,7 +25,7 @@ node skills/arknights-riic-mechanics/scripts/validate.mjs
 node skills/arknights-riic-mechanics/scripts/check-freshness.mjs --output freshness-check.json
 ```
 
-需要 Node.js 20+。第二条命令联网核对 GameData master、工具箱当前map及5份基建资源、三名新干员、回收站、承曦格雷伊和歌蕾蒂娅的六个PRTS页面修订，以及Mower回收来源与新版计划固定源码。只有 `current`、退出码0才代表这次范围的最新检查完成。`stale`返回2，需要先同步和验证；`unknown`返回3，记录网络/API失败而不宣称最新。它只读取来源，安装由用户或当前agent按授权执行。证书环境需要时可在 Node 24.6+ 加 `--use-system-ca`，保持TLS校验。
+需要 Node.js 20+。第二条命令联网核对 GameData master、工具箱当前map及5份基建资源、九名干员、回收站、承曦格雷伊和歌蕾蒂娅的十二个PRTS页面修订，以及Mower回收来源与新版计划固定源码。只有 `current`、退出码0才代表这次范围的最新检查完成。`stale`返回2，需要先同步和验证；`unknown`返回3，记录网络/API失败而不宣称最新。它只读取来源，安装由用户或当前agent按授权执行。证书环境需要时可在 Node 24.6+ 加 `--use-system-ca`，保持TLS校验。
 
 离线查询可以使用固定快照，但不会确认远程资料最新。每次发布或导入重新运行检查，不复用旧检查时间。详细范围及边界见 [freshness.md](skills/arknights-riic-mechanics/references/freshness.md)。
 
@@ -49,7 +53,7 @@ node skills/arknights-riic-mechanics/scripts/query.mjs 克莱门莎 --phase 2 --
 
 ## 维护和来源
 
-技能入口为 [SKILL.md](skills/arknights-riic-mechanics/SKILL.md)，数据及来源哈希在 [gamedata-source-manifest.json](skills/arknights-riic-mechanics/references/gamedata-source-manifest.json) 和 [logistics-update-manifest.json](skills/arknights-riic-mechanics/references/logistics-update-manifest.json)。工具箱交叉核验覆盖全部432人929条阶段；PRTS固定本次8条技能及回收站说明；Mower回收站、待办收取与14 QR契约保留原来源；PR10新版计划、共享绑组、宿舍隔离、产物切换及本轮无人机/疲劳边界另固定来源，见[mower-plan-source-manifest.json](skills/arknights-riic-mechanics/references/mower-plan-source-manifest.json)。本轮规则复用PR10并做有据的局部补充，不声明整个调度器与最新版等价。
+技能入口为 [SKILL.md](skills/arknights-riic-mechanics/SKILL.md)，数据及来源哈希在 [gamedata-source-manifest.json](skills/arknights-riic-mechanics/references/gamedata-source-manifest.json) 和 [logistics-update-manifest.json](skills/arknights-riic-mechanics/references/logistics-update-manifest.json)。工具箱交叉核验覆盖全部438人944条阶段；PRTS固定九名干员的23条技能阶段及回收站说明；Mower回收站、待办收取与14 QR契约保留原来源；新版计划等契约另固定来源，见[mower-plan-source-manifest.json](skills/arknights-riic-mechanics/references/mower-plan-source-manifest.json)。本次数据更新不声明整个调度器与最新版等价。
 
 更新资料或规则后，执行阶段和联动核验，更新相应说明，运行 `node skills/arknights-riic-mechanics/scripts/validate.mjs --write-manifest` 重建包清单，再运行无参数验证和联网检查。清单检测文件损坏及遗漏，并非数字签名。发布前保留真实测试结果和明确未实现/未实测项。
 

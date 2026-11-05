@@ -1,8 +1,8 @@
 {
-  "sourcePath": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel/gamedata_const.json",
-  "dataVersion": "78.0.0",
-  "sourceSha256": "f0d9f0d4146c3a7adeedb57c114d9a1a9ea0eed6453aabbd05355115a441971c",
-  "sourceCommit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "sourcePath": "https://raw.githubusercontent.com/Kengxxiao/ArknightsGameData/63c7cec73c3858d0ae913f85cc89af3cef4d744f/zh_CN/gamedata/excel/gamedata_const.json",
+  "dataVersion": "79.0.0",
+  "sourceSha256": "6d0cddc5153b4b43c9cddd829b3c075da109f246b0229398a97bcca03db08109",
+  "sourceCommit": "63c7cec73c3858d0ae913f85cc89af3cef4d744f",
   "terms": {
     "cc.bd_A_1": {
       "termId": "cc.bd_A_1",

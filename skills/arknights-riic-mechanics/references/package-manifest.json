@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "algorithm": "SHA-256",
-  "packageSha256": "0778ce35bd94bb46a1f2a82cedca7ada1f0baa2c4b5c26e0d392f189254efed0",
+  "packageSha256": "45bd5827567f56cedeeabcfa4b22a414b352eacef5fa15202c1bd25a3ca0e831",
   "files": [
     {
       "path": "SKILL.md",
-      "bytes": 7273,
-      "sha256": "3c7e8d6793d896a8b4c0d7558907fe3a2601e2b380344673a6edc657ec6d543b"
+      "bytes": 7414,
+      "sha256": "21db52d28c274c48bf595a041195e2cf8ed23658c2f3e68f3e09ae10a6fca1cb"
     },
     {
       "path": "agents/openai.yaml",
@@ -20,18 +20,18 @@
     },
     {
       "path": "references/catalog.decoded.json",
-      "bytes": 862027,
-      "sha256": "24ed3de1747e1c66a08b45426924243f0ce14c0816ad86b7a65481e752319c56"
+      "bytes": 875109,
+      "sha256": "c43ca9f2975c9388cc246cf44efdf96c029c69d4ec64de1906ba69de597aeb6b"
     },
     {
       "path": "references/catalog.json",
-      "bytes": 6623343,
-      "sha256": "439d939ec9a0b95bf48cbec36db4316cbc081efe02daf93ff6d822b9e63653ff"
+      "bytes": 6730097,
+      "sha256": "d7206387b592804d0d1951e9d7d393e36888f4e75778cfba1b72eb0b5da79079"
     },
     {
       "path": "references/coverage.md",
-      "bytes": 28950,
-      "sha256": "b960afad69cf863cdc834182752f37631ef2c9f131edc64197f49adb0e020715"
+      "bytes": 30089,
+      "sha256": "98fd31e504ed048a4a1051d5902036c269cbc6800c9b63247dc4634d04de6d66"
     },
     {
       "path": "references/facilities.md",
@@ -40,13 +40,13 @@
     },
     {
       "path": "references/freshness.md",
-      "bytes": 4424,
-      "sha256": "8e01b35294c8ae271372da28ba9de45d5069817a455b710a43cb8acc6d230a09"
+      "bytes": 5143,
+      "sha256": "1a865011c3083b4fb061782a678c6ca04aa039482bcaac09efa05f7fac3ee334"
     },
     {
       "path": "references/gamedata-source-manifest.json",
-      "bytes": 2001,
-      "sha256": "88240d65c91d773065a7ed9d8096661e71addcb2dcdf12dcf6ccc9cfbfd1b351"
+      "bytes": 2009,
+      "sha256": "d89535d13e483f374050700db5d93fab01d4d4ec9d0f888d312caa30bd918d01"
     },
     {
       "path": "references/links.md",
@@ -55,8 +55,8 @@
     },
     {
       "path": "references/logistics-update-manifest.json",
-      "bytes": 13829,
-      "sha256": "d86a139f4a96fe8e442fd8ac7bc5e9c1faa2b004b10ed8452d0e4b10fec6e572"
+      "bytes": 24113,
+      "sha256": "672dc3b54653a599debe2b321ce1523e05a7fed986d41673d19e8f8cbff1fa79"
     },
     {
       "path": "references/mower-plan-compatibility.md",
@@ -74,14 +74,19 @@
       "sha256": "a7bd48acee486b4f0e63c09c4617bacf58a2266837cecfd72c6be2e4293143b9"
     },
     {
+      "path": "references/new-operators-v079.md",
+      "bytes": 3566,
+      "sha256": "dfb7a48f0d9c58a2ab7bd67142db51fb9c0e04a12546c83a868437f7a09e2f8d"
+    },
+    {
       "path": "references/orders.md",
       "bytes": 10947,
       "sha256": "9c21b5a17f90859d140284cffa0ae5675e5b22d13538e35db5156da43d32130c"
     },
     {
       "path": "references/riic_skills_browser.html",
-      "bytes": 500381,
-      "sha256": "e6743fb58ac5fe6bc9618a6e7795893671d323fbad92a2ad5c1b380220b99cb4"
+      "bytes": 507455,
+      "sha256": "9049887a148fc269c3e994ad77b52f28a03c43d6b04ccb1a5c08827bdf483443"
     },
     {
       "path": "references/simulation.md",
@@ -90,13 +95,13 @@
     },
     {
       "path": "references/taxonomy.md",
-      "bytes": 7833,
-      "sha256": "a3a928fc4c36b4fc85078d6a57a9d0698150a0b00c5ea78dc1ded0872e1f4d13"
+      "bytes": 7868,
+      "sha256": "18537aa0abb7a7fea9d688c9048955230838d8bb9f1135e255266ba56fbb422f"
     },
     {
       "path": "references/terms.json",
       "bytes": 17826,
-      "sha256": "3256c6a8f282f57cdaf188925e755181947c8c6e3332e7652f6cdddb6cf98849"
+      "sha256": "93de31ad41e9f185a50cfca0328d54474686f71ec6e55e106abc6bf814d227bf"
     },
     {
       "path": "scripts/check-freshness.mjs",
